@@ -31,12 +31,12 @@ body { font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; 
 .mh-container, .mh-container-inner { width: 100%; max-width: 1080px; margin: 0 auto; position: relative; }
 .mh-container-outer { margin: 25px auto; -webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); -moz-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); }
 .mh-wrapper { padding: 25px; background: #fff; }
-.mh-content { width: 100%; overflow: hidden; }
-.mh-sidebar { width: 0%; float: left; }
-.mh-margin-left { margin-left: 2.5%; }
-.mh-margin-right { margin-right: 2.5%; }
-.mh-right-sb #main-content { float: left; margin-right: 2.5%; }
-.mh-left-sb #main-content { float: right; margin-left: 2.5%; }
+.mh-content { width: 78.5%; overflow: hidden; }
+.mh-sidebar { width: 20%; float: left; }
+.mh-margin-left { margin-left: 1.5%; }
+.mh-margin-right { margin-right: 1.5%; }
+.mh-right-sb #main-content { float: left; margin-right: 1.5%; }
+.mh-left-sb #main-content { float: right; margin-left: 1.5%; }
 .mh-home-area-3, .mh-home-area-4 { width: 48.24%; }
 .mh-home-area-4 { margin-left: 3.52%; }
 .page-template-homepage .mh-wrapper { padding-bottom: 0; }
