@@ -1662,7 +1662,7 @@ msgstr "Mật khẩu"
 #: templates/default/bbpress/form-user-login.php:31
 #: includes/common/widgets.php:95
 msgid "Keep me signed in"
-msgstr "Giữ cho tôi đăng nhập"
+msgstr "Ghi nhớ đăng nhập"
 
 #: templates/default/bbpress/form-user-passwords.php:42
 msgid "Type your new password again."
