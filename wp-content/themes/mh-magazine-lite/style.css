@@ -3161,3 +3161,20 @@ div.wpcf7-response-output {
 #bbpress-forums #bbp-user-topics-started .bbp-search-form #bbp_search_submit {
     min-width: 100px !important;
 }
+
+#bbpress-forums #bbp-search-form {
+    margin-bottom: 8px;
+}
+
+#bbpress-forums #bbp-search-form #bbp_search {
+    height: 22px;
+    width: 180px;
+}
+
+#bbpress-forums #bbp-search-form #bbp_search_submit {
+    min-width: 100px !important;
+}
+
+#main-content #page-47 .entry-header {
+    margin-bottom: 0;
+}

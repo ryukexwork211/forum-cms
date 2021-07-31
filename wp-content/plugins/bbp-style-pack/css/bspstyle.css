@@ -19,7 +19,11 @@
 	 
 	 
 	  
-	 
+				#bbpress-forums .bbp-breadcrumb p
+			{
+				Font-weight:  bold ; 
+			}
+		 
 /*  5 ----------------------  Font - links --------------------------*/
  
 	 
@@ -249,7 +253,10 @@
 /* ********_________________Forum Display___________________________________________*/ 
 
 /*   1 ----------------------  Alter the list from horizontal to vertical - remove comma (,) seperator in 2.6--------------------------*/
-	 
+				#bbpress-forums .bbp-forums-list .bbp-forum.css-sep:not(:last-child)::after {
+				content: none;
+			} 
+		 
 /*   9 ----------------------  Remove Forum Description --------------------------*/
 	
  
@@ -258,9 +265,7 @@
 /*   2 ----------------------  Widget title --------------------------*/
  
 	 
-	<br />
-<b>Notice</b>:  Trying to access array offset on value of type bool in <b>/Applications/MAMP/htdocs/forum-cms/wp-content/plugins/bbp-style-pack/css/styles.php</b> on line <b>2670</b><br />
-		 
+			 
 	 
 	
 /*   2 ----------------------  topic/reply title --------------------------*/
@@ -314,7 +319,16 @@
 	
 /* ----------------------  Rounded corners --------------------------*/
  
-	
+		
+			.bbp-forums , .bbp-topics  , .bbp-replies
+			{			
+				border-top-left-radius: 10px ;
+				border-top-right-radius: 10px ;
+				border-bottom-left-radius: 10px ;
+				border-bottom-right-radius: 10px ;
+			}
+			
+		
 /*----------------------  thumbnails on forum lists --------------------------*/
  
 	/*----------------------------------------- ROLES--------------------------------------------------------------------*/
@@ -556,10 +570,26 @@
 			
 /*----------------------  login failures ID-----------------------------------------------------------------------------------------------------*/
 		
+				#bsp-login-error
+			{
+				font-size:  14px ;
+			}
+		 
+		 
+			#bsp-login-error
+		{
+			color:  #dd3333 ;
+		}
 	 
-	 
+		 
 			
-	
+				#bsp-login-error
+			{
+				Font-weight:  normal ; 
+			}
+	 
+			 
+		
 		
 		
 		

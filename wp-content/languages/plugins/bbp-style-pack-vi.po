@@ -1,0 +1,5459 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-17 16:16+0100\n"
+"PO-Revision-Date: 2021-07-30 17:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8"
+
+#: bbp-style-pack.php:283 includes/settings_topic_reply_form.php:254
+#: templates/topicandreplyform/form-reply.php:162
+#: templates/topicandreplyform/form-topic.php:227
+msgid "Submit"
+msgstr "Gửi đi"
+
+#: extras/loop-forums.php:25 templates/templates1/loop-forums.php:35
+msgid "Forum"
+msgstr "Diễn đàn"
+
+#: extras/loop-forums.php:26 includes/widgets.php:758
+#: templates/templates1/loop-forums.php:47
+msgid "Topics"
+msgstr "Chủ đề"
+
+#: extras/loop-forums.php:27 includes/widgets.php:598 includes/widgets.php:756
+#: templates/templates1/loop-forums.php:48
+msgid "Replies"
+msgstr "Trả lời"
+
+#: extras/loop-forums.php:27 templates/templates1/loop-forums.php:48
+msgid "Posts"
+msgstr "Bài đăng"
+
+#: extras/loop-forums.php:28 includes/settings_forum_order.php:79
+#: templates/templates1/loop-forums.php:49
+msgid "Freshness"
+msgstr "Làm mới"
+
+#: includes/css_location.php:26 includes/settings_css_location.php:22
+#: includes/settings_reset.php:272
+msgid "CSS Location"
+msgstr "Vị trí CSS"
+
+#: includes/css_location.php:34 includes/settings_css_location.php:25
+msgid ""
+"This plugin creates a Cascade Style Sheet (css file) which allows the user's "
+"browser to know what styling to apply."
+msgstr ""
+"Plugin này tạo ra một Cascade Style Sheet (tệp css) cho phép trình duyệt của "
+"người dùng biết kiểu nào cần áp dụng."
+
+#: includes/css_location.php:37 includes/settings_css_location.php:28
+msgid ""
+"By default this is set to store this file in the plugins css directory as wp-"
+"content/plugins/bbp-style-pack/css/bspstyle.css"
+msgstr ""
+"Theo mặc định, tùy chọn này được đặt để lưu trữ tệp này trong thư mục plugin "
+"css dưới dạng wp-content / plugins / bbp-style-pack / css / bspstyle.css"
+
+#: includes/css_location.php:40 includes/settings_css_location.php:31
+msgid ""
+"Some users may have issues with using this directory under permissions on "
+"their server, and some advanced users may wish to store this file elsewhere."
+msgstr ""
+"Một số người dùng có thể gặp sự cố khi sử dụng thư mục này theo quyền trên "
+"máy chủ của họ và một số người dùng nâng cao có thể muốn lưu trữ tệp này ở "
+"nơi khác."
+
+#: includes/css_location.php:43 includes/settings_css_location.php:34
+msgid ""
+"To allow flexibility, this tab allows you to amend where this file is stored."
+msgstr ""
+"Để cho phép sự linh hoạt, tab này cho phép bạn sửa đổi nơi lưu trữ tệp này."
+
+#: includes/css_location.php:46 includes/settings_css_location.php:37
+msgid ""
+"If you don't understand any of the above, just exit from this tab - you "
+"should really only change this if you understand or on advice."
+msgstr ""
+"Nếu bạn không hiểu bất kỳ điều nào ở trên, chỉ cần thoát khỏi tab này - bạn "
+"thực sự chỉ nên thay đổi điều này nếu bạn hiểu hoặc theo lời khuyên."
+
+#: includes/css_location.php:49 includes/settings_css_location.php:40
+msgid "<i>Default location</i> : "
+msgstr "<i> Vị trí mặc định </i>:"
+
+#: includes/css_location.php:54 includes/settings_css_location.php:46
+msgid "Current location : "
+msgstr "Vị trí hiện tại :"
+
+#: includes/css_location.php:79 includes/settings_css_location.php:70
+msgid "Enter bspstyle.css location"
+msgstr "Nhập vị trí bspstyle.css"
+
+#: includes/css_location.php:80 includes/settings_css_location.php:71
+msgid "Location to store bspstyle.css"
+msgstr "Vị trí lưu trữ bspstyle.css"
+
+#: includes/css_location.php:87 includes/settings_css_location.php:78
+#: includes/settings_forum_display.php:49 includes/settings_login.php:96
+#: includes/settings_login.php:278 includes/settings_login.php:387
+#: includes/settings_profile.php:138 includes/settings_search.php:350
+#: includes/settings_topics_index.php:986
+#: includes/settings_topics_index.php:1042
+#: includes/settings_topic_reply_display.php:1087
+#: includes/settings_topic_reply_display.php:1143
+#: includes/settings_topic_reply_form.php:281
+#: includes/settings_topic_reply_form.php:337
+#: includes/settings_topic_reply_form.php:363
+#: includes/settings_topic_reply_form.php:392
+msgid "Click to activate"
+msgstr "Bấm để kích hoạt"
+
+#: includes/css_location.php:101 includes/settings_css_location.php:103
+msgid "Enter the path to the file"
+msgstr "Nhập đường dẫn đến tệp"
+
+#: includes/css_location.php:102 includes/settings_css_location.php:107
+msgid "Don't forget to end with a \"/\" !!"
+msgstr "Đừng quên kết thúc bằng dấu \"/\" !!"
+
+#: includes/css_location.php:103 includes/settings_css_location.php:111
+msgid "Don't include the bspstyle.css in the location"
+msgstr "Không bao gồm bspstyle.css trong vị trí"
+
+#: includes/css_location.php:111 includes/settings_breadcrumbs.php:70
+#: includes/settings_breadcrumbs.php:372 includes/settings_buttons.php:24
+#: includes/settings_buttons.php:510 includes/settings_css_location.php:120
+#: includes/settings_custom_css.php:51 includes/settings_email.php:28
+#: includes/settings_email.php:364 includes/settings_forums_index.php:41
+#: includes/settings_forums_index.php:979
+#: includes/settings_forum_display.php:33
+#: includes/settings_forum_display.php:417 includes/settings_forum_order.php:32
+#: includes/settings_forum_order.php:111 includes/settings_forum_roles.php:38
+#: includes/settings_forum_roles.php:682
+#: includes/settings_forum_templates.php:21
+#: includes/settings_forum_templates.php:141
+#: includes/settings_freshness_display.php:36
+#: includes/settings_freshness_display.php:317
+#: includes/settings_latest_activity_widget_styling.php:43
+#: includes/settings_latest_activity_widget_styling.php:598
+#: includes/settings_login.php:62 includes/settings_login.php:467
+#: includes/settings_profile.php:14 includes/settings_profile.php:232
+#: includes/settings_reset.php:38 includes/settings_reset.php:306
+#: includes/settings_search.php:46 includes/settings_search.php:405
+#: includes/settings_topics_index.php:45
+#: includes/settings_topics_index.php:1084 includes/settings_topic_order.php:30
+#: includes/settings_topic_order.php:246
+#: includes/settings_topic_reply_display.php:46
+#: includes/settings_topic_reply_display.php:1187
+#: includes/settings_topic_reply_form.php:36
+#: includes/settings_topic_reply_form.php:679 includes/settings_unread.php:42
+#: includes/settings_unread.php:373
+msgid "Save changes"
+msgstr "Lưu thay đổi"
+
+#: includes/forum_image_metabox.php:6
+msgid "Image Size for forum list"
+msgstr "Kích thước hình ảnh cho danh sách diễn đàn"
+
+#: includes/forum_image_metabox.php:28
+msgid "Thumbnail"
+msgstr "Hình nhỏ"
+
+#: includes/forum_image_metabox.php:29
+msgid "Medium"
+msgstr "Vừa phải"
+
+#: includes/forum_image_metabox.php:30
+msgid "Large"
+msgstr "Lớn"
+
+#: includes/forum_image_metabox.php:31
+msgid "Full"
+msgstr "Đầy"
+
+#: includes/forum_image_metabox.php:32
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#: includes/forum_image_metabox.php:34
+msgid ""
+"By default the image will show as thumbnail in the forum lists, but you may "
+"wish to set a different size or custom size here.  Sizes are as defined in "
+"Dashboard>Settings>Media"
+msgstr ""
+"Theo mặc định, hình ảnh sẽ hiển thị dưới dạng hình thu nhỏ trong danh sách "
+"diễn đàn, nhưng bạn có thể muốn đặt kích thước khác hoặc kích thước tùy "
+"chỉnh tại đây. Kích thước được xác định trong Trang tổng quan> Cài đặt> "
+"Phương tiện"
+
+#: includes/forum_image_metabox.php:46
+msgid "If custom, enter width and height here : "
+msgstr "Nếu tùy chỉnh, hãy nhập chiều rộng và chiều cao tại đây:"
+
+#: includes/forum_image_metabox.php:47 includes/settings_forum_roles.php:388
+#: includes/settings_forum_roles.php:617
+msgid "Width"
+msgstr "Chiều rộng"
+
+#: includes/forum_image_metabox.php:48 includes/settings_forum_roles.php:375
+#: includes/settings_forum_roles.php:608
+msgid "Height"
+msgstr "Chiều cao"
+
+#: includes/forum_image_metabox.php:56 includes/forum_image_metabox.php:59
+msgid "e.g. 50"
+msgstr "ví dụ. 50"
+
+#: includes/functions.php:298 includes/functions.php:368
+#: templates/topicandreplyform/form-topic.php:43
+msgid "Create New Topic"
+msgstr "Tạo chủ đề mới"
+
+#: includes/functions.php:311
+msgid "Mark all topics as read"
+msgstr "Đánh dấu tất cả các chủ đề là đã đọc"
+
+#: includes/functions.php:332 includes/functions.php:343
+msgid "Subscribe"
+msgstr "Đăng ký"
+
+#: includes/functions.php:334 includes/functions.php:346
+msgid "Unsubscribe"
+msgstr "Hủy đăng ký"
+
+#: includes/functions.php:390 includes/settings.php:50
+#: includes/settings_buttons.php:461 includes/settings_profile.php:147
+#: includes/settings_reset.php:227
+msgid "Profile"
+msgstr "Hồ sơ"
+
+#: includes/functions.php:517 includes/shortcodes.php:268
+msgid "Edit Profile"
+msgstr "Chỉnh sửa hồ sơ"
+
+#: includes/functions.php:550
+msgid "Register"
+msgstr "Đăng ký"
+
+#: includes/functions.php:1066
+msgid "No Topics"
+msgstr "Không có chủ đề"
+
+#: includes/functions.php:1991
+msgctxt "Topic Status"
+msgid "Close"
+msgstr "Đóng"
+
+#: includes/functions.php:1992
+msgctxt "Topic Status"
+msgid "Open"
+msgstr "Mở"
+
+#: includes/help.php:12 includes/settings.php:64
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: includes/help.php:16
+msgid "Colors"
+msgstr "Màu sắc"
+
+#: includes/help.php:24
+msgid ""
+"Colors are entered by clicking the color you want, or adding a 'hex number' "
+"that defines the color eg '#ff0000'"
+msgstr ""
+"Màu được nhập bằng cách nhấp vào màu bạn muốn hoặc thêm 'số hex' xác định "
+"màu, ví dụ: '# ff0000'"
+
+#: includes/help.php:27
+msgid ""
+"Quite often you will want to use a color in your theme, but how do you know "
+"what color that is ? There are several products that will tell you what "
+"color any part of your screen is.   "
+msgstr ""
+"Thông thường, bạn sẽ muốn sử dụng một màu trong chủ đề của mình, nhưng làm "
+"thế nào để bạn biết đó là màu gì? Có một số sản phẩm sẽ cho bạn biết bất kỳ "
+"phần nào trên màn hình của bạn có màu gì."
+
+#: includes/help.php:28
+msgid ""
+"I use Color Cop see <a href = \"http://colorcop.net/screenshots/\" "
+"target=\"_blank\"> http://colorcop.net/screenshots/</a>"
+msgstr ""
+"Tôi sử dụng Color Cop, hãy xem <a href = \"http://colorcop."
+"net/screenshots/\" target=\"_blank\"> http://colorcop.net/screenshots/ </a>"
+
+#: includes/help.php:36 includes/help.php:57 includes/help.php:95
+msgid "See"
+msgstr "Nhìn thấy"
+
+#: includes/help.php:40
+msgid "for further info on colors"
+msgstr "để biết thêm thông tin về màu sắc"
+
+#: includes/help.php:46 includes/settings_buttons.php:226
+#: includes/settings_forums_index.php:202
+#: includes/settings_forums_index.php:279
+#: includes/settings_forums_index.php:413
+#: includes/settings_forums_index.php:473
+#: includes/settings_forums_index.php:533
+#: includes/settings_forums_index.php:608
+#: includes/settings_forums_index.php:667
+#: includes/settings_forums_index.php:782
+#: includes/settings_forums_index.php:858 includes/settings_forum_roles.php:431
+#: includes/settings_forum_roles.php:638
+#: includes/settings_latest_activity_widget_styling.php:54
+#: includes/settings_latest_activity_widget_styling.php:138
+#: includes/settings_latest_activity_widget_styling.php:206
+#: includes/settings_latest_activity_widget_styling.php:290
+#: includes/settings_latest_activity_widget_styling.php:357
+#: includes/settings_latest_activity_widget_styling.php:441
+#: includes/settings_search.php:106 includes/settings_search.php:230
+#: includes/settings_topics_index.php:56 includes/settings_topics_index.php:132
+#: includes/settings_topics_index.php:262
+#: includes/settings_topics_index.php:323
+#: includes/settings_topics_index.php:474
+#: includes/settings_topics_index.php:593
+#: includes/settings_topics_index.php:746
+#: includes/settings_topic_reply_display.php:196
+#: includes/settings_topic_reply_display.php:279
+#: includes/settings_topic_reply_display.php:362
+#: includes/settings_topic_reply_display.php:427
+#: includes/settings_topic_reply_display.php:493
+#: includes/settings_topic_reply_display.php:584
+#: includes/settings_topic_reply_display.php:668
+#: includes/settings_topic_reply_display.php:771
+#: includes/settings_topic_reply_form.php:47
+#: includes/settings_topic_reply_form.php:146
+#: includes/settings_topic_reply_form.php:512
+msgid "Font"
+msgstr "Phông chữ"
+
+#: includes/help.php:49
+msgid ""
+"Fonts can be single  eg 'Arial' or or a font family such as 'arial, Times, "
+"serif'"
+msgstr ""
+"Phông chữ có thể là đơn, ví dụ như 'Arial' hoặc hoặc một họ phông chữ như "
+"'arial, Times, serif'"
+
+#: includes/help.php:53
+msgid ""
+"Where a font has more than one word such as Times New Roman, the it must be "
+"entered with double quotes eg \"Times New Roman\""
+msgstr ""
+"Trong trường hợp phông chữ có nhiều hơn một từ, chẳng hạn như Times New "
+"Roman, nó phải được nhập bằng dấu ngoặc kép, ví dụ: \"Times New Roman\""
+
+#: includes/help.php:59 includes/help.php:97
+msgid "for further info"
+msgstr "để biết thêm thông tin"
+
+#: includes/help.php:65 includes/settings_topics_index.php:874
+msgid "Font Size"
+msgstr "Cỡ chữ"
+
+#: includes/help.php:68
+msgid ""
+"Fonts can be specified as absolute-size eg 'medium', relative size eg "
+"'larger', length eg '12px' or '0.8em' or as a percentage eg 80%"
+msgstr ""
+"Phông chữ có thể được chỉ định là kích thước tuyệt đối, ví dụ: 'trung bình', "
+"kích thước tương đối, ví dụ: 'lớn hơn', chiều dài, ví dụ: '12px' hoặc '0."
+"8em' hoặc dưới dạng tỷ lệ phần trăm, ví dụ: 80%"
+
+#: includes/help.php:72
+msgid "A good explanation  is contained in"
+msgstr "Một lời giải thích tốt có trong"
+
+#: includes/help.php:76
+msgid "bbpress uses px eg '12px', but the choice is yours !"
+msgstr "bbpress sử dụng px, ví dụ '12px', nhưng sự lựa chọn là của bạn!"
+
+#: includes/help.php:81
+msgid "Border style"
+msgstr "Kiểu viền"
+
+#: includes/help.php:84
+msgid ""
+"Borders can be specified as solid, dashed, dotted, groove, ridge, inset & "
+"outset"
+msgstr ""
+"Các đường viền có thể được chỉ định là đặc, đứt nét, chấm, rãnh, đường viền, "
+"in và đầu"
+
+#: includes/help.php:88
+msgid "Common values are solid, dashed, dotted"
+msgstr "Các giá trị phổ biến là rắn, đứt nét, chấm"
+
+#: includes/help.php:92
+msgid ""
+"Values groove, ridge, inset & outset need a border wider than 1px (5px is a "
+"good start point) for the effect to work"
+msgstr ""
+"Rãnh giá trị, rãnh, phần đầu và phần đầu cần có đường viền rộng hơn 1px (5px "
+"là điểm bắt đầu tốt) để hiệu ứng hoạt động"
+
+#: includes/help.php:101
+msgid "If you need further help"
+msgstr "Nếu bạn cần trợ giúp thêm"
+
+#: includes/help.php:103
+msgid ""
+"Please log a topic at <a href = \"https://wordpress.org/support/plugin/bbp-"
+"style-pack\" target=\"blank\">plugin support</a> - you will need to scroll "
+"to the bottom of the page to find the new topic form"
+msgstr ""
+"Vui lòng ghi lại chủ đề tại <a href = \"https://wordpress."
+"org/support/plugin/bbp-style-pack\" target=\"blank\"> hỗ trợ plugin </a> - "
+"bạn sẽ cần cuộn xuống cuối trang để tìm mẫu chủ đề mới"
+
+#: includes/not_working.php:7
+msgid "It's not working !!"
+msgstr "Nó không hoạt động !!"
+
+#: includes/not_working.php:10
+msgid ""
+"It may be as simple as closing and restarting your browser, so try this "
+"first !!"
+msgstr ""
+"Nó có thể đơn giản như đóng và khởi động lại trình duyệt của bạn, vì vậy hãy "
+"thử điều này trước tiên !!"
+
+#: includes/not_working.php:13
+msgid "If that doesn't work..."
+msgstr "Nếu điều đó không hiệu quả ..."
+
+#: includes/not_working.php:16
+msgid "Background"
+msgstr "Màu nền"
+
+#: includes/not_working.php:19
+msgid ""
+"Style pack works with many/most sites, but it can fail due to a myriad of "
+"reasons, including (but no means limited to) site permissions, php versions, "
+"other plugins and most often site themes where the theme author has altered "
+"bbpress files."
+msgstr "Ngừng đăng ký dựa vào breadcrumb"
+
+#: includes/not_working.php:22
+msgid ""
+"This is no-ones fault - whilst I can control how bbpress performs, there are "
+"many thousands of plugins and themes, all of which may be trying to amend "
+"the same stuff as I am, and many host poviders who will have differing but "
+"equally valid permission and code versions."
+msgstr ""
+"Đây không phải là lỗi của riêng tôi - trong khi tôi có thể kiểm soát cách "
+"bbpress hoạt động, có rất nhiều hàng nghìn plugin và chủ đề, tất cả đều có "
+"thể đang cố gắng sửa đổi nội dung giống như tôi và nhiều bộ lưu trữ máy chủ "
+"sẽ có giá trị khác nhau nhưng đều hợp lệ. quyền và phiên bản mã."
+
+#: includes/not_working.php:24
+msgid "Problem finding"
+msgstr "Vấn đề tìm kiếm"
+
+#: includes/not_working.php:27
+msgid ""
+"1. \"caching\" software that speeds up the download of your site, but may "
+"not recognise and immediately make changes from my plugin"
+msgstr ""
+"1. Phần mềm \"bộ nhớ đệm\" giúp tăng tốc tải xuống trang web của bạn, nhưng "
+"có thể không nhận ra và thực hiện ngay các thay đổi từ plugin của tôi"
+
+#: includes/not_working.php:29
+msgid ""
+"Do you know if you are using caching software?  If so then try refreshing, "
+"purging or deactivating to see if this fixes."
+msgstr ""
+"Không biết bạn có đang sử dụng phần mềm bộ nhớ đệm không? Nếu vậy, hãy thử "
+"làm mới, xóa hoặc hủy kích hoạt để xem điều này có khắc phục được không."
+
+#: includes/not_working.php:32
+msgid ""
+"If you still have the issue, we need to work out which parts are working and "
+"which not"
+msgstr ""
+"Nếu bạn vẫn gặp sự cố, chúng tôi cần tìm ra bộ phận nào đang hoạt động và bộ "
+"phận nào không"
+
+#: includes/not_working.php:35
+msgid "We need to look at 2 areas - files and css"
+msgstr "Chúng ta cần xem xét 2 lĩnh vực - tệp và css"
+
+#: includes/not_working.php:38
+msgid "2. Files"
+msgstr "2. Tệp"
+
+#: includes/not_working.php:41
+msgid ""
+"If your theme author has changed bbpress files in his theme, this will be "
+"for valid reason, which may relate to either style or functionality"
+msgstr ""
+"Nếu tác giả chủ đề của bạn đã thay đổi tệp bbpress trong chủ đề của mình, "
+"điều này sẽ là vì lý do hợp lệ, có thể liên quan đến phong cách hoặc chức "
+"năng"
+
+#: includes/not_working.php:54
+msgid "The following bbpress files are held a bbpress folder in your theme"
+msgstr ""
+"Các tệp bbpress sau được giữ trong một thư mục bbpress trong chủ đề của bạn"
+
+#: includes/not_working.php:64 includes/not_working.php:95
+msgid " This may or may not be affecting the working of my plugin - contact my"
+msgstr ""
+"Điều này có thể có hoặc không ảnh hưởng đến hoạt động của plugin của tôi - "
+"hãy liên hệ với"
+
+#: includes/not_working.php:66 includes/not_working.php:97
+msgid "support site"
+msgstr "trang hỗ trợ"
+
+#: includes/not_working.php:74
+msgid "No bbpress files have been changed in the theme"
+msgstr "Không có tệp bbpress nào được thay đổi trong chủ đề"
+
+#: includes/not_working.php:85
+msgid ""
+"The following bbpress files are held a bbpress folder in your parent theme"
+msgstr ""
+"Các tệp bbpress sau được giữ trong một thư mục bbpress trong chủ đề mẹ của "
+"bạn"
+
+#: includes/not_working.php:105
+msgid "No bbpress files have been changed in the parent theme"
+msgstr "Không có tệp bbpress nào được thay đổi trong chủ đề mẹ"
+
+#: includes/not_working.php:116
+msgid "3. CSS"
+msgstr ""
+
+#: includes/not_working.php:119
+msgid ""
+"If css had loaded then the text below will have a green background, if it "
+"has not loaded this will be a red background"
+msgstr ""
+"Tôi đã sửa trả lời email đăng ký để hiển thị câu trả lời không phải chủ đề."
+
+#: includes/not_working.php:127
+msgid "This sentance should have a green background"
+msgstr "Câu này phải có nền xanh"
+
+#: includes/not_working.php:130
+msgid ""
+"If the background is red, then try amending the \"css location\" tab above"
+msgstr "Nếu nền có màu đỏ, hãy thử sửa đổi tab \"vị trí css\" ở trên"
+
+#: includes/not_working.php:135
+msgid "check the activate box and set the location to "
+msgstr "chọn hộp kích hoạt và đặt vị trí thành"
+
+#: includes/not_working.php:141
+msgid "wp-content/uploads/"
+msgstr ""
+
+#: includes/not_working.php:147
+msgid "and save these changes"
+msgstr "và lưu những thay đổi này"
+
+#: includes/not_working.php:152
+msgid "and then come back and re-check this area."
+msgstr "và sau đó quay lại và kiểm tra lại khu vực này."
+
+#: includes/plugin-info.php:57 includes/settings.php:61
+msgid "Plugin Information"
+msgstr "Thông tin về plugin"
+
+#: includes/plugins.php:9
+msgid "Other Plugins"
+msgstr "Các plugin khác"
+
+#: includes/plugins.php:14
+msgid "This section lists other bbpress plugins that you might find useful.  "
+msgstr "Phần này liệt kê các plugin bbpress khác mà bạn có thể thấy hữu ích."
+
+#: includes/plugins.php:24
+msgid "Other bbpress plugins by this author"
+msgstr "Các plugin bbpress khác của tác giả này"
+
+#: includes/plugins.php:29
+msgid "This Plugin creates unlimited private forum groups"
+msgstr "Plugin này tạo các nhóm diễn đàn riêng tư không giới hạn"
+
+#: includes/plugins.php:35
+msgid "Lets you style bbpress, and add display features"
+msgstr "Cho phép bạn tạo kiểu cho bbpress và thêm các tính năng hiển thị"
+
+#: includes/plugins.php:41
+msgid ""
+"Adds any combination of topics, replies and totals under the authors avatar "
+"in topics and replies"
+msgstr ""
+"Thêm bất kỳ sự kết hợp nào của các chủ đề, câu trả lời và tổng số bên dưới "
+"hình đại diện của tác giả trong các chủ đề và câu trả lời"
+
+#: includes/plugins.php:47
+msgid ""
+"Adds up to 4 fields to the bbp user profile and displays any combination of "
+"these under the authors avatar in topics and replies "
+msgstr ""
+"Thêm tối đa 4 trường vào hồ sơ người dùng bbp và hiển thị bất kỳ sự kết hợp "
+"nào của những trường này dưới hình đại diện tác giả trong các chủ đề và câu "
+"trả lời"
+
+#: includes/plugins.php:53
+msgid "Lets you add ranking and badges to topics and replies and profiles"
+msgstr ""
+"Cho phép bạn thêm xếp hạng và huy hiệu vào các chủ đề và câu trả lời và hồ sơ"
+
+#: includes/plugins.php:62 includes/settings.php:58
+msgid "Other bbpress plugins"
+msgstr "Các plugin bbpress khác"
+
+#: includes/plugins.php:65
+msgid ""
+"This is just a list! I offer no warranty that these work as described, or "
+"work together."
+msgstr ""
+"Đây chỉ là một danh sách! Tôi không cung cấp bảo hành rằng chúng hoạt động "
+"như mô tả hoặc hoạt động cùng nhau."
+
+#: includes/plugins.php:70
+msgid ""
+"Swiss knife tweaking and hacking Toolkit for bbPress. Set global options and "
+"style your forums."
+msgstr ""
+"Bộ công cụ hack và tinh chỉnh dao Thụy Sĩ cho bbPress. Đặt các tùy chọn toàn "
+"cầu và tạo kiểu cho các diễn đàn của bạn."
+
+#: includes/plugins.php:76
+msgid ""
+"Sort topic replies in ascending or descending order for each bbPress Topic. "
+"You can choose to save setting for each topic, for the whole Forum or set "
+"globally for every Topic"
+msgstr ""
+"Sắp xếp các câu trả lời chủ đề theo thứ tự tăng dần hoặc giảm dần cho mỗi "
+"Chủ đề bbPress. Bạn có thể chọn lưu cài đặt cho từng chủ đề, cho toàn bộ "
+"Diễn đàn hoặc đặt toàn cầu cho mọi Chủ đề"
+
+#: includes/plugins.php:82
+msgid ""
+"Provides basic compatibility with bbPress and the Genesis Framework with a "
+"few extra goodies"
+msgstr ""
+"Cung cấp khả năng tương thích cơ bản với bbPress và Genesis Framework với "
+"một số tính năng bổ sung"
+
+#: includes/plugins.php:88
+msgid ""
+"Add the ability to moderate and approve new topics and replies in bbPress"
+msgstr ""
+"Thêm khả năng kiểm duyệt và phê duyệt các chủ đề và câu trả lời mới trong "
+"bbPress"
+
+#: includes/plugins.php:96
+msgid "This plugin adds user signature support to bbPress"
+msgstr "Plugin này bổ sung hỗ trợ chữ ký người dùng cho bbPress"
+
+#: includes/plugins.php:102
+msgid ""
+"This plugin adds support for popular bbcode forum code to posts, comments, "
+"pages, bbpress forums and buddypress activity and group forums."
+msgstr ""
+"Plugin này bổ sung hỗ trợ cho mã diễn đàn bbcode phổ biến cho các bài đăng, "
+"nhận xét, trang, diễn đàn bbpress và hoạt động buddypress và diễn đàn nhóm."
+
+#: includes/plugins.php:108
+msgid ""
+"Implements attachments upload to the topics and replies in bbPress plugin "
+"through media library and adds additional forum based controls. "
+msgstr ""
+"Triển khai các tệp đính kèm tải lên các chủ đề và câu trả lời trong plugin "
+"bbPress thông qua thư viện phương tiện và thêm các điều khiển dựa trên diễn "
+"đàn bổ sung."
+
+#: includes/plugins.php:114
+msgid ""
+"Allows registered bbPress users to quickly jump to the first unread post in "
+"a topic"
+msgstr ""
+"Cho phép người dùng bbPress đã đăng ký nhanh chóng chuyển đến bài đăng chưa "
+"đọc đầu tiên trong một chủ đề"
+
+#: includes/plugins.php:120
+msgid ""
+"Replace the comments on your WordPress blog posts with topics from an "
+"integrated bbPress install"
+msgstr ""
+"Thay thế các nhận xét trên các bài đăng blog WordPress của bạn bằng các chủ "
+"đề từ cài đặt bbPress tích hợp"
+
+#: includes/plugins.php:126
+msgid "Upload inline images to BBPress forum topics and replies."
+msgstr "Tải hình ảnh nội tuyến lên chủ đề diễn đàn BBPress và trả lời."
+
+#: includes/plugins.php:132
+msgid ""
+"Insert advert units (such as adsense or Amazon widgets) into your bbpress "
+"forum.  "
+msgstr ""
+"Chèn các đơn vị quảng cáo (chẳng hạn như adsense hoặc Amazon widget) vào "
+"diễn đàn bbpress của bạn."
+
+#: includes/plugins.php:138
+msgid ""
+"A simple plugin to allow your bbPress users to mark their replies as private."
+" "
+msgstr ""
+"Một plugin đơn giản để cho phép người dùng bbPress của bạn đánh dấu các câu "
+"trả lời của họ là riêng tư."
+
+#: includes/plugins.php:144
+msgid ""
+"bbPress Messages - User Private Messages with notifications, widgets and "
+"media with no BuddyPress needed. "
+msgstr ""
+"bbPress Messages - Tin nhắn Riêng tư của Người dùng với các thông báo, "
+"widget và phương tiện mà không cần đến BuddyPress."
+
+#: includes/plugins.php:150
+msgid ""
+"Move topics from one forum to another, convert post/comments into "
+"topic/replies in the same site."
+msgstr ""
+"Di chuyển chủ đề từ diễn đàn này sang diễn đàn khác, chuyển đổi bài đăng / "
+"nhận xét thành chủ đề / câu trả lời trong cùng một trang web."
+
+#: includes/plugins.php:156
+msgid ""
+"A WordPress plugin to show user online/offline statuses in bbpress topics "
+"and replies"
+msgstr ""
+"Một plugin WordPress để hiển thị trạng thái trực tuyến / ngoại tuyến của "
+"người dùng trong các chủ đề và câu trả lời của bbpress"
+
+#: includes/plugins.php:162
+msgid ""
+"Adds thumbsup, visits and replies count to topics on bbpress, display "
+"results on a widget."
+msgstr ""
+"Thêm lượt thích, lượt truy cập và lượt trả lời vào các chủ đề trên bbpress, "
+"hiển thị kết quả trên widget."
+
+#: includes/plugins.php:168
+msgid ""
+"BBP Auto-Close Topics will automatically close bbPress topics after an admin-"
+"specified time period."
+msgstr ""
+"Chủ đề Tự động đóng BBP sẽ tự động đóng các chủ đề bbPress sau một khoảng "
+"thời gian do quản trị viên chỉ định."
+
+#: includes/plugins.php:175
+msgid ""
+"bbResolutions, will let you set topic resolutions (Resolved, Not resolved "
+"and Not a question). "
+msgstr ""
+"bbResolutions, sẽ cho phép bạn thiết lập các giải pháp chủ đề (Đã giải quyết,"
+" Chưa giải quyết và Không phải là câu hỏi)."
+
+#: includes/plugins.php:181
+msgid "Upload inline images to BBPress forum topics and replies"
+msgstr "Tải hình ảnh nội tuyến lên chủ đề diễn đàn BBPress và trả lời."
+
+#: includes/plugins.php:187
+msgid "Achieve phpBB / vBulletin-esque statistics for your bbPress Forum"
+msgstr "Đạt được thống kê phpBB / vBulletin-esque cho Diễn đàn bbPress của bạn"
+
+#: includes/plugins.php:193
+msgid "Modify subscription emails sent to users"
+msgstr "Sửa đổi các email đăng ký được gửi đến người dùng"
+
+#: includes/plugins.php:199
+msgid ""
+"Let's moderators and keymasters create standard replies and use these in "
+"responses"
+msgstr ""
+"Hãy để người kiểm duyệt và người quản lý khóa tạo câu trả lời tiêu chuẩn và "
+"sử dụng những câu trả lời này trong câu trả lời"
+
+#: includes/plugins.php:205
+msgid ""
+"This is a very simple but very helpful tool to help yoast wordpress seo "
+"support bbpress better."
+msgstr ""
+"Đây là công cụ rất đơn giản nhưng rất hữu ích giúp yoast wordpress seo hỗ "
+"trợ bbpress tốt hơn."
+
+#: includes/plugins.php:211
+msgid ""
+"bbPress GDPR plugin extends new Data Export & Data Erasure feature bundled "
+"with WordPress 4.9.6 Release."
+msgstr ""
+"Plugin bbPress GDPR mở rộng tính năng Xuất dữ liệu & Xóa dữ liệu mới đi kèm "
+"với Bản phát hành WordPress 4.9.6."
+
+#: includes/plugins.php:216
+msgid "Amends how bbpress sends emails"
+msgstr "Sửa đổi cách bbpress gửi email"
+
+#: includes/plugins.php:221
+msgid ""
+"This add-on plugin for bbPress will allow anonymous users to subscribe to "
+"topics and get email notifications when a new reply is posted"
+msgstr ""
+"Plugin tiện ích bổ sung này cho bbPress sẽ cho phép người dùng ẩn danh đăng "
+"ký các chủ đề và nhận thông báo qua email khi một câu trả lời mới được đăng"
+
+#: includes/plugins.php:226
+msgid "Link to some code that does what this says !"
+msgstr "Liên kết đến một số mã thực hiện những gì điều này nói!"
+
+#: includes/plugins.php:234
+msgid "Other useful stuff"
+msgstr "Những thứ hữu ích khác"
+
+#: includes/plugins.php:237
+msgid "Other things you might find useful"
+msgstr "Những thứ khác bạn có thể thấy hữu ích"
+
+#: includes/plugins.php:242
+msgid "Changing welcome emails"
+msgstr "Thay đổi email chào mừng"
+
+#: includes/plugins.php:248
+msgid "Tutorial for changing welcome emails"
+msgstr "Hướng dẫn thay đổi email chào mừng"
+
+#: includes/plugins.php:254
+msgid ""
+"Add an “agree to terms” check box to your login, registration, or comment "
+"forms, requiring users to agree. "
+msgstr ""
+"Thêm hộp kiểm “đồng ý với các điều khoản” vào biểu mẫu đăng nhập, đăng ký "
+"hoặc nhận xét của bạn, yêu cầu người dùng đồng ý."
+
+#: includes/plugins.php:260
+msgid ""
+"Highlights search terms within WordPress generated search results or when "
+"referrer is a non-secure search engine, both on the search results page and "
+"on the post page itself."
+msgstr ""
+"Đánh dấu các cụm từ tìm kiếm trong kết quả tìm kiếm do WordPress tạo ra hoặc "
+"khi liên kết giới thiệu là một công cụ tìm kiếm không an toàn, cả trên trang "
+"kết quả tìm kiếm và trên chính trang bài đăng."
+
+#: includes/settings.php:8
+msgid "bbp Style pack"
+msgstr ""
+
+#: includes/settings.php:19
+msgid "Settings saved"
+msgstr "Đã lưu cài đặt"
+
+#: includes/settings.php:36 includes/settings_forums_index.php:18
+#: includes/settings_reset.php:47
+msgid "Forums Index Styling"
+msgstr "Tạo kiểu chỉ mục cho diễn đàn"
+
+#: includes/settings.php:37 includes/settings_forum_templates.php:15
+#: includes/settings_reset.php:62
+msgid "Forum Templates"
+msgstr "Mẫu diễn đàn"
+
+#: includes/settings.php:38 includes/settings_forum_display.php:18
+#: includes/settings_reset.php:77
+msgid "Forum Display"
+msgstr "Diễn đàn Hiển thị"
+
+#: includes/settings.php:39 includes/settings_forum_order.php:19
+msgid "Forum Order"
+msgstr "Thứ tự trên Diễn đàn"
+
+#: includes/settings.php:40 includes/settings_freshness_display.php:18
+#: includes/settings_reset.php:92
+msgid "Freshness Display"
+msgstr ""
+
+#: includes/settings.php:41 includes/settings_breadcrumbs.php:14
+#: includes/settings_reset.php:107
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/settings.php:42 includes/settings_buttons.php:18
+#: includes/settings_reset.php:122
+msgid "Buttons"
+msgstr ""
+
+#: includes/settings.php:43 includes/settings_reset.php:137
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: includes/settings.php:44 includes/settings_forum_roles.php:13
+#: includes/settings_reset.php:152
+msgid "Forum Roles"
+msgstr "Vai trò diễn đàn"
+
+#: includes/settings.php:45 includes/settings_email.php:18
+#: includes/settings_reset.php:287
+msgid "Subscription emails"
+msgstr "Email đăng ký"
+
+#: includes/settings.php:46 includes/settings_reset.php:167
+#: includes/settings_topic_order.php:18
+msgid "Topic Order"
+msgstr "Thứ tự chủ đề"
+
+#: includes/settings.php:47 includes/settings_reset.php:182
+#: includes/settings_topics_index.php:18
+msgid "Topics Index Styling"
+msgstr "Tạo kiểu chỉ mục chủ đề"
+
+#: includes/settings.php:48 includes/settings_topic_reply_display.php:22
+msgid "Topic/Reply Display"
+msgstr "Chủ đề / Hiển thị câu trả lời"
+
+#: includes/settings.php:49 includes/settings_reset.php:212
+#: includes/settings_topic_reply_form.php:20
+msgid "Topic/Reply Form"
+msgstr "Chủ đề / Biểu mẫu trả lời"
+
+#: includes/settings.php:51 includes/settings_reset.php:242
+#: includes/settings_search.php:18
+msgid "Search Styling"
+msgstr "Tạo kiểu tìm kiếm"
+
+#: includes/settings.php:52
+msgid "Shortcodes"
+msgstr "Mã ngắn"
+
+#: includes/settings.php:53
+msgid "Unread posts"
+msgstr "bài chưa đọc"
+
+#: includes/settings.php:54 includes/settings_widgets.php:12
+msgid "Widgets"
+msgstr "Tiện ích"
+
+#: includes/settings.php:55
+#: includes/settings_latest_activity_widget_styling.php:18
+msgid "Latest Activity Widget styling"
+msgstr "Kiểu tiện ích hoạt động mới nhất"
+
+#: includes/settings.php:56 includes/settings_custom_css.php:12
+msgid "Custom CSS"
+msgstr "CSS tùy chỉnh"
+
+#: includes/settings.php:57
+msgid "CSS location"
+msgstr "Vị trí CSS"
+
+#: includes/settings.php:59
+msgid "Reset settings"
+msgstr "Đặt lại cài đặt"
+
+#: includes/settings.php:60 includes/whats_new.php:12
+msgid "What's New?"
+msgstr "Có gì mới?"
+
+#: includes/settings.php:62
+msgid "Export plugin settings"
+msgstr "Xuất cài đặt plugin"
+
+#: includes/settings.php:63
+msgid "Import plugin settings"
+msgstr "Nhập cài đặt plugin"
+
+#: includes/settings.php:65
+msgid "Not Working?"
+msgstr "Không hoạt động?"
+
+#: includes/settings.php:80
+msgid ""
+"If you find this plugin useful, please consider donating just a few dollars "
+"to help me develop and maintain it. You support will be appreciated"
+msgstr ""
+"Nếu bạn thấy plugin này hữu ích, vui lòng xem xét quyên góp chỉ một vài đô "
+"la để giúp tôi phát triển và duy trì nó. Bạn ủng hộ sẽ được đánh giá cao"
+
+#: includes/settings.php:83
+msgid "With thanks to Jacobo Feijóo for extensive testing !"
+msgstr "Cảm ơn Jacobo Feijóo đã thử nghiệm rộng rãi!"
+
+#: includes/settings.php:276
+msgid "bbp Style Pack"
+msgstr ""
+
+#: includes/settings_breadcrumbs.php:18
+msgid ""
+"Breadcrumbs are shown to allow users to track back and forth, clicking the "
+"links to jump to each area."
+msgstr ""
+"Breadcrumbs được hiển thị để cho phép người dùng theo dõi qua lại, nhấp vào "
+"các liên kết để chuyển đến từng khu vực."
+
+#: includes/settings_breadcrumbs.php:22
+msgid ""
+"If your theme provides breadcrumbs you may want to disable them, or you may "
+"simply not wish to show them."
+msgstr ""
+"Nếu chủ đề của bạn cung cấp đường dẫn, bạn có thể muốn tắt chúng hoặc đơn "
+"giản là bạn có thể không muốn hiển thị chúng."
+
+#: includes/settings_breadcrumbs.php:26
+msgid ""
+"If you do show them, you may wish not to show all the links, or to change "
+"what the text says."
+msgstr ""
+"Nếu bạn hiển thị chúng, bạn có thể không muốn hiển thị tất cả các liên kết "
+"hoặc thay đổi nội dung văn bản."
+
+#: includes/settings_breadcrumbs.php:30
+msgid ""
+"By default the breadcrumbs will act as follows.  (There are options to "
+"change this in this section)"
+msgstr ""
+"Theo mặc định, breadcrumbs sẽ hoạt động như sau. (Có các tùy chọn để thay "
+"đổi điều này trong phần này)"
+
+#: includes/settings_breadcrumbs.php:33
+msgid "Home Breadcrumb"
+msgstr "Trang chủ Breadcrumb"
+
+#: includes/settings_breadcrumbs.php:36
+msgid ""
+"The home breadcrumb link will take you to your theme's 'front page' as set "
+"in wordpress."
+msgstr ""
+"Liên kết breadcrumb trang chủ sẽ đưa bạn đến 'trang đầu' của chủ đề của bạn "
+"như được thiết lập trong wordpress."
+
+#: includes/settings_breadcrumbs.php:40
+msgid "Root Breadcrumb"
+msgstr "Root Breadcrumb"
+
+#: includes/settings_breadcrumbs.php:44
+msgid "The root breadcrumb will take you to either : "
+msgstr "Đường dẫn gốc sẽ đưa bạn đến:"
+
+#: includes/settings_breadcrumbs.php:47
+msgid ""
+"a) The forum root as set in Dashboard>Settings>forums>Forum Root Slug>Forum "
+"Root"
+msgstr ""
+"a) Gốc diễn đàn như được đặt trong Bảng điều khiển> Cài đặt> diễn đàn> Slug "
+"gốc diễn đàn> Gốc diễn đàn"
+
+#: includes/settings_breadcrumbs.php:49 includes/settings_export.php:25
+#: includes/settings_forum_templates.php:60
+msgid "or"
+msgstr "hoặc"
+
+#: includes/settings_breadcrumbs.php:52
+msgid ""
+"b) to a page with a shortcode if you have set this up.  To do this create a "
+"page in wordpress and include the shortcode [bbp-forum-index] (or other "
+"bbpress shortcode). "
+msgstr ""
+"b) đến một trang có mã ngắn nếu bạn đã thiết lập điều này. Để thực hiện việc "
+"này, hãy tạo một trang trong wordpress và bao gồm shortcode [bbp-forum-index]"
+" (hoặc shortcode bbpress khác)."
+
+#: includes/settings_breadcrumbs.php:55
+msgid ""
+"Then either see what the permalink is for that page or set it to what you "
+"want (just under the title when editing), and put that exact end permalink "
+"into the forum root in"
+msgstr ""
+"Sau đó, xem liên kết cố định là gì cho trang đó hoặc đặt nó thành những gì "
+"bạn muốn (ngay dưới tiêu đề khi chỉnh sửa) và đặt liên kết cố định cuối "
+"chính xác đó vào thư mục gốc trong"
+
+#: includes/settings_breadcrumbs.php:58
+msgid "Dashboard>Settings>forums>Forum Root Slug>Forum Root"
+msgstr "Trang tổng quan> Cài đặt> diễn đàn> Gốc rễ diễn đàn> Gốc diễn đàn"
+
+#: includes/settings_breadcrumbs.php:60
+msgid "The following settings let you control the breadcrumbs."
+msgstr "Các cài đặt sau cho phép bạn kiểm soát đường dẫn."
+
+#: includes/settings_breadcrumbs.php:79
+msgid "Disable All forum Breadcrumbs"
+msgstr "Tắt tất cả Breadcrumbs của diễn đàn"
+
+#: includes/settings_breadcrumbs.php:87
+msgid "Click to disable breadcrumbs"
+msgstr "Nhấp để tắt breadcrumbs"
+
+#: includes/settings_breadcrumbs.php:97
+msgid "Breadcrumb Home"
+msgstr "Trang chủ Breadcrumb"
+
+#: includes/settings_breadcrumbs.php:105
+msgid "Disable Home breadcrumbs"
+msgstr "Tắt breadcrumbs Trang chủ"
+
+#: includes/settings_breadcrumbs.php:112
+msgid "Click to disable home breadcrumb"
+msgstr "Nhấp để tắt breadcrumb trang chủ"
+
+#: includes/settings_breadcrumbs.php:123 includes/settings_breadcrumbs.php:261
+#: includes/settings_breadcrumbs.php:329
+msgid "Text"
+msgstr "Văn bản"
+
+#: includes/settings_breadcrumbs.php:129
+msgid ""
+"You can change what the home breadcrumb says eg \"back to site\", \"Exit "
+"forums\" \"Back to home\" etc"
+msgstr ""
+"Bạn có thể thay đổi nội dung của breadcrumb trang chủ, ví dụ như \"quay lại "
+"trang web\", \"Thoát diễn đàn\" \"Quay lại trang chủ\", v.v."
+
+#: includes/settings_breadcrumbs.php:139 includes/settings_login.php:249
+#: includes/widgets.php:364
+msgid "OR"
+msgstr "HOẶC"
+
+#: includes/settings_breadcrumbs.php:147
+msgid "Show home icon"
+msgstr "Hiển thị biểu tượng trang chủ"
+
+#: includes/settings_breadcrumbs.php:156
+msgid "Click to show home icon"
+msgstr "Nhấp để hiển thị biểu tượng trang chủ"
+
+#: includes/settings_breadcrumbs.php:164
+msgid "Home Icon"
+msgstr "Biểu tượng Trang chủ"
+
+#: includes/settings_breadcrumbs.php:165
+msgid "Home Icon Size"
+msgstr "Kích thước biểu tượng trang chủ"
+
+#: includes/settings_breadcrumbs.php:166
+msgid "Home Icon Color"
+msgstr "Màu biểu tượng nhà"
+
+#: includes/settings_breadcrumbs.php:182 includes/settings_forums_index.php:225
+#: includes/settings_forums_index.php:302
+#: includes/settings_forums_index.php:433
+#: includes/settings_forums_index.php:493
+#: includes/settings_forums_index.php:556
+#: includes/settings_forums_index.php:628
+#: includes/settings_forums_index.php:687
+#: includes/settings_forums_index.php:805
+#: includes/settings_forums_index.php:881
+#: includes/settings_latest_activity_widget_styling.php:78
+#: includes/settings_latest_activity_widget_styling.php:160
+#: includes/settings_latest_activity_widget_styling.php:231
+#: includes/settings_latest_activity_widget_styling.php:312
+#: includes/settings_latest_activity_widget_styling.php:382
+#: includes/settings_latest_activity_widget_styling.php:463
+#: includes/settings_topics_index.php:79 includes/settings_topics_index.php:155
+#: includes/settings_topics_index.php:282
+#: includes/settings_topics_index.php:346
+#: includes/settings_topics_index.php:497
+#: includes/settings_topics_index.php:616
+#: includes/settings_topics_index.php:769
+#: includes/settings_topic_reply_display.php:220
+#: includes/settings_topic_reply_display.php:303
+#: includes/settings_topic_reply_display.php:383
+#: includes/settings_topic_reply_display.php:448
+#: includes/settings_topic_reply_display.php:524
+#: includes/settings_topic_reply_display.php:608
+#: includes/settings_topic_reply_display.php:692
+#: includes/settings_topic_reply_display.php:838
+#: includes/settings_topic_reply_form.php:71
+#: includes/settings_topic_reply_form.php:169
+#: includes/settings_topic_reply_form.php:535
+msgid "Default 12px - see help for further info"
+msgstr "12px mặc định - xem trợ giúp để biết thêm thông tin"
+
+#: includes/settings_breadcrumbs.php:197
+msgid "Default - as per links. Click to set color"
+msgstr "Mặc định - theo các liên kết. Nhấp để đặt màu"
+
+#: includes/settings_breadcrumbs.php:213 includes/settings_breadcrumbs.php:282
+msgid "Change URL this links to"
+msgstr "Thay đổi URL liên kết này thành"
+
+#: includes/settings_breadcrumbs.php:219
+msgid ""
+"By default the home breadcrumb will take you to your site's homepage. Leave "
+"this blank if you are happy with that."
+msgstr ""
+"Theo mặc định, breadcrumb trang chủ sẽ đưa bạn đến trang chủ của trang web "
+"của bạn. Để trống điều này nếu bạn hài lòng với điều đó."
+
+#: includes/settings_breadcrumbs.php:224 includes/settings_breadcrumbs.php:293
+msgid "If you want it to go elsewhere enter the full URL here."
+msgstr "Nếu bạn muốn nó chuyển đi nơi khác, hãy nhập URL đầy đủ vào đây."
+
+#: includes/settings_breadcrumbs.php:235
+msgid "Breadcrumb Root"
+msgstr ""
+
+#: includes/settings_breadcrumbs.php:244
+msgid "Disable Root breadcrumbs"
+msgstr "Tắt breadcrumbs gốc"
+
+#: includes/settings_breadcrumbs.php:252
+msgid "Click to disable root breadcrumb"
+msgstr "Nhấp để tắt breadcrumb gốc"
+
+#: includes/settings_breadcrumbs.php:266
+msgid "You can change what the root breadcrumb says eg \"The forums\",  etc"
+msgstr ""
+"Bạn có thể thay đổi nội dung của breadcrumb gốc, ví dụ: \"Các diễn đàn\", v."
+"v."
+
+#: includes/settings_breadcrumbs.php:288
+msgid ""
+"By default the root breadcrumb will take you to your forums homepage. Leave "
+"this blank if you are happy with that."
+msgstr ""
+"Theo mặc định, breadcrumb gốc sẽ đưa bạn đến trang chủ diễn đàn của bạn. Để "
+"trống điều này nếu bạn hài lòng với điều đó."
+
+#: includes/settings_breadcrumbs.php:303
+msgid "Breadcrumb Current"
+msgstr "Breadcrumb hiện tại"
+
+#: includes/settings_breadcrumbs.php:312
+msgid "Disable current breadcrumb "
+msgstr "Tắt breadcrumb hiện tại"
+
+#: includes/settings_breadcrumbs.php:320
+msgid "Click to disable current breadcrumb"
+msgstr "Nhấp để tắt breadcrumb hiện tại"
+
+#: includes/settings_breadcrumbs.php:335
+msgid ""
+"You can change what the current breadcrumb says eg \"you are here\", but "
+"this will apply to all \"current\" entries"
+msgstr ""
+"Bạn có thể thay đổi nội dung của breadcrumb hiện tại, ví dụ: \"bạn đang ở "
+"đây\", nhưng điều này sẽ áp dụng cho tất cả các mục nhập \"hiện tại\""
+
+#: includes/settings_breadcrumbs.php:345
+msgid "Repeat Breadcrumb"
+msgstr "Lặp lại Breadcrumb"
+
+#: includes/settings_breadcrumbs.php:362
+msgid "The breadcrumb will appear at the bottom of pages as well as the top"
+msgstr "Đường dẫn sẽ xuất hiện ở cuối trang cũng như trên cùng"
+
+#: includes/settings_buttons.php:31
+msgid ""
+"This section allows you to add up to 4 buttons - a create topic button, a "
+"subscribe button and a profile button, and if activated a button for unread "
+"topics.  You can then style and display them in any order"
+msgstr ""
+"Phần này cho phép bạn thêm tối đa 4 nút - nút tạo chủ đề, nút đăng ký và nút "
+"hồ sơ, và nếu được kích hoạt, nút cho các chủ đề chưa đọc. Sau đó, bạn có "
+"thể tạo kiểu và hiển thị chúng theo bất kỳ thứ tự nào"
+
+#: includes/settings_buttons.php:50
+msgid "Activate Create Topic Button"
+msgstr "Kích hoạt nút Tạo chủ đề"
+
+#: includes/settings_buttons.php:63
+msgid "Create new topic Description"
+msgstr "Tạo chủ đề mới Mô tả"
+
+#: includes/settings_buttons.php:71
+msgid "Default : Create New Topic"
+msgstr "Mặc định: Tạo chủ đề mới"
+
+#: includes/settings_buttons.php:90
+msgid "Activate Subscribe Button"
+msgstr "Kích hoạt nút Đăng ký"
+
+#: includes/settings_buttons.php:103
+msgid "Subscribe Description"
+msgstr "Đăng ký Mô tả"
+
+#: includes/settings_buttons.php:111
+msgid "Default : Subscribe"
+msgstr "Mặc định: Đăng ký"
+
+#: includes/settings_buttons.php:119
+msgid "Unsubscribe Description"
+msgstr "Hủy đăng ký Mô tả"
+
+#: includes/settings_buttons.php:127
+msgid "Default : Unsubscribe"
+msgstr "Mặc định: Hủy đăng ký"
+
+#: includes/settings_buttons.php:145
+msgid "Activate Profile Button"
+msgstr "Kích hoạt nút hồ sơ"
+
+#: includes/settings_buttons.php:158
+msgid "Profile Description"
+msgstr "Mô tả tiểu sử"
+
+#: includes/settings_buttons.php:166
+msgid "Default : Profile"
+msgstr "Cấu hình mặc định"
+
+#: includes/settings_buttons.php:181
+msgid "Button Style"
+msgstr ""
+
+#: includes/settings_buttons.php:187
+msgid ""
+"You can style the button(s) below, use an existing class from your theme, or "
+"create a button class (see help further down)"
+msgstr ""
+"Bạn có thể tạo kiểu cho (các) nút bên dưới, sử dụng một lớp hiện có từ chủ "
+"đề của bạn hoặc tạo một lớp nút (xem thêm phần trợ giúp)"
+
+#: includes/settings_buttons.php:197
+msgid "Use style below"
+msgstr "Sử dụng phong cách bên dưới"
+
+#: includes/settings_buttons.php:200
+msgid "<i>(You can style the button below)</i>"
+msgstr "<i> (Bạn có thể tạo kiểu cho nút bên dưới) </i>"
+
+#: includes/settings_buttons.php:207
+msgid "Use Class"
+msgstr "Sử dụng Class"
+
+#: includes/settings_buttons.php:210
+msgid ""
+"<i>(Use a class from your theme - the button will use the style from the "
+"class below.)</i>"
+msgstr ""
+"<i> (Sử dụng một lớp từ chủ đề của bạn - nút sẽ sử dụng kiểu từ lớp bên dưới."
+") </i>"
+
+#: includes/settings_buttons.php:223 includes/settings_topic_reply_form.php:217
+msgid "Button"
+msgstr ""
+
+#: includes/settings_buttons.php:224 includes/settings_forums_index.php:200
+#: includes/settings_forums_index.php:277
+#: includes/settings_forums_index.php:412
+#: includes/settings_forums_index.php:472
+#: includes/settings_forums_index.php:531
+#: includes/settings_forums_index.php:607
+#: includes/settings_forums_index.php:666
+#: includes/settings_forums_index.php:780
+#: includes/settings_forums_index.php:856
+#: includes/settings_latest_activity_widget_styling.php:52
+#: includes/settings_latest_activity_widget_styling.php:137
+#: includes/settings_latest_activity_widget_styling.php:204
+#: includes/settings_latest_activity_widget_styling.php:289
+#: includes/settings_latest_activity_widget_styling.php:355
+#: includes/settings_latest_activity_widget_styling.php:440
+#: includes/settings_latest_activity_widget_styling.php:570
+#: includes/settings_search.php:104 includes/settings_search.php:228
+#: includes/settings_topics_index.php:54 includes/settings_topics_index.php:130
+#: includes/settings_topics_index.php:261
+#: includes/settings_topics_index.php:321
+#: includes/settings_topics_index.php:472
+#: includes/settings_topics_index.php:591
+#: includes/settings_topics_index.php:744
+#: includes/settings_topics_index.php:820
+#: includes/settings_topic_reply_display.php:194
+#: includes/settings_topic_reply_display.php:277
+#: includes/settings_topic_reply_display.php:361
+#: includes/settings_topic_reply_display.php:426
+#: includes/settings_topic_reply_display.php:491
+#: includes/settings_topic_reply_display.php:582
+#: includes/settings_topic_reply_display.php:666
+#: includes/settings_topic_reply_display.php:769
+#: includes/settings_topic_reply_form.php:45
+#: includes/settings_topic_reply_form.php:144
+#: includes/settings_topic_reply_form.php:510
+msgid "Size"
+msgstr "Kích thước"
+
+#: includes/settings_buttons.php:225 includes/settings_forums_index.php:201
+#: includes/settings_forums_index.php:278
+#: includes/settings_forums_index.php:532
+#: includes/settings_forums_index.php:727
+#: includes/settings_forums_index.php:781
+#: includes/settings_forums_index.php:857
+#: includes/settings_latest_activity_widget_styling.php:53
+#: includes/settings_latest_activity_widget_styling.php:205
+#: includes/settings_latest_activity_widget_styling.php:356
+#: includes/settings_search.php:105 includes/settings_search.php:229
+#: includes/settings_topics_index.php:55 includes/settings_topics_index.php:131
+#: includes/settings_topics_index.php:322
+#: includes/settings_topics_index.php:473
+#: includes/settings_topics_index.php:592
+#: includes/settings_topics_index.php:745
+#: includes/settings_topics_index.php:821
+#: includes/settings_topic_reply_display.php:195
+#: includes/settings_topic_reply_display.php:278
+#: includes/settings_topic_reply_display.php:492
+#: includes/settings_topic_reply_display.php:583
+#: includes/settings_topic_reply_display.php:667
+#: includes/settings_topic_reply_display.php:770
+#: includes/settings_topic_reply_form.php:46
+#: includes/settings_topic_reply_form.php:145
+#: includes/settings_topic_reply_form.php:511
+msgid "Color"
+msgstr "Màu sắc"
+
+#: includes/settings_buttons.php:227 includes/settings_forums_index.php:203
+#: includes/settings_forums_index.php:280
+#: includes/settings_forums_index.php:414
+#: includes/settings_forums_index.php:474
+#: includes/settings_forums_index.php:534
+#: includes/settings_forums_index.php:609
+#: includes/settings_forums_index.php:668
+#: includes/settings_forums_index.php:783
+#: includes/settings_forums_index.php:859
+#: includes/settings_latest_activity_widget_styling.php:55
+#: includes/settings_latest_activity_widget_styling.php:139
+#: includes/settings_latest_activity_widget_styling.php:207
+#: includes/settings_latest_activity_widget_styling.php:291
+#: includes/settings_latest_activity_widget_styling.php:358
+#: includes/settings_latest_activity_widget_styling.php:442
+#: includes/settings_search.php:107 includes/settings_search.php:231
+#: includes/settings_topics_index.php:57 includes/settings_topics_index.php:133
+#: includes/settings_topics_index.php:263
+#: includes/settings_topics_index.php:324
+#: includes/settings_topics_index.php:475
+#: includes/settings_topics_index.php:594
+#: includes/settings_topics_index.php:747
+#: includes/settings_topic_reply_display.php:197
+#: includes/settings_topic_reply_display.php:280
+#: includes/settings_topic_reply_display.php:363
+#: includes/settings_topic_reply_display.php:428
+#: includes/settings_topic_reply_display.php:494
+#: includes/settings_topic_reply_display.php:585
+#: includes/settings_topic_reply_display.php:669
+#: includes/settings_topic_reply_display.php:772
+#: includes/settings_topic_reply_form.php:48
+#: includes/settings_topic_reply_form.php:147
+#: includes/settings_topic_reply_form.php:513
+msgid "Style"
+msgstr ""
+
+#: includes/settings_buttons.php:228 includes/settings_forums_index.php:148
+#: includes/settings_search.php:56 includes/settings_search.php:179
+#: includes/settings_topic_reply_form.php:122
+#: includes/settings_topic_reply_form.php:218
+#: includes/settings_topic_reply_form.php:582
+msgid "Background Color"
+msgstr "Màu nền"
+
+#: includes/settings_buttons.php:229
+msgid "Hover Background Color"
+msgstr "Màu nền khi Di chuột"
+
+#: includes/settings_buttons.php:230
+msgid "Class"
+msgstr ""
+
+#: includes/settings_buttons.php:266
+msgid "Default 10px - see help for further info"
+msgstr "10px mặc định - xem trợ giúp để biết thêm thông tin"
+
+#: includes/settings_buttons.php:280 includes/settings_buttons.php:324
+#: includes/settings_buttons.php:338 includes/settings_forums_index.php:79
+#: includes/settings_forums_index.php:116
+#: includes/settings_forums_index.php:166
+#: includes/settings_forums_index.php:237
+#: includes/settings_forums_index.php:314
+#: includes/settings_forums_index.php:375
+#: includes/settings_forums_index.php:388
+#: includes/settings_forums_index.php:401
+#: includes/settings_forums_index.php:568
+#: includes/settings_forums_index.php:770
+#: includes/settings_forums_index.php:817
+#: includes/settings_forums_index.php:893 includes/settings_search.php:78
+#: includes/settings_search.php:141 includes/settings_search.php:201
+#: includes/settings_topics_index.php:91 includes/settings_topics_index.php:167
+#: includes/settings_topics_index.php:227
+#: includes/settings_topics_index.php:239
+#: includes/settings_topics_index.php:251
+#: includes/settings_topics_index.php:358
+#: includes/settings_topics_index.php:409
+#: includes/settings_topics_index.php:463
+#: includes/settings_topics_index.php:510
+#: includes/settings_topics_index.php:565
+#: includes/settings_topics_index.php:579
+#: includes/settings_topics_index.php:628
+#: includes/settings_topics_index.php:679
+#: includes/settings_topics_index.php:735
+#: includes/settings_topics_index.php:781
+#: includes/settings_topics_index.php:864
+#: includes/settings_topics_index.php:917
+#: includes/settings_topic_reply_display.php:74
+#: includes/settings_topic_reply_display.php:89
+#: includes/settings_topic_reply_display.php:114
+#: includes/settings_topic_reply_display.php:143
+#: includes/settings_topic_reply_display.php:158
+#: includes/settings_topic_reply_display.php:183
+#: includes/settings_topic_reply_display.php:234
+#: includes/settings_topic_reply_display.php:318
+#: includes/settings_topic_reply_display.php:539
+#: includes/settings_topic_reply_display.php:623
+#: includes/settings_topic_reply_display.php:706
+#: includes/settings_topic_reply_display.php:853
+#: includes/settings_topic_reply_form.php:83
+#: includes/settings_topic_reply_form.php:135
+#: includes/settings_topic_reply_form.php:180
+#: includes/settings_topic_reply_form.php:235
+#: includes/settings_topic_reply_form.php:247
+#: includes/settings_topic_reply_form.php:547
+#: includes/settings_topic_reply_form.php:594
+#: includes/settings_topic_reply_form.php:612
+msgid ""
+"Click to set color - You can select from palette or enter hex value - see "
+"help for further info"
+msgstr ""
+"Nhấp để đặt màu - Bạn có thể chọn từ bảng màu hoặc nhập giá trị hex - xem "
+"trợ giúp để biết thêm thông tin"
+
+#: includes/settings_buttons.php:294 includes/settings_forums_index.php:250
+#: includes/settings_forums_index.php:327
+#: includes/settings_forums_index.php:445
+#: includes/settings_forums_index.php:505
+#: includes/settings_forums_index.php:581
+#: includes/settings_forums_index.php:640
+#: includes/settings_forums_index.php:699
+#: includes/settings_forums_index.php:830
+#: includes/settings_forums_index.php:906
+#: includes/settings_latest_activity_widget_styling.php:108
+#: includes/settings_latest_activity_widget_styling.php:175
+#: includes/settings_latest_activity_widget_styling.php:261
+#: includes/settings_latest_activity_widget_styling.php:327
+#: includes/settings_latest_activity_widget_styling.php:412
+#: includes/settings_latest_activity_widget_styling.php:478
+#: includes/settings_search.php:153 includes/settings_search.php:277
+#: includes/settings_topics_index.php:103
+#: includes/settings_topics_index.php:179
+#: includes/settings_topics_index.php:294
+#: includes/settings_topics_index.php:370
+#: includes/settings_topics_index.php:522
+#: includes/settings_topics_index.php:640
+#: includes/settings_topics_index.php:793
+#: includes/settings_topic_reply_display.php:248
+#: includes/settings_topic_reply_display.php:333
+#: includes/settings_topic_reply_display.php:398
+#: includes/settings_topic_reply_display.php:463
+#: includes/settings_topic_reply_display.php:554
+#: includes/settings_topic_reply_display.php:638
+#: includes/settings_topic_reply_display.php:721
+#: includes/settings_topic_reply_display.php:868
+#: includes/settings_topic_reply_form.php:95
+#: includes/settings_topic_reply_form.php:192
+#: includes/settings_topic_reply_form.php:559
+msgid "Enter Font eg Arial - see help for further info"
+msgstr "Nhập Phông chữ, ví dụ: Arial - xem trợ giúp để biết thêm thông tin"
+
+#: includes/settings_buttons.php:358
+msgid "If you have selected \"Use Class\" above,  then enter the class."
+msgstr "Nếu bạn đã chọn \"Sử dụng Lớp học\" ở trên, sau đó nhập lớp học."
+
+#: includes/settings_buttons.php:393
+msgid "DISPLAY ORDER"
+msgstr "TRÌNH TỰ HIỂN THỊ"
+
+#: includes/settings_buttons.php:399
+msgid ""
+"If you are displaying more than 1 button, you can change the default order "
+msgstr ""
+"Nếu bạn đang hiển thị nhiều hơn 1 nút, bạn có thể thay đổi thứ tự mặc định"
+
+#: includes/settings_buttons.php:405
+msgid ""
+"Click 'Save changes' to update this section if you have "
+"activated/deactivated buttons"
+msgstr ""
+"Nhấp vào 'Lưu thay đổi' để cập nhật phần này nếu bạn đã kích hoạt / hủy kích "
+"hoạt các nút"
+
+#: includes/settings_buttons.php:415
+msgid "Create Topic"
+msgstr "Tạo chủ đề"
+
+#: includes/settings_buttons.php:423 includes/settings_buttons.php:446
+#: includes/settings_buttons.php:469 includes/settings_buttons.php:494
+msgid "Enter the order ie a number from 1 to"
+msgstr "Nhập thứ tự tức là một số từ 1 đến"
+
+#: includes/settings_buttons.php:438
+msgid "Subcribe"
+msgstr "Đăng ký"
+
+#: includes/settings_buttons.php:486
+msgid "Mark as read"
+msgstr "đánh dấu là đã đọc"
+
+#: includes/settings_buttons.php:517
+msgid "Further Help"
+msgstr "Giúp đỡ thêm"
+
+#: includes/settings_buttons.php:521
+msgid ""
+"If your theme has a button style, then you can use this by entering it in "
+"the class sections above - of course if you know how to find the class !"
+msgstr ""
+"Nếu chủ đề của bạn có kiểu nút, thì bạn có thể sử dụng kiểu này bằng cách "
+"nhập nó vào các phần lớp ở trên - tất nhiên nếu bạn biết cách tìm lớp!"
+
+#: includes/settings_buttons.php:524
+msgid ""
+"There are also many button styling websites available which will let you "
+"create a style for your buttons - just google 'button generator css'.  These "
+"create css code and a class.  You would put the css code into either your "
+"theme or into the 'custom css' tab of this plugin."
+msgstr ""
+"Ngoài ra còn có nhiều trang web tạo kiểu nút có sẵn cho phép bạn tạo kiểu "
+"cho các nút của mình - chỉ cần google 'css trình tạo nút'. Chúng tạo ra mã "
+"css và một lớp. Bạn sẽ đặt mã css vào chủ đề của mình hoặc vào tab 'css tùy "
+"chỉnh' của plugin này."
+
+#: includes/settings_buttons.php:527
+msgid ""
+"So for instance if you go to <a href= \"http://css3buttongenerator.com/\" >"
+"http://css3buttongenerator.com/</a>  you can create a button.  This will "
+"generate code for a class of 'btn'.  Copy this code to the 'custom css' tab "
+"of this plugin, then select 'Use Class' above and put 'btn' in the class box "
+"above. "
+msgstr ""
+"Vì vậy, ví dụ: nếu bạn truy cập <a href= \"http://css3buttongenerator.com/\">"
+" http://css3buttongenerator.com/ </a>, bạn có thể tạo một nút. Điều này sẽ "
+"tạo mã cho một lớp 'btn'. Sao chép mã này vào tab 'css tùy chỉnh' của plugin "
+"này, sau đó chọn 'Sử dụng Lớp' ở trên và đặt 'btn' vào hộp lớp ở trên."
+
+#: includes/settings_custom_css.php:19
+msgid "You can add any custom css here"
+msgstr "Bạn có thể thêm bất kỳ css tùy chỉnh nào tại đây"
+
+#: includes/settings_custom_css.php:38
+msgid "css"
+msgstr ""
+
+#: includes/settings_email.php:22
+msgid ""
+"This section allows you to amend the subscription emails sent on topic and "
+"reply creation."
+msgstr ""
+"Phần này cho phép bạn sửa đổi các email đăng ký được gửi theo chủ đề và tạo "
+"trả lời."
+
+#: includes/settings_email.php:39
+msgid "Email account"
+msgstr "Tài khoản email"
+
+#: includes/settings_email.php:51
+msgid ""
+"By default bbpress sends an email using noreply@yoursite as both the sending "
+"and receiving email address.  Each subscriber is then blind copied in (bcc'd "
+").\t\t\t\t"
+msgstr ""
+"Theo mặc định, bbpress gửi email bằng cách sử dụng noreply @ yourite làm địa "
+"chỉ email gửi và nhận. Mỗi người đăng ký sau đó sẽ được sao chép trong "
+"(bcc'd)."
+
+#: includes/settings_email.php:52
+msgid ""
+"This means on topic or reply creation a single email is sent, which makes "
+"for fast processing"
+msgstr ""
+"Điều này có nghĩa là trong quá trình tạo chủ đề hoặc trả lời, một email duy "
+"nhất sẽ được gửi, giúp xử lý nhanh"
+
+#: includes/settings_email.php:53
+msgid ""
+"You may wish to change this address in some cases, for instance if you are "
+"on a sub domain "
+msgstr ""
+"Bạn có thể muốn thay đổi địa chỉ này trong một số trường hợp, chẳng hạn như "
+"nếu bạn đang ở trên một miền phụ"
+
+#: includes/settings_email.php:54
+msgid ""
+"Many email sytems will reject emails which don't come from the site's domain "
+"so amend with care !"
+msgstr ""
+"Nhiều hệ thống email sẽ từ chối các email không đến từ miền của trang web, "
+"vì vậy hãy cẩn thận sửa đổi!"
+
+#: includes/settings_email.php:61
+msgid "Auto Login"
+msgstr "Tự động đăng nhập"
+
+#: includes/settings_email.php:72
+msgid "Activate Auto Login"
+msgstr "Kích hoạt Đăng nhập Tự động"
+
+#: includes/settings_email.php:73
+msgid "When users receive an email, it contains a link to the topic/reply."
+msgstr ""
+"Khi người dùng nhận được một email, nó có chứa một liên kết đến chủ đề / câu "
+"trả lời."
+
+#: includes/settings_email.php:74
+msgid ""
+"If the forum is private and they are not logged in, they will get the site "
+"404 not found error."
+msgstr ""
+"Nếu diễn đàn ở chế độ riêng tư và họ chưa đăng nhập, họ sẽ gặp phải lỗi "
+"không tìm thấy trang web 404."
+
+#: includes/settings_email.php:75
+msgid ""
+"This item instead lets you select a wordpress login or bbress login, which "
+"once completed continues to the topic/reply."
+msgstr ""
+"Thay vào đó, mục này cho phép bạn chọn đăng nhập wordpress hoặc đăng nhập "
+"bbpress, sau khi hoàn thành sẽ tiếp tục đến chủ đề / trả lời."
+
+#: includes/settings_email.php:76
+msgid ""
+"If you select bbPress Login, you must have the [bbp_login] shortcode in a "
+"page, and put the full url in below."
+msgstr ""
+"Nếu bạn chọn Đăng nhập bbPress, bạn phải có mã ngắn [bbp_login] trong một "
+"trang và đặt url đầy đủ vào bên dưới."
+
+#: includes/settings_email.php:87
+msgid "Login users to private forum links"
+msgstr "Đăng nhập người dùng vào liên kết diễn đàn riêng tư"
+
+#: includes/settings_email.php:92
+msgid "Wordpress Login"
+msgstr "Đăng nhập Wordpress"
+
+#: includes/settings_email.php:96
+msgid "bbPress Login"
+msgstr "bbPress Đăng nhập"
+
+#: includes/settings_email.php:113
+msgid ""
+"<b>Only if you are using bbPress login</b> you will need a wordpress page "
+"with the [bbp-login] shortcode in it."
+msgstr ""
+"<b> Chỉ khi bạn đang sử dụng đăng nhập bbPress </b>, bạn sẽ cần một trang "
+"wordpress với mã ngắn [bbp-login] trong đó."
+
+#: includes/settings_email.php:114
+msgid "Enter the full URL of this page here."
+msgstr "Nhập URL đầy đủ của trang này ở đây."
+
+#: includes/settings_email.php:119
+msgid "Change Email Content"
+msgstr "Thay đổi nội dung email"
+
+#: includes/settings_email.php:130
+msgid ""
+"If you want to alter the topic and/or reply emails then click here and items "
+"4 to 9 will take effect"
+msgstr ""
+"Nếu bạn muốn thay đổi chủ đề và / hoặc trả lời email, hãy nhấp vào đây và "
+"các mục từ 4 đến 9 sẽ có hiệu lực"
+
+#: includes/settings_email.php:136
+msgid "Email Type"
+msgstr "Loại Email"
+
+#: includes/settings_email.php:148
+msgid "Plain Text"
+msgstr "Văn bản thô"
+
+#: includes/settings_email.php:152
+msgid "HTML Text"
+msgstr ""
+
+#: includes/settings_email.php:154
+msgid "By default bbpress uses plain text to send emails."
+msgstr "Theo mặc định, bbpress sử dụng văn bản thuần túy để gửi email."
+
+#: includes/settings_email.php:155
+msgid ""
+"<b>If you want HTML text, then click HTML text, and press the 'save' button, "
+"and the wordpress text editor will appear on the refreshed screen</b>"
+msgstr ""
+"<b> Nếu bạn muốn văn bản HTML, sau đó nhấp vào văn bản HTML và nhấn nút "
+"'lưu', và trình soạn thảo văn bản wordpress sẽ xuất hiện trên màn hình được "
+"làm mới </b>"
+
+#: includes/settings_email.php:156
+msgid ""
+"Almost all email services can process HTML text, and you may want to make "
+"your subscription emails look better by using this feature."
+msgstr ""
+"Hầu hết tất cả các dịch vụ email đều có thể xử lý văn bản HTML và bạn có thể "
+"muốn làm cho email đăng ký của mình trông đẹp hơn bằng cách sử dụng tính "
+"năng này."
+
+#: includes/settings_email.php:157
+msgid ""
+"However if you do, then any email system that is only capable of using plain "
+"text may look strange as the HTML text code may also show."
+msgstr ""
+"Tuy nhiên, nếu bạn làm vậy, thì bất kỳ hệ thống email nào chỉ có khả năng sử "
+"dụng văn bản thuần túy có thể trông lạ vì mã văn bản HTML cũng có thể hiển "
+"thị."
+
+#: includes/settings_email.php:201
+msgid "New Topic Email Title"
+msgstr "Tiêu đề email chủ đề mới"
+
+#: includes/settings_email.php:202
+msgid "New Topic Email Body"
+msgstr "Nội dung email chủ đề mới"
+
+#: includes/settings_email.php:203
+msgid "New Reply Email Title"
+msgstr "Tiêu đề email trả lời mới"
+
+#: includes/settings_email.php:204
+msgid "New Reply Email Body"
+msgstr "Nội dung email trả lời mới"
+
+#: includes/settings_email.php:234 includes/settings_email.php:270
+msgid "The subject of the notification email"
+msgstr "Chủ đề của email thông báo"
+
+#: includes/settings_email.php:235 includes/settings_email.php:271
+msgid "Allowable codes - {title}"
+msgstr "Mã được phép - {title}"
+
+#: includes/settings_email.php:258 includes/settings_email.php:294
+msgid "Email message sent to forum subscribers when a new topic is posted"
+msgstr ""
+"Tin nhắn email được gửi đến người đăng ký diễn đàn khi một chủ đề mới được "
+"đăng"
+
+#: includes/settings_email.php:259 includes/settings_email.php:295
+msgid "Allowable codes - {author} {content} {url} {forum_name}"
+msgstr "Mã được phép - {author} {content} {url} {forum_name}"
+
+#: includes/settings_email.php:303
+msgid "Send test email"
+msgstr "Gửi email thử nghiệm"
+
+#: includes/settings_email.php:306
+msgid "<b> Save changes before sending test emails</b>"
+msgstr "chủ đề% s"
+
+#: includes/settings_email.php:319
+msgid "Send a test topic email"
+msgstr "Gửi email chủ đề thử nghiệm"
+
+#: includes/settings_email.php:331
+msgid "Send a test reply email"
+msgstr "Gửi email trả lời thử nghiệm"
+
+#: includes/settings_email.php:343
+msgid ""
+"The email recipient adrress of the test email - Default - your site admin "
+"email address"
+msgstr ""
+"Địa chỉ người nhận email của email thử nghiệm - Mặc định - địa chỉ email "
+"quản trị trang web của bạn"
+
+#: includes/settings_email.php:351
+msgid "Send test email(s)"
+msgstr "Gửi (các) email thử nghiệm"
+
+#: includes/settings_export.php:16
+msgid "Export Plugin Settings"
+msgstr "Xuất cài đặt plugin"
+
+#: includes/settings_export.php:19
+msgid "This tab lets you export settings to an file."
+msgstr "Tab này cho phép bạn xuất cài đặt sang một tệp."
+
+#: includes/settings_export.php:22
+msgid ""
+"This can be useful if you want to move settings from say a test or "
+"development site to a live site "
+msgstr ""
+"Điều này có thể hữu ích nếu bạn muốn di chuyển cài đặt từ trang web thử "
+"nghiệm hoặc phát triển sang trang web trực tiếp"
+
+#: includes/settings_export.php:28
+msgid ""
+"to let you save a set of settings, so that you can come back to them if need-"
+"be"
+msgstr ""
+"để cho phép bạn lưu một tập hợp các cài đặt, để bạn có thể quay lại chúng "
+"nếu cần"
+
+#: includes/settings_export.php:31
+msgid ""
+"Click the button below which will take you to the export options in "
+"Wordpress and select 'bbp style settings' at the bottom of the list"
+msgstr ""
+"Nhấp vào nút bên dưới sẽ đưa bạn đến các tùy chọn xuất trong Wordpress và "
+"chọn 'cài đặt kiểu bbp' ở cuối danh sách"
+
+#: includes/settings_export.php:42
+msgid "Export Settings"
+msgstr "Xuất Cài đặt"
+
+#: includes/settings_export.php:51
+msgid "bbp Style Pack Settings"
+msgstr "Cài đặt bbp Style Pack"
+
+#: includes/settings_forums_index.php:26
+#: includes/settings_latest_activity_widget_styling.php:26
+#: includes/settings_topics_index.php:25
+#: includes/settings_topic_reply_form.php:27
+msgid "This section allows you to amend styles."
+msgstr "Phần này cho phép bạn sửa đổi phong cách."
+
+#: includes/settings_forums_index.php:29
+#: includes/settings_latest_activity_widget_styling.php:29
+#: includes/settings_search.php:34 includes/settings_topics_index.php:33
+#: includes/settings_topic_reply_display.php:34
+#: includes/settings_topic_reply_form.php:28
+msgid ""
+"You only need to enter those styles and elements within a style that you "
+"wish to alter"
+msgstr ""
+"Bạn chỉ cần nhập các kiểu và phần tử đó trong một kiểu mà bạn muốn thay đổi"
+
+#: includes/settings_forums_index.php:50
+msgid "Forum Content"
+msgstr "Nội dung diễn đàn"
+
+#: includes/settings_forums_index.php:51
+msgid "Background Color - odd numbers"
+msgstr "Màu nền - số lẻ"
+
+#: includes/settings_forums_index.php:52
+msgid "Background Color - even numbers"
+msgstr "Màu nền - số chẵn"
+
+#: includes/settings_forums_index.php:53
+msgid "Background Image - odd numbers"
+msgstr "Hình nền - số lẻ"
+
+#: includes/settings_forums_index.php:54
+msgid "Background Image - even numbers"
+msgstr "Hình nền - số chẵn"
+
+#: includes/settings_forums_index.php:80 includes/settings_forums_index.php:117
+#: includes/settings_forums_index.php:167 includes/settings_search.php:202
+#: includes/settings_topics_index.php:566
+#: includes/settings_topics_index.php:580
+#: includes/settings_topics_index.php:582
+#: includes/settings_topic_reply_display.php:75
+#: includes/settings_topic_reply_display.php:90
+#: includes/settings_topic_reply_display.php:115
+#: includes/settings_topic_reply_display.php:144
+#: includes/settings_topic_reply_display.php:159
+#: includes/settings_topic_reply_display.php:184
+msgid " "
+msgstr ""
+
+#: includes/settings_forums_index.php:80 includes/settings_forums_index.php:117
+#: includes/settings_forums_index.php:167 includes/settings_search.php:202
+#: includes/settings_topics_index.php:566
+#: includes/settings_topics_index.php:580
+#: includes/settings_topics_index.php:582
+msgid "bbPress Default"
+msgstr "bbPress Mặc định"
+
+#: includes/settings_forums_index.php:80 includes/settings_search.php:202
+#: includes/settings_topics_index.php:580
+#: includes/settings_topics_index.php:582
+#: includes/settings_topic_reply_display.php:90
+msgid " #fbfbfb"
+msgstr ""
+
+#: includes/settings_forums_index.php:89 includes/settings_forums_index.php:125
+#: includes/settings_forums_index.php:177
+msgid "Or"
+msgstr "Hoặc"
+
+#: includes/settings_forums_index.php:103
+#: includes/settings_forums_index.php:138
+#: includes/settings_forums_index.php:190
+msgid "Enter path of image"
+msgstr "Nhập đường dẫn của hình ảnh"
+
+#: includes/settings_forums_index.php:117
+#: includes/settings_topic_reply_display.php:75
+msgid " #fff"
+msgstr ""
+
+#: includes/settings_forums_index.php:147
+msgid "Forum/Topic Headers/Footers"
+msgstr "Diễn đàn / Đầu trang chủ đề / Chân trang"
+
+#: includes/settings_forums_index.php:149
+msgid "Background Image"
+msgstr "Hình nền"
+
+#: includes/settings_forums_index.php:167
+#: includes/settings_topic_reply_display.php:115
+msgid " #f4f4f4"
+msgstr ""
+
+#: includes/settings_forums_index.php:199
+msgid "Forum Headings Font"
+msgstr "Phông chữ Tiêu đề Diễn đàn"
+
+#: includes/settings_forums_index.php:276
+msgid "Breadcrumb Font"
+msgstr "Phông chữ Breadcrumb"
+
+#: includes/settings_forums_index.php:353
+msgid "Links"
+msgstr "Liên kết"
+
+#: includes/settings_forums_index.php:354
+#: includes/settings_latest_activity_widget_styling.php:506
+#: includes/settings_topics_index.php:206
+msgid "Link Color"
+msgstr "Màu sắc liên kết"
+
+#: includes/settings_forums_index.php:355
+#: includes/settings_latest_activity_widget_styling.php:507
+msgid "Active Color"
+msgstr "Màu hoạt động"
+
+#: includes/settings_forums_index.php:356
+#: includes/settings_latest_activity_widget_styling.php:508
+#: includes/settings_topics_index.php:208
+msgid "Hover Color"
+msgstr "Màu khi di chuột"
+
+#: includes/settings_forums_index.php:411
+msgid "Forum and Category List Font"
+msgstr "Phông chữ Danh sách Diễn đàn và Danh mục"
+
+#: includes/settings_forums_index.php:471
+msgid "Sub Forum List Font"
+msgstr "Phông chữ danh sách diễn đàn phụ"
+
+#: includes/settings_forums_index.php:530
+msgid "Forum Description Font"
+msgstr "Phông chữ mô tả diễn đàn"
+
+#: includes/settings_forums_index.php:606
+#: includes/settings_latest_activity_widget_styling.php:354
+msgid "Freshness Font"
+msgstr ""
+
+#: includes/settings_forums_index.php:665
+msgid "Freshness Author Font"
+msgstr "Phông chữ Tác giả"
+
+#: includes/settings_forums_index.php:724
+msgid "Forum Border"
+msgstr "Biên giới Diễn đàn"
+
+#: includes/settings_forums_index.php:725
+#: includes/settings_topics_index.php:418
+#: includes/settings_topics_index.php:690
+msgid "Line width"
+msgstr "Chiều rộng dòng"
+
+#: includes/settings_forums_index.php:726
+#: includes/settings_topics_index.php:419
+#: includes/settings_topics_index.php:691
+msgid "Line style"
+msgstr "Kiểu đường kẻ"
+
+#: includes/settings_forums_index.php:746
+msgid "Default 1px  - Set to 0px to hide border"
+msgstr "Mặc định 1px - Đặt thành 0px để ẩn đường viền"
+
+#: includes/settings_forums_index.php:758
+#: includes/settings_topics_index.php:451
+#: includes/settings_topics_index.php:723
+msgid ""
+"Default solid - solid, dashed, dotted are common values - see help for "
+"further info"
+msgstr ""
+"Đặc điểm mặc định - đặc, đứt nét, có dấu chấm là các giá trị phổ biến - xem "
+"trợ giúp để biết thêm thông tin"
+
+#: includes/settings_forums_index.php:779
+msgid "Topic Count Font"
+msgstr "Phông chữ Đếm Chủ đề"
+
+#: includes/settings_forums_index.php:855
+msgid "Post Count Font"
+msgstr "Phông chữ số bài đăng"
+
+#: includes/settings_forums_index.php:930
+msgid "Change empty forum index message"
+msgstr "Thay đổi thông báo chỉ mục diễn đàn trống"
+
+#: includes/settings_forums_index.php:936
+msgid "Default : Oh bother! No forums were found here!"
+msgstr "Mặc định: Ồ phiền! Không có diễn đàn nào được tìm thấy ở đây!"
+
+#: includes/settings_forums_index.php:943
+msgid "Don't show empty forum index message"
+msgstr "Không hiển thị thông báo chỉ mục diễn đàn trống"
+
+#: includes/settings_forums_index.php:952
+#: includes/settings_topics_index.php:946
+msgid "Don't show this message"
+msgstr "Không hiển thị thông báo này"
+
+#: includes/settings_forums_index.php:960 includes/settings_search.php:321
+#: templates/searchform/form-search.php:21
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: includes/settings_forums_index.php:968
+msgid "You can style the search widget via the tab 'Search Styling' "
+msgstr "Bạn có thể tạo kiểu cho tiện ích tìm kiếm qua tab 'Tạo kiểu tìm kiếm'"
+
+#: includes/settings_forum_display.php:26
+msgid "This section allows you to amend the way the forums display."
+msgstr "Phần này cho phép bạn sửa đổi cách hiển thị diễn đàn."
+
+#: includes/settings_forum_display.php:40
+msgid "CHANGE"
+msgstr "BIẾN ĐỔI"
+
+#: includes/settings_forum_display.php:43 includes/settings_widgets.php:28
+msgid "FROM"
+msgstr "TỪ"
+
+#: includes/settings_forum_display.php:46 includes/settings_widgets.php:29
+msgid "TO"
+msgstr "ĐẾN"
+
+#: includes/settings_forum_display.php:57
+msgid "Forum List"
+msgstr "Danh sách diễn đàn"
+
+#: includes/settings_forum_display.php:58
+msgid "Alter the list from horizontal to vertical"
+msgstr "Thay đổi danh sách từ ngang sang dọc"
+
+#: includes/settings_forum_display.php:68
+msgid "Change to column list"
+msgstr "Thay đổi thành danh sách cột"
+
+#: includes/settings_forum_display.php:83
+msgid "Hide sub-forum counts"
+msgstr "Ẩn số lượng diễn đàn con"
+
+#: includes/settings_forum_display.php:91
+msgid "Hide counts"
+msgstr "Ẩn số lượng"
+
+#: includes/settings_forum_display.php:107
+msgid "Move subscribe"
+msgstr "Di chuyển đăng ký"
+
+#: includes/settings_forum_display.php:108
+msgid "Stop subscribe resting against the breadcrumb"
+msgstr "Ngừng đăng ký dựa vào breadcrumb"
+
+#: includes/settings_forum_display.php:118
+msgid "Move subscribe to right"
+msgstr "Di chuyển đăng ký sang phải"
+
+#: includes/settings_forum_display.php:133
+msgid "Remove \"Private\" prefix"
+msgstr "Xóa hộp 'Lý do tùy chọn để chỉnh sửa'"
+
+#: includes/settings_forum_display.php:134
+msgid "Remove private prefix for forums and topics"
+msgstr "Xóa tiền tố riêng tư cho các diễn đàn và chủ đề"
+
+#: includes/settings_forum_display.php:144
+msgid "Remove private prefix"
+msgstr "Xóa tiền tố riêng tư"
+
+#: includes/settings_forum_display.php:158
+msgid "Add \"Create New Topic\" link"
+msgstr "Thêm liên kết \"Tạo chủ đề mới\""
+
+#: includes/settings_forum_display.php:159
+msgid "Adds a \"Create New Topic\" for individual forums"
+msgstr "Thêm \"Tạo chủ đề mới\" cho các diễn đàn riêng lẻ"
+
+#: includes/settings_forum_display.php:169
+msgid "Add New topic link"
+msgstr "Thêm liên kết chủ đề mới"
+
+#: includes/settings_forum_display.php:183
+msgid "Create New Topic Description"
+msgstr "Tạo mô tả chủ đề mới"
+
+#: includes/settings_forum_display.php:195
+msgid ""
+"By default this will be \"Create New Topic\".<p> Enter any alternate wording "
+"e.g. \"Start new Topic\", \"Begin a debate\" etc."
+msgstr ""
+"Theo mặc định, đây sẽ là \"Tạo chủ đề mới\". <p> Nhập bất kỳ từ thay thế nào,"
+" ví dụ: \"Bắt đầu chủ đề mới\", \"Bắt đầu cuộc tranh luận\" v.v."
+
+#: includes/settings_forum_display.php:203
+#: includes/settings_forum_display.php:215
+msgid "Add Forum Description"
+msgstr "Thêm mô tả diễn đàn"
+
+#: includes/settings_forum_display.php:204
+msgid "Adds description to the display"
+msgstr "Thêm mô tả vào màn hình"
+
+#: includes/settings_forum_display.php:231
+msgid "Add Sub Forum Description to forum lists"
+msgstr "Thêm mô tả diễn đàn phụ vào danh sách diễn đàn"
+
+#: includes/settings_forum_display.php:232
+msgid "Adds description to the Sub forum lists"
+msgstr "Thêm mô tả vào danh sách diễn đàn phụ"
+
+#: includes/settings_forum_display.php:243
+msgid "Add Forum List Description"
+msgstr "Thêm mô tả danh sách diễn đàn"
+
+#: includes/settings_forum_display.php:258
+#: includes/settings_forum_display.php:270
+msgid "Add Rounded Corners"
+msgstr "Thêm góc tròn"
+
+#: includes/settings_forum_display.php:259
+msgid "Adds rounded corners"
+msgstr "Thêm các góc tròn"
+
+#: includes/settings_forum_display.php:286
+#: includes/settings_forum_display.php:298
+msgid "Remove Forum/Topic Description"
+msgstr "Xóa Diễn đàn / Mô tả Chủ đề"
+
+#: includes/settings_forum_display.php:287
+msgid "This will also remove it from topics as well"
+msgstr "Thao tác này cũng sẽ xóa nó khỏi các chủ đề"
+
+#: includes/settings_forum_display.php:314
+#: includes/settings_forum_display.php:326
+msgid "Add Thumbnails to forum lists"
+msgstr "Thêm hình thu nhỏ vào danh sách diễn đàn"
+
+#: includes/settings_forum_display.php:315
+msgid "Add a picture before the forum name in the forum lists"
+msgstr "Thêm hình ảnh trước tên diễn đàn trong danh sách diễn đàn"
+
+#: includes/settings_forum_display.php:343
+msgid ""
+"NOTE : once activated go to each forum, and you will see the ability to add "
+"an image and size options"
+msgstr ""
+"LƯU Ý: sau khi được kích hoạt, hãy vào từng diễn đàn và bạn sẽ thấy khả năng "
+"thêm hình ảnh và các tùy chọn kích thước"
+
+#: includes/settings_forum_display.php:354
+msgid "Where to display any forum description"
+msgstr "Nơi hiển thị bất kỳ mô tả diễn đàn nào"
+
+#: includes/settings_forum_display.php:372
+msgid "Description under thumbnail"
+msgstr "Mô tả dưới hình thu nhỏ"
+
+#: includes/settings_forum_display.php:377
+msgid "Description beside thumbnail"
+msgstr "Mô tả bên cạnh hình thu nhỏ"
+
+#: includes/settings_forum_display.php:386
+msgid "No. Forums Per Page"
+msgstr "No. Diễn đàn trên mỗi trang"
+
+#: includes/settings_forum_display.php:392
+msgid "Default : 50"
+msgstr "Mặc định: 50"
+
+#: includes/settings_forum_display.php:399
+msgid "Sub Forum Freshness"
+msgstr ""
+
+#: includes/settings_forum_display.php:406
+msgid "Recalculate Freshness for forums"
+msgstr "Tính toán lại độ mới cho diễn đàn"
+
+#: includes/settings_forum_display.php:409
+msgid ""
+"A parent forum or category can get the wrong last active topic if a topic in "
+"a sub forum is marked as spam or deleted. By selecting this box, the correct "
+"last active topic is displayed, but this can slow the site if you have a lot "
+"of sub forums"
+msgstr ""
+"Diễn đàn mẹ hoặc chuyên mục có thể nhận sai chủ đề hoạt động gần đây nhất "
+"nếu một chủ đề trong diễn đàn phụ bị đánh dấu là spam hoặc bị xóa. Bằng cách "
+"chọn hộp này, chủ đề hoạt động cuối cùng chính xác được hiển thị, nhưng điều "
+"này có thể làm chậm trang web nếu bạn có nhiều diễn đàn phụ"
+
+#: includes/settings_forum_order.php:24
+msgid ""
+"By default bbpress will display forums in the order set when you edit a "
+"forum and as shown in Forum Attributes>Order on the right hand side.  If "
+"levels are the same, then they will display in alphabetical order."
+msgstr ""
+"Theo mặc định, bbpress sẽ hiển thị các diễn đàn theo thứ tự đã đặt khi bạn "
+"chỉnh sửa diễn đàn và như hiển thị trong Thuộc tính diễn đàn> Thứ tự ở phía "
+"bên tay phải. Nếu các cấp độ giống nhau, thì chúng sẽ hiển thị theo thứ tự "
+"bảng chữ cái."
+
+#: includes/settings_forum_order.php:25 includes/settings_topic_order.php:24
+msgid "For most sites this is what is wanted, and no changes are needed here."
+msgstr ""
+"Đối với hầu hết các trang web, đây là điều cần thiết và không cần thay đổi ở "
+"đây."
+
+#: includes/settings_forum_order.php:26
+msgid ""
+"However some sites need a different order and this section lets you change "
+"the order for forums."
+msgstr ""
+"Tuy nhiên, một số trang web cần một thứ tự khác và phần này cho phép bạn "
+"thay đổi thứ tự cho các diễn đàn."
+
+#: includes/settings_forum_order.php:27
+msgid ""
+"At the moment this is just to 'freshness' or 'date created' order, but if "
+"you would like other orders I'll add them, raise a <a href=\"https:"
+"//wordpress.org/support/plugin/bbp-style-pack\">support ticket</a>."
+msgstr ""
+"Hiện tại, đây chỉ là đơn đặt hàng 'làm mới' hoặc 'ngày tạo', nhưng nếu bạn "
+"muốn các đơn hàng khác, tôi sẽ thêm chúng, hãy tăng <a href = \"https:"
+"//wordpress.org/support/plugin/bbp -style-pack \"> phiếu hỗ trợ </a>."
+
+#: includes/settings_forum_order.php:38
+msgid "Change Order"
+msgstr "Thay đổi đơn hàng"
+
+#: includes/settings_forum_order.php:43 includes/settings_search.php:322
+#: includes/settings_topic_order.php:41 includes/settings_topic_order.php:149
+#: includes/settings_topic_reply_form.php:255
+#: includes/settings_topic_reply_form.php:321
+#: includes/settings_topic_reply_form.php:346
+#: includes/settings_topic_reply_form.php:374
+#: includes/settings_topic_reply_form.php:620
+#: includes/settings_topic_reply_form.php:640
+#: includes/settings_topic_reply_form.php:660
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: includes/settings_forum_order.php:44
+msgid "Order"
+msgstr "Đặt hàng"
+
+#: includes/settings_forum_order.php:73
+msgid "Default Order"
+msgstr "Đơn hàng mặc định"
+
+#: includes/settings_forum_order.php:75
+msgid ""
+"<i>Display forums in the order set in Edit Forum>Forum Attributes>Order and "
+"if the same in alphbetical</i>"
+msgstr ""
+"<i> Hiển thị các diễn đàn theo thứ tự được đặt trong Chỉnh sửa Diễn đàn> "
+"Thuộc tính Diễn đàn> Thứ tự và nếu giống nhau trong bảng chữ cái </i>"
+
+#: includes/settings_forum_order.php:81
+msgid ""
+"<i>Display forums in the order of recent topics/replies so the most recent "
+"active forum appears at the top etc.</i>"
+msgstr ""
+"<i> Hiển thị các diễn đàn theo thứ tự các chủ đề / câu trả lời gần đây để "
+"diễn đàn hoạt động gần đây nhất xuất hiện ở trên cùng, v.v. </i>"
+
+#: includes/settings_forum_order.php:84
+msgid ""
+"<i>Note : Any forums with no topics will display at the top, so you might "
+"want to post a starter topic in any new forum</i>"
+msgstr ""
+"<i> Lưu ý: Bất kỳ diễn đàn nào không có chủ đề sẽ hiển thị ở trên cùng, vì "
+"vậy bạn có thể muốn đăng một chủ đề bắt đầu trong bất kỳ diễn đàn mới nào "
+"</i>"
+
+#: includes/settings_forum_order.php:88
+msgid "Date Forum Created - newest at top"
+msgstr "Ngày tạo diễn đàn - mới nhất ở trên cùng"
+
+#: includes/settings_forum_order.php:90
+msgid ""
+"<i>Display forums in the order the forum was created, newest at the top.</i>"
+msgstr ""
+"<i> Hiển thị các diễn đàn theo thứ tự diễn đàn đã được tạo, mới nhất ở trên "
+"cùng. </i>"
+
+#: includes/settings_forum_order.php:94
+msgid "Date Forum Created - oldest at top"
+msgstr "Ngày tạo diễn đàn - lâu đời nhất ở trên cùng"
+
+#: includes/settings_forum_order.php:96
+msgid ""
+"<i>Display forums in the order the forum was created, oldest at the top.</i>"
+msgstr ""
+"<i> Hiển thị các diễn đàn theo thứ tự mà diễn đàn đã được tạo, lâu đời nhất "
+"ở trên cùng. </i>"
+
+#: includes/settings_forum_roles.php:16
+msgid ""
+"By default bbpress displays the forum role eg Participant, Moderator, "
+"Keymaster etc. against the username on topics and replies."
+msgstr ""
+"Theo mặc định, bbpress hiển thị vai trò diễn đàn, ví dụ như Người tham gia, "
+"Người điều hành, Người lập trình viên, v.v. so với tên người dùng trên các "
+"chủ đề và câu trả lời."
+
+#: includes/settings_forum_roles.php:19
+msgid ""
+"This tab lets you decide what roles will be displayed, where they are "
+"displayed, what names they are called, and how they are styled"
+msgstr ""
+"Tab này cho phép bạn quyết định những vai trò nào sẽ được hiển thị, chúng "
+"được hiển thị ở đâu, tên chúng được gọi là gì và cách chúng được tạo kiểu"
+
+#: includes/settings_forum_roles.php:22
+msgid ""
+"For instance you may not want to display roles at all, or only display "
+"moderator.  You might also want to change \"keymaster\" to say \"Admin\""
+msgstr ""
+"Ví dụ: bạn có thể không muốn hiển thị các vai trò hoặc chỉ hiển thị người "
+"kiểm duyệt. Bạn cũng có thể muốn thay đổi \"keymaster\" thành \"Admin\""
+
+#: includes/settings_forum_roles.php:43
+msgid "Where to show roles"
+msgstr "Nơi thể hiện vai trò"
+
+#: includes/settings_forum_roles.php:58
+msgid "Click to hide roles"
+msgstr "Nhấp để ẩn vai trò"
+
+#: includes/settings_forum_roles.php:63
+msgid "Click to display before user display name"
+msgstr "Nhấp để hiển thị trước tên hiển thị của người dùng"
+
+#: includes/settings_forum_roles.php:68
+msgid "Click to display after user display name"
+msgstr "Nhấp để hiển thị sau tên hiển thị của người dùng"
+
+#: includes/settings_forum_roles.php:96
+msgid "If you have selected before user display name"
+msgstr "Nếu bạn đã chọn trước tên hiển thị của người dùng"
+
+#: includes/settings_forum_roles.php:113
+msgid "Click to display centered"
+msgstr "Nhấp để hiển thị được căn giữa"
+
+#: includes/settings_forum_roles.php:118
+msgid "Click to display left"
+msgstr "Bấm để hiển thị bên trái"
+
+#: includes/settings_forum_roles.php:146
+msgid "If you have selected after user display name"
+msgstr "Nếu bạn đã chọn sau tên hiển thị của người dùng"
+
+#: includes/settings_forum_roles.php:158
+msgid "Remove Line"
+msgstr "Xóa dòng"
+
+#: includes/settings_forum_roles.php:160
+msgid ""
+"By default bbpress puts a line between the display name and the role. You "
+"can opt to remove this selecting"
+msgstr ""
+"Theo mặc định, bbpress đặt một dòng giữa tên hiển thị và vai trò. Bạn có thể "
+"chọn loại bỏ lựa chọn này"
+
+#: includes/settings_forum_roles.php:177
+msgid "Roles"
+msgstr "Vai trò"
+
+#: includes/settings_forum_roles.php:268
+msgid "Role Name"
+msgstr "Tên vai trò"
+
+#: includes/settings_forum_roles.php:272
+msgid "<i>If you want to change the name - enter it here</i>"
+msgstr "<i> Nếu bạn muốn thay đổi tên - hãy nhập tên vào đây </i>"
+
+#: includes/settings_forum_roles.php:288 includes/settings_forum_roles.php:557
+msgid "Click to hide role"
+msgstr "Nhấp để ẩn vai trò"
+
+#: includes/settings_forum_roles.php:292
+msgid "<i>(Do not display this role)</i>"
+msgstr "<i> (Không hiển thị vai trò này) </i>"
+
+#: includes/settings_forum_roles.php:299 includes/settings_forum_roles.php:562
+msgid "Click to display image"
+msgstr "Nhấp để hiển thị hình ảnh"
+
+#: includes/settings_forum_roles.php:303
+msgid "<i>(Use just an image that you have uploaded)</i>"
+msgstr "<i> (Chỉ sử dụng một hình ảnh mà bạn đã tải lên) </i>"
+
+#: includes/settings_forum_roles.php:310 includes/settings_forum_roles.php:568
+msgid "Click to display name"
+msgstr "Bấm để hiển thị tên"
+
+#: includes/settings_forum_roles.php:314
+msgid "<i>(Use just the role name - with a background color if desired )</i>"
+msgstr "<i> (Chỉ sử dụng tên vai trò - với màu nền nếu muốn) </i>"
+
+#: includes/settings_forum_roles.php:321 includes/settings_forum_roles.php:574
+msgid "Click to display name on top of image"
+msgstr "Nhấp để hiển thị tên trên đầu hình ảnh"
+
+#: includes/settings_forum_roles.php:325
+msgid "<i>(Use the role name superimposed on an image)</i>"
+msgstr "<i> (Sử dụng tên vai trò chồng lên hình ảnh) </i>"
+
+#: includes/settings_forum_roles.php:332 includes/settings_forum_roles.php:580
+msgid "Click to display name below image"
+msgstr "Bấm để hiển thị tên bên dưới hình ảnh"
+
+#: includes/settings_forum_roles.php:336
+msgid "<i>(Use the role name below an image)</i>"
+msgstr "<i> (Sử dụng tên vai trò bên dưới hình ảnh) </i>"
+
+#: includes/settings_forum_roles.php:356
+msgid "Enter the FULL url of the image to use"
+msgstr "Nhập đầy đủ url của hình ảnh để sử dụng"
+
+#: includes/settings_forum_roles.php:360 includes/settings_forum_roles.php:599
+msgid "url"
+msgstr "Đường dẫn"
+
+#: includes/settings_forum_roles.php:369
+msgid "Image height if required eg 50px etc. "
+msgstr "Chiều cao hình ảnh nếu được yêu cầu, ví dụ: 50px, v.v."
+
+#: includes/settings_forum_roles.php:383
+msgid "Image width if required eg 50px etc."
+msgstr "Chiều rộng hình ảnh nếu được yêu cầu, ví dụ: 50px, v.v."
+
+#: includes/settings_forum_roles.php:409
+msgid "<br/>Click to select the font color if required"
+msgstr "<br/> Nhấp để chọn màu phông chữ nếu cần"
+
+#: includes/settings_forum_roles.php:415 includes/settings_forum_roles.php:631
+msgid "<br/>Font color"
+msgstr "<br/> Màu phông chữ"
+
+#: includes/settings_forum_roles.php:425
+msgid "Enter the font to use - default theme font"
+msgstr "Nhập phông chữ để sử dụng - phông chữ chủ đề mặc định"
+
+#: includes/settings_forum_roles.php:439
+msgid "Enter the font size - Default 12px"
+msgstr "Nhập kích thước phông chữ - Mặc định 12px"
+
+#: includes/settings_forum_roles.php:445 includes/settings_forum_roles.php:647
+msgid "Font size"
+msgstr "Cỡ chữ"
+
+#: includes/settings_forum_roles.php:458 includes/settings_forum_roles.php:660
+msgid "Font style"
+msgstr "Kiểu phông chữ"
+
+#: includes/settings_forum_roles.php:472
+msgid "<br/>Click to select the background color if required"
+msgstr "<br/> Nhấp để chọn màu nền nếu cần"
+
+#: includes/settings_forum_roles.php:478 includes/settings_forum_roles.php:672
+msgid "<br/>Background color"
+msgstr "<br/> Màu nền"
+
+#: includes/settings_forum_roles.php:501 includes/settings_forum_roles.php:544
+msgid "Topic Author"
+msgstr "Tác giả chủ đề"
+
+#: includes/settings_forum_roles.php:508
+msgid "Displays this label if the reply is from the original topic author"
+msgstr "Hiển thị nhãn này nếu câu trả lời là từ tác giả chủ đề ban đầu"
+
+#: includes/settings_forum_templates.php:33
+msgid "Default Forum template"
+msgstr "Mẫu diễn đàn mặc định"
+
+#: includes/settings_forum_templates.php:41
+msgid "This is the default template in bbpress"
+msgstr "Đây là mẫu mặc định trong bbpress"
+
+#: includes/settings_forum_templates.php:48
+#: includes/settings_forum_templates.php:92
+msgid "Click to select"
+msgstr "Bấm để chọn"
+
+#: includes/settings_forum_templates.php:51
+msgid "<i>(You can set the sub forum display in the forum display tab)</i>"
+msgstr ""
+"<i> (Bạn có thể đặt hiển thị diễn đàn phụ trong tab hiển thị diễn đàn) </i>"
+
+#: includes/settings_forum_templates.php:72
+msgid "Alternate Forum template 1"
+msgstr "Diễn đàn thay thế mẫu 1"
+
+#: includes/settings_forum_templates.php:80
+msgid ""
+"This alternate version lists the main forums in seperate sections.  Each "
+"Section has a forum of type 'Category' and the forums in that section then "
+"have that category as their parent"
+msgstr ""
+"Phiên bản thay thế này liệt kê các diễn đàn chính trong các phần riêng biệt. "
+"Mỗi Phần có một diễn đàn thuộc loại 'Danh mục' và các diễn đàn trong phần đó "
+"sau đó có danh mục đó làm cha mẹ của chúng"
+
+#: includes/settings_forum_templates.php:106
+msgid "Template Priority"
+msgstr "Mẫu Ưu tiên "
+
+#: includes/settings_forum_templates.php:121
+msgid ""
+"<b>In most cases the templates in this plugin will work.  Only enter a value "
+"here if the template does not work.</b>"
+msgstr ""
+"<b> Trong hầu hết các trường hợp, các mẫu trong plugin này sẽ hoạt động. Chỉ "
+"nhập một giá trị ở đây nếu mẫu không hoạt động. </b>"
+
+#: includes/settings_forum_templates.php:122
+msgid ""
+"In some cases, your theme or other plugins can also change templates and "
+"register different templates. "
+msgstr ""
+"Trong một số trường hợp, chủ đề của bạn hoặc các plugin khác cũng có thể "
+"thay đổi mẫu và đăng ký các mẫu khác nhau."
+
+#: includes/settings_forum_templates.php:123
+msgid ""
+"If this is the case, then you may have to choose between the theme/plugin "
+"template and this plugin's templates"
+msgstr ""
+"Nếu đúng như vậy, bạn có thể phải chọn giữa mẫu chủ đề / plugin và các mẫu "
+"của plugin này"
+
+#: includes/settings_forum_templates.php:124
+msgid ""
+"To get this plugin's templates to load at the right point, you may need to "
+"change its priority."
+msgstr ""
+"Để tải các mẫu của plugin này vào đúng thời điểm, bạn có thể cần phải thay "
+"đổi mức độ ưu tiên của nó."
+
+#: includes/settings_forum_templates.php:125
+msgid ""
+"As your theme and/or other plugins can register any number as priority, you "
+"may need to enter a number higher or lower than this."
+msgstr ""
+"Vì chủ đề của bạn và / hoặc các plugin khác có thể đăng ký bất kỳ số nào làm "
+"mức ưu tiên, bạn có thể cần nhập một số cao hơn hoặc thấp hơn số này."
+
+#: includes/settings_forum_templates.php:126
+msgid ""
+"First try entering 2, then try 20 - one is lower then the default priorities "
+"of 6 and 12, the other higher."
+msgstr ""
+"Trước tiên, hãy thử nhập 2, sau đó thử 20 - một thấp hơn thì ưu tiên mặc "
+"định là 6 và 12, còn lại cao hơn."
+
+#: includes/settings_forum_templates.php:127
+msgid "If that does not work, try 1 then try 100."
+msgstr "Nếu cách đó không hiệu quả, hãy thử 1 rồi thử 100."
+
+#: includes/settings_forum_templates.php:128
+msgid ""
+"Then in turn try all the numbers between 2 and 20 - if say your theme loads "
+"some at one value and another plugin at another value, and you need a value "
+"in between!"
+msgstr ""
+"Sau đó, lần lượt thử tất cả các số từ 2 đến 20 - nếu giả sử chủ đề của bạn "
+"tải một số ở giá trị này và plugin khác ở giá trị khác và bạn cần một giá "
+"trị ở giữa!"
+
+#: includes/settings_forum_templates.php:129
+msgid ""
+"Finally try 1000.  If that does not work, then I have no good suggestions!"
+msgstr ""
+"Cuối cùng hãy thử 1000. Nếu điều đó không hiệu quả, thì tôi không có gợi ý "
+"nào tốt!"
+
+#: includes/settings_freshness_display.php:26
+msgid "This section allows you to amend freshness"
+msgstr "Phần này cho phép bạn sửa đổi độ mới"
+
+#: includes/settings_freshness_display.php:44
+msgid "Activate Freshness display"
+msgstr "Kích hoạt hiển thị Độ tươi"
+
+#: includes/settings_freshness_display.php:55
+msgid "Heading Name"
+msgstr "Tên tiêu đề"
+
+#: includes/settings_freshness_display.php:61
+msgid ""
+"Default : Freshness - if you wish to change enter the heading description eg "
+"\"Last Post\", \"Last updated\", \"Freshness\" \"Last activity\" etc."
+msgstr ""
+"Mặc định: Độ mới - nếu bạn muốn thay đổi, hãy nhập mô tả tiêu đề, ví dụ: "
+"\"Bài đăng cuối cùng\", \"Cập nhật lần cuối\", \"Độ mới\" \"Hoạt động gần "
+"đây nhất\", v.v."
+
+#: includes/settings_freshness_display.php:67
+#: includes/settings_latest_activity_widget_styling.php:135
+msgid "Topic Title"
+msgstr "Tên chủ đề"
+
+#: includes/settings_freshness_display.php:74
+msgid "Click to show Title on forums pages"
+msgstr "Nhấp để hiển thị Tiêu đề trên các trang diễn đàn"
+
+#: includes/settings_freshness_display.php:81
+msgid "Topic Freshness"
+msgstr "Làm mới chủ đề"
+
+#: includes/settings_freshness_display.php:89
+msgid "Click to show Freshness (see 6. below for format)"
+msgstr "Nhấp để hiển thị Độ mới (xem 6. bên dưới để biết định dạng)"
+
+#: includes/settings_freshness_display.php:96
+msgid "Topic Author name"
+msgstr "Chủ đề Tên tác giả"
+
+#: includes/settings_freshness_display.php:104
+msgid "Click to show Author name"
+msgstr "Bấm để hiển thị tên tác giả"
+
+#: includes/settings_freshness_display.php:111
+msgid "Topic Author avatar"
+msgstr "Hình đại diện của tác giả chủ đề"
+
+#: includes/settings_freshness_display.php:119
+msgid "Click to show author avatar"
+msgstr "Nhấp để hiển thị hình đại diện của tác giả"
+
+#: includes/settings_freshness_display.php:126
+msgid "Freshness format"
+msgstr ""
+
+#: includes/settings_freshness_display.php:144
+msgid "Click to show time since last post"
+msgstr "Nhấp để hiển thị thời gian kể từ bài viết cuối cùng"
+
+#: includes/settings_freshness_display.php:147
+msgid "<i>Default</i>"
+msgstr "<i> Mặc định </i>"
+
+#: includes/settings_freshness_display.php:154
+msgid "Click to show date of last post"
+msgstr "Nhấp để hiển thị ngày của bài viết cuối cùng"
+
+#: includes/settings_freshness_display.php:168
+msgid "Date First"
+msgstr "Ngày đầu tiên"
+
+#: includes/settings_freshness_display.php:181
+msgid "Time First"
+msgstr "Lần đầu tiên"
+
+#: includes/settings_freshness_display.php:192
+msgid "Separator"
+msgstr "Dấu phân cách"
+
+#: includes/settings_freshness_display.php:196
+msgid "eg \" at \" \",\" \":\" - do not forget to include any spaces needed"
+msgstr ""
+"ví dụ: \"at\" \",\" \":\" - đừng quên thêm bất kỳ khoảng trắng nào cần thiết"
+
+#: includes/settings_freshness_display.php:208
+#: includes/settings_freshness_display.php:218
+msgid "Date Format"
+msgstr "Định dạng ngày tháng"
+
+#: includes/settings_freshness_display.php:230
+msgid "F j, Y"
+msgstr ""
+
+#: includes/settings_freshness_display.php:247
+#: includes/settings_freshness_display.php:299
+msgid "Custom:"
+msgstr "Tùy chỉnh:"
+
+#: includes/settings_freshness_display.php:247
+msgid "enter a custom date format in the following field"
+msgstr "nhập định dạng ngày tùy chỉnh vào trường sau"
+
+#: includes/settings_freshness_display.php:248
+msgid "Custom date format:"
+msgstr "Định dạng ngày tùy chỉnh:"
+
+#: includes/settings_freshness_display.php:250
+#: includes/settings_freshness_display.php:302
+msgid "example:"
+msgstr "Ví dụ:"
+
+#: includes/settings_freshness_display.php:263
+#: includes/settings_freshness_display.php:276
+msgid "Time Format"
+msgstr "Định dạng thời gian"
+
+#: includes/settings_freshness_display.php:281
+msgid "g:i a"
+msgstr ""
+
+#: includes/settings_freshness_display.php:299
+msgid "enter a custom time format in the following field"
+msgstr "nhập định dạng thời gian tùy chỉnh vào trường sau"
+
+#: includes/settings_freshness_display.php:300
+msgid "Custom time format:"
+msgstr "Định dạng thời gian tùy chỉnh:"
+
+#: includes/settings_freshness_display.php:305
+msgid ""
+"<a href=\"https://codex.wordpress.org/Formatting_Date_and_Time\" "
+"target=\"_blank\">"
+msgstr ""
+
+#: includes/settings_freshness_display.php:306
+msgid "Documentation on date and time formatting"
+msgstr "Tài liệu về định dạng ngày và giờ"
+
+#: includes/settings_import.php:5
+msgid "Import BBP Style Pack Settings"
+msgstr "Nhập cài đặt gói kiểu BBP"
+
+#: includes/settings_import.php:6
+msgid ""
+"Warning - the uploaded file will overwrite your current Style Pack settings"
+msgstr "Cảnh báo - tệp đã tải lên sẽ ghi đè cài đặt Gói Kiểu hiện tại của bạn"
+
+#: includes/settings_import.php:16
+msgid ""
+"If you have exported settings to a file using the 'Export plugin settings' "
+"tab, you can import that file here."
+msgstr ""
+"Nếu bạn đã xuất cài đặt sang tệp bằng tab 'Xuất cài đặt plugin', bạn có thể "
+"nhập tệp đó tại đây."
+
+#: includes/settings_import.php:17
+msgid ""
+"Choose a JSON (.json) file to upload, then click Upload file and import."
+msgstr "Chọn tệp JSON (.json) để tải lên, sau đó nhấp vào Tải tệp lên và nhập."
+
+#: includes/settings_import.php:25
+msgid "Return to BBP Style Pack settings"
+msgstr "Quay lại cài đặt BBP Style Pack"
+
+#: includes/settings_import.php:46 includes/settings_import.php:53
+#: includes/settings_import.php:63 includes/settings_import.php:71
+msgid "Sorry, there has been an error."
+msgstr "Xin lỗi, đã có một lỗi."
+
+#: includes/settings_import.php:54
+msgid "The file did not upload properly. Please try again."
+msgstr "Tệp không được tải lên đúng cách. Vui lòng thử lại."
+
+#: includes/settings_import.php:64
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Không thể tìm thấy tệp xuất tại <code>% s </code>. Có khả năng điều này là "
+"do sự cố về quyền."
+
+#: includes/settings_import.php:72
+msgid "The path is not a file, please try again."
+msgstr "Đường dẫn không phải là tệp, vui lòng thử lại."
+
+#: includes/settings_import.php:97
+msgid ""
+"Sorry, there has been an error. This file may not contain data or is corrupt."
+msgstr ""
+"Xin lỗi, đã có một lỗi. Tệp này có thể không chứa dữ liệu hoặc bị hỏng."
+
+#: includes/settings_import.php:101
+#, php-format
+msgid ""
+"This JSON file (version %s) is not supported by this version of the importer."
+" Please update the plugin on the source, or download an older version of the "
+"plugin to this installation."
+msgstr ""
+"Tệp JSON này (phiên bản% s) không được phiên bản trình nhập này hỗ trợ. Vui "
+"lòng cập nhật plugin trên nguồn hoặc tải xuống phiên bản plugin cũ hơn để "
+"cài đặt này."
+
+#: includes/settings_import.php:106
+msgid ""
+"Sorry, there has been an error. This file appears valid, but does not seem "
+"to have any options."
+msgstr ""
+"Xin lỗi, đã có một lỗi. Tệp này có vẻ hợp lệ, nhưng dường như không có bất "
+"kỳ tùy chọn nào."
+
+#: includes/settings_import.php:155
+msgid "All done !"
+msgstr "Tất cả đã được làm xong !"
+
+#: includes/settings_import.php:171
+msgid "BBP Style Pack settings"
+msgstr "Cài đặt BBP Style Pack"
+
+#: includes/settings_import.php:171
+msgid "Import BBP Style Pack settings from a JSON file"
+msgstr "Nhập cài đặt BBP Style Pack từ tệp JSON"
+
+#: includes/settings_latest_activity_widget_styling.php:50
+#: includes/settings_latest_activity_widget_styling.php:51
+msgid "Widget Title"
+msgstr "Tên tiện ích"
+
+#: includes/settings_latest_activity_widget_styling.php:93
+#: includes/settings_latest_activity_widget_styling.php:246
+#: includes/settings_latest_activity_widget_styling.php:397
+#: includes/settings_latest_activity_widget_styling.php:529
+#: includes/settings_latest_activity_widget_styling.php:544
+#: includes/settings_latest_activity_widget_styling.php:559
+msgid ""
+"Click to set color - You can select from palette or enter hex value- see "
+"help for further info"
+msgstr ""
+"Nhấp để đặt màu - Bạn có thể chọn từ bảng màu hoặc nhập giá trị hex- xem trợ "
+"giúp để biết thêm thông tin"
+
+#: includes/settings_latest_activity_widget_styling.php:136
+msgid "Topic/Reply Title"
+msgstr "Chủ đề / Tiêu đề Trả lời"
+
+#: includes/settings_latest_activity_widget_styling.php:203
+msgid "Text Font"
+msgstr "Phông chữ"
+
+#: includes/settings_latest_activity_widget_styling.php:288
+msgid "Topic/reply Author Font"
+msgstr "Chủ đề / câu trả lời Phông chữ tác giả"
+
+#: includes/settings_latest_activity_widget_styling.php:439
+msgid "Forum Font"
+msgstr "Phông chữ Diễn đàn"
+
+#: includes/settings_latest_activity_widget_styling.php:505
+msgid "Topic/reply links, Author links, and forum link colors"
+msgstr "Liên kết chủ đề / trả lời, liên kết tác giả và màu liên kết diễn đàn"
+
+#: includes/settings_latest_activity_widget_styling.php:569
+msgid "Avatar"
+msgstr "hình đại diện"
+
+#: includes/settings_latest_activity_widget_styling.php:585
+msgid "Default 14px "
+msgstr "14px mặc định"
+
+#: includes/settings_login.php:9
+msgid "Login options"
+msgstr "Tùy chọn đăng nhập"
+
+#: includes/settings_login.php:12
+msgid "There are many ways to get users logged into forums."
+msgstr "Có nhiều cách để người dùng đăng nhập vào diễn đàn."
+
+#: includes/settings_login.php:16
+msgid ""
+"a. Remember bbPress just uses the wordpress login, so any plugin that does "
+"wordpress login will also do bbPress.There are lots out there go to"
+msgstr ""
+"a.Hãy nhớ rằng bbPress chỉ sử dụng đăng nhập wordpress, vì vậy bất kỳ plugin "
+"nào đăng nhập wordpress cũng sẽ thực hiện bbPress."
+
+#: includes/settings_login.php:20
+msgid ""
+"b. Within bbPress you can use the sidebar login widget Dashboard>appearance>"
+"widgets and look for (bbpress) Login widget"
+msgstr ""
+"b.Trong bbPress, bạn có thể sử dụng tiện ích đăng nhập thanh bên Trang tổng "
+"quan> giao diện> tiện ích và tìm (bbpress) Tiện ích đăng nhập"
+
+#: includes/settings_login.php:23
+msgid ""
+"c. Or use a page or post to display the widget using the shortcode  [bbp-"
+"login]"
+msgstr ""
+"C. Hoặc sử dụng một trang hoặc bài đăng để hiển thị tiện ích con bằng "
+"shortcode [bbp-login]"
+
+#: includes/settings_login.php:26
+msgid ""
+"d. The following adds a simple login/logout to your menu and/or "
+"Register/Edit Profile"
+msgstr ""
+"d.Phần sau thêm đăng nhập / đăng xuất đơn giản vào menu của bạn và / hoặc "
+"Đăng ký / Chỉnh sửa hồ sơ"
+
+#: includes/settings_login.php:29
+msgid ""
+"This can the give you the combination of 'login/Register' and 'logout/edit "
+"profile' as a menu display, which means users only see relevant items"
+msgstr ""
+"Điều này có thể cung cấp cho bạn sự kết hợp của 'đăng nhập / Đăng ký' và "
+"'đăng xuất / chỉnh sửa hồ sơ' dưới dạng hiển thị menu, có nghĩa là người "
+"dùng chỉ nhìn thấy các mục có liên quan"
+
+#: includes/settings_login.php:43
+msgid "Not Logged in"
+msgstr "Chưa đăng nhập"
+
+#: includes/settings_login.php:46
+msgid "Logged in "
+msgstr "Đã Đăng nhập"
+
+#: includes/settings_login.php:69
+msgid "Add login/logout to menu items"
+msgstr "Thêm đăng nhập / đăng xuất vào các mục menu"
+
+#: includes/settings_login.php:73
+msgid "Login menu item description"
+msgstr "Mô tả mục menu đăng nhập"
+
+#: includes/settings_login.php:74
+msgid "Logout menu item description"
+msgstr "Mô tả mục menu đăng xuất"
+
+#: includes/settings_login.php:75
+msgid "Login menu item css class"
+msgstr "Mục menu đăng nhập css class"
+
+#: includes/settings_login.php:76
+msgid "Logout menu item css class"
+msgstr "Mục menu đăng xuất css class"
+
+#: includes/settings_login.php:109
+msgid ""
+"Default \"Login\" Enter the words you want on the menu item eg \"log in\", "
+"\"sign in\" etc."
+msgstr ""
+"Mặc định \"Đăng nhập\" Nhập các từ bạn muốn vào mục menu, ví dụ: \"đăng "
+"nhập\", \"đăng nhập\", v.v."
+
+#: includes/settings_login.php:121 includes/settings_login.php:145
+#: includes/settings_login.php:369 includes/settings_login.php:460
+msgid ""
+"If you need a custom css class enter this here - if you do not understand "
+"this, then just leave it blank!"
+msgstr ""
+"Nếu bạn cần một lớp css tùy chỉnh, hãy nhập vào đây - nếu bạn không hiểu "
+"điều này, thì hãy để trống!"
+
+#: includes/settings_login.php:133
+msgid ""
+"Default \"Logout\" Enter the words you want on the menu item eg \"Log out\", "
+"\"Sign out\" etc."
+msgstr ""
+"Mặc định \"Đăng xuất\" Nhập các từ bạn muốn vào mục menu, ví dụ: \"Đăng "
+"xuất\", \"Đăng xuất\", v.v."
+
+#: includes/settings_login.php:153
+msgid "You can opt to only show these menu items on forum pages"
+msgstr "Bạn có thể chọn chỉ hiển thị các mục menu này trên các trang diễn đàn"
+
+#: includes/settings_login.php:163 includes/settings_login.php:296
+#: includes/settings_login.php:405
+msgid "Only show on forum pages"
+msgstr "Chỉ hiển thị trên các trang diễn đàn"
+
+#: includes/settings_login.php:171
+msgid "You can opt to only show these menu items on the primary menu"
+msgstr "Bạn có thể chọn chỉ hiển thị các mục menu này trên menu chính"
+
+#: includes/settings_login.php:181 includes/settings_login.php:313
+#: includes/settings_login.php:423
+msgid "Only show on the primary menu"
+msgstr "Chỉ hiển thị trên menu chính"
+
+#: includes/settings_login.php:190
+msgid "Login/logout"
+msgstr "Đăng nhập/Đăng xuất"
+
+#: includes/settings_login.php:191 includes/settings_topics_index.php:998
+#: includes/settings_topic_reply_display.php:1099
+msgid "Login page"
+msgstr "Trang đăng nhập"
+
+#: includes/settings_login.php:192
+msgid "Logout page"
+msgstr "Trang đăng xuất"
+
+#: includes/settings_login.php:193
+msgid "Logged in text"
+msgstr "Đã đăng nhập bằng văn bản"
+
+#: includes/settings_login.php:194
+msgid "Logged in redirect"
+msgstr "Đã đăng nhập chuyển hướng"
+
+#: includes/settings_login.php:217 includes/settings_topics_index.php:1021
+#: includes/settings_topic_reply_display.php:1122
+msgid ""
+"You should create a wordpress page with a login shortcode such as [bbp-login]"
+" and put the full url in here e.g. http://www.mysite.com/loginpage. If left "
+"blank the default wordpress login page will be used."
+msgstr ""
+"Bạn nên tạo một trang wordpress với shortcode đăng nhập chẳng hạn như [bbp-"
+"login] và đặt url đầy đủ vào đây, ví dụ: http://www.mysite.com/loginpage. "
+"Nếu để trống trang đăng nhập wordpress mặc định sẽ được sử dụng."
+
+#: includes/settings_login.php:229
+msgid ""
+"This will be the url of the page you want users sent to on logout. For "
+"example this might be the home page or forums page http://www.mysite."
+"com/home or http://www.mysite.com/forums"
+msgstr ""
+"Đây sẽ là url của trang mà bạn muốn người dùng gửi đến khi đăng xuất. Ví dụ: "
+"đây có thể là trang chủ hoặc trang diễn đàn http://www.mysite.com/home hoặc "
+"http://www.mysite.com/forums"
+
+#: includes/settings_login.php:241
+msgid ""
+"If you are using [bbp-login], then users will get \"you are already logged "
+"in\" once they log in.  Maybe change this to something nicer such as \"You "
+"are currently logged in\" "
+msgstr ""
+"Nếu bạn đang sử dụng [bbp-login], thì người dùng sẽ nhận được \"bạn đã đăng "
+"nhập\" sau khi họ đăng nhập. Có thể thay đổi cài đặt này thành một cái gì đó "
+"đẹp hơn, chẳng hạn như \"Bạn hiện đang đăng nhập\""
+
+#: includes/settings_login.php:261
+msgid ""
+"If you are using [bbp-login], then if you enter a full url of a page, users "
+"will be redirected to that page instead of getting the \"you are already "
+"logged in\" above"
+msgstr ""
+"Nếu bạn đang sử dụng [bbp-login], thì nếu bạn nhập url đầy đủ của một trang, "
+"người dùng sẽ được chuyển hướng đến trang đó thay vì nhận được thông báo "
+"\"bạn đã đăng nhập\" ở trên"
+
+#: includes/settings_login.php:268
+msgid "Show a menu 'Register' item to non-logged in users"
+msgstr "Hiển thị mục 'Đăng ký' trong menu cho người dùng chưa đăng nhập"
+
+#: includes/settings_login.php:286
+msgid "You can opt to only show register menu item on forum pages"
+msgstr "Bạn có thể chọn chỉ hiển thị mục menu đăng ký trên các trang diễn đàn"
+
+#: includes/settings_login.php:304
+msgid "You can opt to only show register menu item on the primary menu"
+msgstr "Bạn có thể chọn chỉ hiển thị mục menu đăng ký trên menu chính"
+
+#: includes/settings_login.php:322
+msgid "Register Page"
+msgstr "Trang đăng ký"
+
+#: includes/settings_login.php:323 includes/settings_topics_index.php:1054
+#: includes/settings_topic_reply_display.php:1155
+msgid "Register page"
+msgstr "Đăng ký trang"
+
+#: includes/settings_login.php:324 includes/settings_login.php:432
+msgid "Menu Item Description"
+msgstr "Menu Mục Mô tả"
+
+#: includes/settings_login.php:325
+msgid "Register item css class"
+msgstr "Đăng ký hạng mục css"
+
+#: includes/settings_login.php:345
+msgid ""
+"You should create a wordpress page with a register shortcode such as [bbp-"
+"register] and put the full url in here e.g. http://www.mysite.com/loginpage. "
+"If left blank the default wordpress login page will be used."
+msgstr ""
+"Bạn nên tạo một trang wordpress với shortcode đăng ký chẳng hạn như [bbp-"
+"register] và đặt url đầy đủ vào đây, ví dụ: http://www.mysite.com/loginpage. "
+"Nếu để trống trang đăng nhập wordpress mặc định sẽ được sử dụng."
+
+#: includes/settings_login.php:357
+msgid ""
+"Default \"Register\" Enter the words you want on the menu item eg \"Sign-"
+"up\", \"Join this group\" etc."
+msgstr ""
+"Mặc định \"Đăng ký\" Nhập các từ bạn muốn vào mục menu, ví dụ: \"Đăng ký\", "
+"\"Tham gia nhóm này\", v.v."
+
+#: includes/settings_login.php:377
+msgid "Show a menu 'Edit profile' item to logged in users"
+msgstr "Hiển thị mục 'Chỉnh sửa hồ sơ' trong menu cho người dùng đã đăng nhập"
+
+#: includes/settings_login.php:395
+msgid "You can opt to only show profile menu item on forum pages"
+msgstr "Bạn có thể chọn chỉ hiển thị mục menu hồ sơ trên các trang diễn đàn"
+
+#: includes/settings_login.php:413
+msgid "You can opt to only show profile menu item on the primary menu"
+msgstr "Bạn có thể chọn chỉ hiển thị mục menu hồ sơ trên menu chính"
+
+#: includes/settings_login.php:433
+msgid "Profile item css class"
+msgstr "Hạng mục hồ sơ css"
+
+#: includes/settings_login.php:448
+msgid ""
+"Default \"Edit Profile\" Enter the words you want on the menu item eg \"Edit "
+"your Profile\", \"Change your settings\",  etc. "
+msgstr ""
+"Mặc định \"Chỉnh sửa Hồ sơ\" Nhập các từ bạn muốn vào mục menu, ví dụ: "
+"\"Chỉnh sửa Hồ sơ của bạn\", \"Thay đổi cài đặt của bạn\", v.v."
+
+#: includes/settings_profile.php:11
+msgid "Profile Settings"
+msgstr "Cài đặt cấu hình"
+
+#: includes/settings_profile.php:23
+msgid "Turn off Profiles"
+msgstr "Tắt hồ sơ"
+
+#: includes/settings_profile.php:26
+msgid ""
+"You can choose to allow all users to see profiles, or only show profiles to "
+"logged in users, or turn off all profiles."
+msgstr ""
+"Bạn có thể chọn cho phép tất cả người dùng xem hồ sơ hoặc chỉ hiển thị hồ sơ "
+"cho những người dùng đã đăng nhập hoặc tắt tất cả hồ sơ."
+
+#: includes/settings_profile.php:29
+msgid "NOTE: Keymaster role will always be able to see all profiles"
+msgstr "LƯU Ý: Vai trò Keymaster sẽ luôn có thể xem tất cả các cấu hình"
+
+#: includes/settings_profile.php:46
+msgid "Show Profiles to everyone"
+msgstr "Hiển thị hồ sơ cho mọi người"
+
+#: includes/settings_profile.php:49
+msgid "<i>This is the default in bbpress.</i>"
+msgstr "<i> Đây là cài đặt mặc định trong bbpress. </i>"
+
+#: includes/settings_profile.php:61
+msgid "Show Profiles only to logged in users"
+msgstr "Chỉ hiển thị Hồ sơ cho người dùng đã đăng nhập"
+
+#: includes/settings_profile.php:73
+msgid "Show only users own Profile"
+msgstr "Chỉ hiển thị Hồ sơ của người dùng"
+
+#: includes/settings_profile.php:85
+msgid "Turn off all Profiles"
+msgstr "Tắt tất cả Hồ sơ"
+
+#: includes/settings_profile.php:98
+msgid ""
+"If you have selected other than \"Show only users own Profile\"  or \"Turn "
+"off all Profiles\", then click if you wish moderators to see all profiles"
+msgstr ""
+"Nếu bạn đã chọn ngoài \"Chỉ hiển thị hồ sơ của chính người dùng\" hoặc \"Tắt "
+"tất cả hồ sơ\", hãy nhấp vào nếu bạn muốn người kiểm duyệt xem tất cả hồ sơ"
+
+#: includes/settings_profile.php:100
+msgid "Allow moderators to see all profiles"
+msgstr "Cho phép người kiểm duyệt xem tất cả hồ sơ"
+
+#: includes/settings_profile.php:111
+msgid "Gravatars"
+msgstr ""
+
+#: includes/settings_profile.php:116
+msgid ""
+"BBpress uses Gravatar for avatars.  Unless you have activated a plugin that "
+"allows users to upload avatars, then your users will need user the Gravatar "
+"system. "
+msgstr ""
+"BBpress sử dụng Gravatar cho ảnh đại diện. Trừ khi bạn đã kích hoạt một "
+"plugin cho phép người dùng tải ảnh đại diện lên, khi đó người dùng của bạn "
+"sẽ cần người dùng hệ thống Gravatar."
+
+#: includes/settings_profile.php:119
+msgid ""
+"This feature allows you to tell them about this when they visit their "
+"profile page"
+msgstr ""
+"Tính năng này cho phép bạn nói với họ về điều này khi họ truy cập trang hồ "
+"sơ của họ"
+
+#: includes/settings_profile.php:130
+msgid "Show a gravatar link on the profile page"
+msgstr "Hiển thị liên kết gravatar trên trang hồ sơ"
+
+#: includes/settings_profile.php:148
+msgid "Gravatar Label"
+msgstr "Nhãn Gravatar"
+
+#: includes/settings_profile.php:149
+msgid "Gravatar Description"
+msgstr "Mô tả Gravatar"
+
+#: includes/settings_profile.php:150
+msgid "Gravatar URL"
+msgstr "Đường dẫn Gravatar"
+
+#: includes/settings_profile.php:151
+msgid "Gravatar URL Description"
+msgstr "Mô tả URL Gravatar"
+
+#: includes/settings_profile.php:175
+msgid "Enter the label name"
+msgstr "Nhập tên nhãn"
+
+#: includes/settings_profile.php:191
+msgid "Enter any text eg \"Manage your profile picture at\""
+msgstr "Nhập bất kỳ văn bản nào, ví dụ: \"Quản lý ảnh hồ sơ của bạn tại\""
+
+#: includes/settings_profile.php:207
+msgid ""
+"You should create either a wordpress page with gravatar instructions or link "
+"to gravatar eg http://www.mysite.com/gravatar-explanation-page or https://en."
+"gravatar.com/"
+msgstr ""
+"Bạn nên tạo một trang wordpress có hướng dẫn gravatar hoặc liên kết tới "
+"gravatar, ví dụ: http://www.mysite.com/gravatar-explanation-page hoặc https:"
+"//en.gravatar.com/"
+
+#: includes/settings_profile.php:223
+msgid ""
+"Enter text you want this link to show eg \"click here\" or \"https://en."
+"gravatar.com/\""
+msgstr ""
+"Nhập văn bản bạn muốn liên kết này hiển thị, ví dụ: \"nhấp vào đây\" hoặc "
+"\"https://en.gravatar.com/\""
+
+#: includes/settings_profile.php:238
+msgid "Possible wording that you might use on a wordpress page"
+msgstr "Từ ngữ có thể có mà bạn có thể sử dụng trên một trang wordpress"
+
+#: includes/settings_profile.php:240
+msgid ""
+"This site uses <em>Gravatar</em> to display avatars. if you already have a "
+"<em>Gravatar</em> account with your email for this site, then it will "
+"display on your forum posts; it can take a few hours before the link is "
+"established the first time."
+msgstr ""
+"Trang web này sử dụng <em> Gravatar </em> để hiển thị hình đại diện. nếu bạn "
+"đã có tài khoản <em> Gravatar </em> với email của mình cho trang web này, "
+"thì tài khoản này sẽ hiển thị trên các bài đăng trên diễn đàn của bạn; có "
+"thể mất vài giờ trước khi liên kết được thiết lập lần đầu tiên."
+
+#: includes/settings_profile.php:243
+msgid "What is an Avatar?"
+msgstr "Avatar là gì?"
+
+#: includes/settings_profile.php:246
+msgid ""
+"When you post, you'll see the default avatar beside your name. You can "
+"change this to any image you wish (providing it's decent!).  Many people "
+"have a picture of themselves, or their family or anything that represents "
+"your ego or character."
+msgstr ""
+"Khi đăng bài, bạn sẽ thấy hình đại diện mặc định bên cạnh tên của mình. Bạn "
+"có thể thay đổi điều này thành bất kỳ hình ảnh nào bạn muốn (miễn là nó phù "
+"hợp!). Nhiều người có một bức ảnh của họ, hoặc gia đình của họ hoặc bất cứ "
+"điều gì đại diện cho bản ngã hoặc tính cách của bạn."
+
+#: includes/settings_profile.php:249
+msgid "Changing from the default avatar."
+msgstr "Thay đổi từ hình đại diện mặc định."
+
+#: includes/settings_profile.php:252
+msgid ""
+"The site uses Gravatar.  The Gravatar site stores you avatar against your "
+"email address."
+msgstr ""
+"Trang web sử dụng Gravatar. Trang Gravatar lưu trữ hình đại diện của bạn dựa "
+"trên địa chỉ email của bạn."
+
+#: includes/settings_profile.php:254
+msgid ""
+"This allows you to have a single image that many websites can use without "
+"you needing to add it or change it on each site."
+msgstr ""
+"Điều này cho phép bạn có một hình ảnh duy nhất mà nhiều trang web có thể sử "
+"dụng mà bạn không cần thêm hoặc thay đổi hình ảnh đó trên mỗi trang web."
+
+#: includes/settings_profile.php:256
+msgid ""
+"Since this site knows your email address (through your profile), this site "
+"can pick up the avatar stored with Gravatar."
+msgstr ""
+"Vì trang web này biết địa chỉ email của bạn (thông qua hồ sơ của bạn), trang "
+"web này có thể lấy hình đại diện được lưu trữ bằng Gravatar."
+
+#: includes/settings_profile.php:258
+msgid ""
+"If you are not already signed up with Gravatar, then follow <a href=\"https:"
+"//en.gravatar.com/site/signup\" target=\"_blank\">this link</a> to register "
+"your email address and avatar with them.  This site will then pick up that "
+"avatar and display it against your post. It can take a few hours before the "
+"link is established the first time."
+msgstr ""
+"Nếu bạn chưa đăng ký Gravatar, hãy nhấp vào <a href=\"https://en.gravatar."
+"com/site/signup\" target=\"_blank\"> liên kết này </a> để đăng ký địa chỉ "
+"email và hình đại diện của bạn với họ. Trang web này sau đó sẽ chọn ảnh đại "
+"diện đó và hiển thị nó trên bài đăng của bạn. Có thể mất vài giờ trước khi "
+"liên kết được thiết lập lần đầu tiên."
+
+#: includes/settings_profile.php:261
+msgid "Confused?"
+msgstr "Bối rối?"
+
+#: includes/settings_profile.php:263
+msgid ""
+"Don't worry - if you're happy with the default avatar against your name, you "
+"need to do nothing further !"
+msgstr ""
+"Đừng lo lắng - nếu bạn hài lòng với hình đại diện mặc định so với tên của "
+"mình, bạn không cần phải làm gì thêm!"
+
+#: includes/settings_reset.php:17
+msgid "Reset Settings"
+msgstr "Đặt lại cài đặt"
+
+#: includes/settings_reset.php:25
+msgid "This section allows you to reset any or all of the tabs in this plugin"
+msgstr ""
+"Phần này cho phép bạn đặt lại bất kỳ hoặc tất cả các tab trong plugin này"
+
+#: includes/settings_reset.php:30
+msgid ""
+"WARNING - RESETTING deletes data for the tab(s) selected - use with care !"
+msgstr ""
+"CẢNH BÁO - ĐẶT LẠI sẽ xóa dữ liệu cho (các) tab đã chọn - hãy sử dụng cẩn "
+"thận!"
+
+#: includes/settings_reset.php:54 includes/settings_reset.php:69
+#: includes/settings_reset.php:84 includes/settings_reset.php:99
+#: includes/settings_reset.php:114 includes/settings_reset.php:129
+#: includes/settings_reset.php:144 includes/settings_reset.php:159
+#: includes/settings_reset.php:174 includes/settings_reset.php:189
+#: includes/settings_reset.php:204 includes/settings_reset.php:219
+#: includes/settings_reset.php:234 includes/settings_reset.php:249
+#: includes/settings_reset.php:264 includes/settings_reset.php:279
+#: includes/settings_reset.php:294
+msgid "Click to reset"
+msgstr "Bấm để đặt lại"
+
+#: includes/settings_reset.php:197
+msgid "Topic/Reply styling"
+msgstr "Chủ đề / kiểu trả lời"
+
+#: includes/settings_reset.php:257
+msgid "Latest Activity Widget Styling"
+msgstr "Tạo kiểu tiện ích hoạt động mới nhất"
+
+#: includes/settings_search.php:26
+msgid "This section allows you to amend the search styling."
+msgstr "Phần này cho phép bạn sửa đổi kiểu tìm kiếm."
+
+#: includes/settings_search.php:30
+msgid ""
+"This will change the styling both on the main forum and in the search widget"
+msgstr ""
+"Điều này sẽ thay đổi kiểu cả trên diễn đàn chính và trong tiện ích tìm kiếm"
+
+#: includes/settings_search.php:55
+msgid "Search Content"
+msgstr "Tìm kiếm Nội dung"
+
+#: includes/settings_search.php:57 includes/settings_search.php:180
+msgid "Line Height"
+msgstr "Chiều cao giữa các dòng"
+
+#: includes/settings_search.php:91 includes/settings_search.php:215
+#: includes/settings_search.php:265
+msgid "Default 24px - This will let you set the height of the box"
+msgstr "Mặc định 24px - Điều này sẽ cho phép bạn đặt chiều cao của hộp"
+
+#: includes/settings_search.php:103
+msgid "Search Content Text"
+msgstr "Nội dung Tìm kiếm Văn bản"
+
+#: includes/settings_search.php:129 includes/settings_search.php:253
+msgid "Default 15px - see help for further info"
+msgstr "15px mặc định - xem trợ giúp để biết thêm thông tin"
+
+#: includes/settings_search.php:178
+msgid "Search Box"
+msgstr "Hộp tìm kiếm"
+
+#: includes/settings_search.php:227
+msgid "Search Box Text"
+msgstr "Văn bản Hộp Tìm kiếm"
+
+#: includes/settings_search.php:301
+msgid "Search Text"
+msgstr "Tìm kiếm văn bản"
+
+#: includes/settings_search.php:307
+msgid ""
+"Default : Search - if you wish to change enter the description eg \"Search "
+"Forums\", etc."
+msgstr ""
+"Mặc định: Tìm kiếm - nếu bạn muốn thay đổi, hãy nhập mô tả, ví dụ: \"Tìm "
+"kiếm trong diễn đàn\", v.v."
+
+#: includes/settings_search.php:326
+msgid "Searching Message"
+msgstr "Tìm kiếm tin nhắn"
+
+#: includes/settings_search.php:330 includes/settings_topic_reply_form.php:263
+msgid "Spinner"
+msgstr ""
+
+#: includes/settings_search.php:341
+msgid ""
+"You can set the search to display a different message once it is pressed eg "
+"\"Searching\". This will let the user know that they have sucessfully "
+"clicked the search."
+msgstr ""
+"Bạn có thể đặt tìm kiếm để hiển thị một thông báo khác sau khi nó được nhấn, "
+"chẳng hạn như \"Đang tìm kiếm\". Điều này sẽ cho người dùng biết rằng họ đã "
+"nhấp vào tìm kiếm thành công."
+
+#: includes/settings_search.php:362
+msgid "eg Searching, Processing, Search in progress etc"
+msgstr "ví dụ: Tìm kiếm, Đang xử lý, Tìm kiếm đang tiến hành, v.v."
+
+#: includes/settings_search.php:363 includes/settings_topic_reply_form.php:294
+msgid ""
+"If you just want the spinner below (ie no text), then put a space character "
+"in this section and activate the spinner below"
+msgstr ""
+"Nếu bạn chỉ muốn con quay bên dưới (tức là không có văn bản), thì hãy đặt "
+"một ký tự khoảng trắng vào phần này và kích hoạt con quay bên dưới"
+
+#: includes/settings_search.php:369 includes/settings_topic_reply_form.php:301
+msgid ""
+"You can also select to display a spinner in addition to the above. This may "
+"rotate dependant on both client PC and server performance"
+msgstr ""
+"Bạn cũng có thể chọn hiển thị một con quay ngoài những cách trên. Điều này "
+"có thể xoay vòng tùy thuộc vào cả hiệu suất của máy khách và máy chủ"
+
+#: includes/settings_search.php:381 includes/settings_topic_reply_form.php:313
+msgid "Click to activate spinner"
+msgstr "Nhấp để kích hoạt spinner"
+
+#: includes/settings_search.php:388
+msgid "Change empty search message"
+msgstr "Thay đổi thông báo tìm kiếm trống"
+
+#: includes/settings_search.php:394
+msgid "Default : Oh bother! No search results were found here!"
+msgstr "Mặc định: Ồ phiền! Không có kết quả tìm kiếm được tìm thấy ở đây!"
+
+#: includes/settings_shortcodes.php:12
+msgid "Additional Shortcodes"
+msgstr "Các mã ngắn bổ sung"
+
+#: includes/settings_shortcodes.php:18
+msgid ""
+"Displays the latest topics, optionally from a forum or forums - see below "
+"for detailed explanation "
+msgstr ""
+"Hiển thị các chủ đề mới nhất, tùy chọn từ một diễn đàn hoặc các diễn đàn - "
+"xem bên dưới để giải thích chi tiết"
+
+#: includes/settings_shortcodes.php:21
+msgid ""
+"Displays the selected forum indexes - see below for detailed explanation"
+msgstr ""
+"Hiển thị các chỉ mục diễn đàn đã chọn - xem bên dưới để biết giải thích chi "
+"tiết"
+
+#: includes/settings_shortcodes.php:23
+msgid ""
+"Displays the newest users together with their joining date in a table - see "
+"below for detailed explanation"
+msgstr ""
+"Hiển thị những người dùng mới nhất cùng với ngày tham gia của họ trong bảng -"
+" xem bên dưới để biết giải thích chi tiết"
+
+#: includes/settings_shortcodes.php:25
+msgid ""
+"Displays the number of users subscribed to a forum - see below for detailed "
+"explanation"
+msgstr ""
+"Hiển thị số lượng người dùng đã đăng ký vào một diễn đàn - xem bên dưới để "
+"biết giải thích chi tiết"
+
+#: includes/settings_shortcodes.php:27
+msgid "Displays the label and a link to user profile page"
+msgstr "Hiển thị nhãn và liên kết đến trang hồ sơ người dùng"
+
+#: includes/settings_shortcodes.php:31
+msgid "Display latest Topics"
+msgstr "Hiển thị các Chủ đề mới nhất"
+
+#: includes/settings_shortcodes.php:34
+msgid ""
+"To display the latest topics and optionally limit the number displayed, "
+"display from a single forum, show those with no replies, show stickies, or "
+"have just the bare minimum."
+msgstr ""
+"Để hiển thị các chủ đề mới nhất và tùy chọn giới hạn số lượng hiển thị, hiển "
+"thị từ một diễn đàn duy nhất, hiển thị những chủ đề không có câu trả lời, "
+"hiển thị dính hoặc chỉ có mức tối thiểu."
+
+#: includes/settings_shortcodes.php:38
+msgid ""
+"To show all topics in latest order use the shortcode [bsp-display-topic-"
+"index] "
+msgstr ""
+"Để hiển thị tất cả các chủ đề theo thứ tự mới nhất, hãy sử dụng shortcode "
+"[bsp-display-topic-index]"
+
+#: includes/settings_shortcodes.php:43
+msgid "Optional extras !"
+msgstr "Các tính năng bổ sung tùy chọn!"
+
+#: includes/settings_shortcodes.php:46
+msgid "Show latest x on a single page"
+msgstr "Hiển thị x mới nhất trên một trang duy nhất"
+
+#: includes/settings_shortcodes.php:49
+msgid ""
+"To limit to a single page of x topics use [bsp-display-topic-index show='5'] "
+"where in this case 5 is the number of posts you want to display"
+msgstr ""
+"Để giới hạn ở một trang x chủ đề, hãy sử dụng [bsp-display-topic-index show "
+"= '5'] trong đó, trong trường hợp này, 5 là số lượng bài đăng bạn muốn hiển "
+"thị"
+
+#: includes/settings_shortcodes.php:55
+msgid "Forum(s)"
+msgstr "Diễn đàn"
+
+#: includes/settings_shortcodes.php:58
+msgid "You can limit to a single forum or forums"
+msgstr "Bạn có thể giới hạn ở một diễn đàn duy nhất hoặc các diễn đàn"
+
+#: includes/settings_shortcodes.php:59
+msgid "Single forum eg [bsp-display-topic-index show='5' forum ='10']"
+msgstr ""
+"Diễn đàn đơn lẻ, ví dụ [bsp-display-topic-index show = '5' forum = '10 ']"
+
+#: includes/settings_shortcodes.php:60
+msgid "Several forums  eg [bsp-display-topic-index show='5' forum ='10,11,12']"
+msgstr ""
+"Một số diễn đàn, ví dụ [bsp-display-topic-index show = '5' forum = '10, 11,"
+"12 ']"
+
+#: includes/settings_shortcodes.php:64
+msgid "To find the ID of a forum go into dashboard>forums>"
+msgstr "Để tìm ID của một diễn đàn, hãy vào trang tổng quan> diễn đàn>"
+
+#: includes/settings_shortcodes.php:68 includes/settings_shortcodes.php:148
+msgid ""
+"You will see at the bottom of the page  http://www.mysite.com/wp-admin/post."
+"php?post=10&amp;action=edit"
+msgstr ""
+"Bạn sẽ thấy ở cuối trang http://www.mysite.com/wp-admin/post.php?"
+"post=10&action=edit"
+
+#: includes/settings_shortcodes.php:73 includes/settings_shortcodes.php:153
+msgid "where post=10 is the ID number of the forum."
+msgstr "trong đó post = 10 là số ID của diễn đàn."
+
+#: includes/settings_shortcodes.php:77
+msgid "Just the header and posts"
+msgstr "Chỉ tiêu đề và bài đăng"
+
+#: includes/settings_shortcodes.php:80
+msgid "If you don't want the search function and 'viewing topics 1-5'"
+msgstr "Nếu bạn không muốn chức năng tìm kiếm và 'xem chủ đề 1-5'"
+
+#: includes/settings_shortcodes.php:84
+msgid "then use    [bsp-display-topic-index show='5' template ='short']"
+msgstr "sau đó sử dụng [bsp-display-topic-index show = '5' template = 'short']"
+
+#: includes/settings_shortcodes.php:87
+msgid "Just a topic list"
+msgstr "Chỉ là một danh sách chủ đề"
+
+#: includes/settings_shortcodes.php:90
+msgid "Just have a list of topics - using class=\"bsp-list\""
+msgstr "Chỉ cần có một danh sách các chủ đề - sử dụng class = \"bsp-list\""
+
+#: includes/settings_shortcodes.php:94
+msgid "then use    [bsp-display-topic-index show='5' template ='list']"
+msgstr "sau đó sử dụng [bsp-display-topic-index show = '5' template = 'list']"
+
+#: includes/settings_shortcodes.php:98
+msgid "Stickies"
+msgstr "Ghim"
+
+#: includes/settings_shortcodes.php:101
+msgid ""
+"If you want to show stickies then [bsp-display-topic-index show='5' "
+"show_stickies='true']"
+msgstr ""
+"Nếu bạn muốn hiển thị stickies thì [bsp-display-topic-index show = '5' "
+"show_stickies = 'true']"
+
+#: includes/settings_shortcodes.php:105
+msgid "Topics with no replies"
+msgstr "Các chủ đề không có câu trả lời"
+
+#: includes/settings_shortcodes.php:108
+msgid ""
+"If you want to show topics with no replies then [bsp-display-topic-index "
+"noreply='true']"
+msgstr ""
+"Nếu bạn muốn hiển thị các chủ đề không có câu trả lời thì [bsp-display-topic-"
+"index noreply = 'true']"
+
+#: includes/settings_shortcodes.php:112 includes/settings_shortcodes.php:188
+msgid "You can use these in any combination"
+msgstr "Bạn có thể sử dụng chúng trong bất kỳ sự kết hợp nào"
+
+#: includes/settings_shortcodes.php:114
+msgid "e.g."
+msgstr "ví dụ."
+
+#: includes/settings_shortcodes.php:120
+msgid "Display one or more forum indexes "
+msgstr "Hiển thị một hoặc nhiều chỉ mục diễn đàn"
+
+#: includes/settings_shortcodes.php:123
+msgid "To display one or more indexes, or create an index display in any order"
+msgstr ""
+"Để hiển thị một hoặc nhiều chỉ mục hoặc tạo hiển thị chỉ mục theo bất kỳ thứ "
+"tự nào"
+
+#: includes/settings_shortcodes.php:127
+msgid ""
+"Note : the 'forum' attribute is mandatory, the other attributes are optional"
+msgstr ""
+"Lưu ý: thuộc tính 'diễn đàn' là bắt buộc, các thuộc tính khác là tùy chọn"
+
+#: includes/settings_shortcodes.php:131
+msgid "use the shortcode   [bsp-display-forum-index forum= '2932' ] "
+msgstr "sử dụng shortcode [bsp-display-forum-index forum = '2932']"
+
+#: includes/settings_shortcodes.php:134
+msgid "or for a list use [bsp-display-forum-index forum= '2932, 2922, 2921']"
+msgstr ""
+"hoặc để có danh sách, hãy sử dụng [bsp-display-forum-index forum = '2932, "
+"2922, 2921']"
+
+#: includes/settings_shortcodes.php:139
+msgid "where the numbers are the ID's of the forum(s)"
+msgstr "trong đó các số là ID của (các) diễn đàn"
+
+#: includes/settings_shortcodes.php:144
+msgid ""
+"To find the ID of a forum go into dashboard>forums>all forums and hover over "
+"the 'edit' of the forum you want to use."
+msgstr ""
+"Để tìm ID của một diễn đàn, hãy vào bảng điều khiển> diễn đàn> tất cả các "
+"diễn đàn và di chuột qua 'chỉnh sửa' của diễn đàn bạn muốn sử dụng."
+
+#: includes/settings_shortcodes.php:157
+msgid "Take out search"
+msgstr "Đưa ra ngoài tìm kiếm"
+
+#: includes/settings_shortcodes.php:161
+msgid "If you don't want the search function"
+msgstr "Nếu bạn không muốn chức năng tìm kiếm"
+
+#: includes/settings_shortcodes.php:166
+msgid ""
+"then use    [bsp-display-forum-index forum= '2932, 2922, 2921' search='no']"
+msgstr ""
+"sau đó sử dụng [bsp-display-forum-index forum = '2932, 2922, 2921' search = "
+"'no']"
+
+#: includes/settings_shortcodes.php:171
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/settings_shortcodes.php:174
+msgid ""
+"If you don't want to show the breadcrumb then [bsp-display-forum-index "
+"forum= '11326, 2922, 2921' breadcrumb='no']"
+msgstr ""
+"Nếu bạn không muốn hiển thị breadcrumb thì [bsp-display-forum-index forum = "
+"'11326, 2922, 2921' breadcrumb = 'no']"
+
+#: includes/settings_shortcodes.php:180 includes/settings_topic_order.php:89
+#: includes/settings_topic_order.php:205
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: includes/settings_shortcodes.php:183
+msgid ""
+"You can change the word 'Forum' in the headings to anything you want eg [bsp-"
+"display-forum-index forum= '2932, 2922, 2921' title = 'Main forums']"
+msgstr ""
+"Bạn có thể thay đổi từ 'Diễn đàn' trong tiêu đề thành bất cứ điều gì bạn "
+"muốn, ví dụ: [bsp-display-forum-index forum = '2932, 2922, 2921' title = "
+"'Diễn đàn chính']"
+
+#: includes/settings_shortcodes.php:192
+msgid "eg"
+msgstr "ví dụ"
+
+#: includes/settings_shortcodes.php:200
+msgid "Display Newest Users "
+msgstr "Hiển thị những người dùng mới nhất"
+
+#: includes/settings_shortcodes.php:203
+msgid ""
+"This shortcode displays the newest users together with their joining date in "
+"a table."
+msgstr ""
+"Mã ngắn này hiển thị những người dùng mới nhất cùng với ngày tham gia của họ "
+"trong một bảng."
+
+#: includes/settings_shortcodes.php:208
+msgid ""
+"use the shortcode   [bsp-display-newest-users]  and it will display the "
+"latest 5 users."
+msgstr ""
+"sử dụng shortcode [bsp-display-newest-users] và nó sẽ hiển thị 5 người dùng "
+"mới nhất."
+
+#: includes/settings_shortcodes.php:212
+msgid ""
+"If you wish to display a different number of users use the 'show' parameter "
+"eg"
+msgstr ""
+"Nếu bạn muốn hiển thị một số lượng người dùng khác, hãy sử dụng tham số "
+"'hiển thị', ví dụ:"
+
+#: includes/settings_shortcodes.php:217
+msgid "will show the latest 10 users"
+msgstr "sẽ hiển thị 10 người dùng mới nhất"
+
+#: includes/settings_shortcodes.php:223
+msgid "bsp Profile"
+msgstr "Hồ sơ bsp"
+
+#: includes/settings_shortcodes.php:227
+msgid "will show 'My Profile' in a clickable link to the profile"
+msgstr "sẽ hiển thị 'Hồ sơ của tôi' trong một liên kết có thể nhấp vào hồ sơ"
+
+#: includes/settings_shortcodes.php:232
+msgid "will show 'This is the label' in a clickable link to the profile"
+msgstr "sẽ hiển thị 'Đây là nhãn' trong một liên kết có thể nhấp vào hồ sơ"
+
+#: includes/settings_shortcodes.php:237
+msgid ""
+"will show 'Edit My Profile' in a clickable link to the edit section of "
+"profile"
+msgstr ""
+"sẽ hiển thị 'Chỉnh sửa tiểu sử của tôi' trong một liên kết có thể nhấp vào "
+"phần chỉnh sửa của tiểu sử"
+
+#: includes/settings_shortcodes.php:240
+msgid "Forum Subscriber Count "
+msgstr "Số người đăng ký diễn đàn"
+
+#: includes/settings_shortcodes.php:243
+msgid "This shortcode displays the number of subscribed users to a forum"
+msgstr "Mã ngắn này hiển thị số lượng người dùng đã đăng ký vào một diễn đàn"
+
+#: includes/settings_shortcodes.php:248
+msgid "The forum ID MUST be entered, or the function will not display"
+msgstr "ID diễn đàn PHẢI được nhập, nếu không chức năng sẽ không hiển thị"
+
+#: includes/settings_shortcodes.php:252
+msgid ""
+"You can add text before or after the number to make a flexible solution."
+msgstr ""
+"Bạn có thể thêm văn bản vào trước hoặc sau số để tạo ra một giải pháp linh "
+"hoạt."
+
+#: includes/settings_topics_index.php:27
+msgid ""
+"The majority of style settings are the same as the Forums Index Styling,"
+msgstr "Phần lớn các cài đặt kiểu giống như Kiểu chỉ mục của Diễn đàn,"
+
+#: includes/settings_topics_index.php:29
+msgid "and only where different are listed here"
+msgstr "và chỉ những nơi khác nhau được liệt kê ở đây"
+
+#: includes/settings_topics_index.php:53
+msgid "Pagination Font"
+msgstr "Phông chữ phân trang"
+
+#: includes/settings_topics_index.php:129
+msgid "Voice/Post Count Font"
+msgstr "Phông chữ số giọng nói / bài đăng"
+
+#: includes/settings_topics_index.php:205
+msgid "Topic Title Links"
+msgstr "Liên kết Tiêu đề Chủ đề"
+
+#: includes/settings_topics_index.php:207
+msgid "Visited Color"
+msgstr "Màu được truy cập"
+
+#: includes/settings_topics_index.php:260
+msgid "Topic Title Font"
+msgstr "Phông chữ Tiêu đề Chủ đề"
+
+#: includes/settings_topics_index.php:320
+msgid "Template Notice Font"
+msgstr "Phông chữ Thông báo Mẫu"
+
+#: includes/settings_topics_index.php:395
+msgid "Template Notice"
+msgstr "Thông báo mẫu"
+
+#: includes/settings_topics_index.php:396
+#: includes/settings_topics_index.php:666
+#: includes/settings_topic_reply_display.php:100
+#: includes/settings_topic_reply_display.php:169
+msgid "Background color"
+msgstr "Màu nền"
+
+#: includes/settings_topics_index.php:417
+msgid "Template Notice Border"
+msgstr "Đường viền Thông báo Mẫu"
+
+#: includes/settings_topics_index.php:420
+#: includes/settings_topics_index.php:692
+msgid "Line color"
+msgstr "Màu đường kẻ"
+
+#: includes/settings_topics_index.php:439
+#: includes/settings_topics_index.php:711
+msgid "Default 1px - Set to 0px to hide border"
+msgstr "Mặc định 1px - Đặt thành 0px để ẩn đường viền"
+
+#: includes/settings_topics_index.php:471
+msgid "Topic Started by"
+msgstr "Chủ đề bắt đầu bởi"
+
+#: includes/settings_topics_index.php:547
+msgid "Sticky Topic/Reply"
+msgstr "Chủ đề hấp dẫn / câu trả lời"
+
+#: includes/settings_topics_index.php:548
+msgid "Background color - sticky topic"
+msgstr "Màu nền - chủ đề cố định"
+
+#: includes/settings_topics_index.php:549
+msgid "Background color - super sticky topic"
+msgstr "Màu nền - chủ đề siêu dính"
+
+#: includes/settings_topics_index.php:566
+msgid " #ffffe0"
+msgstr ""
+
+#: includes/settings_topics_index.php:590
+msgid "Forum Information Font"
+msgstr "Phông chữ thông tin diễn đàn"
+
+#: includes/settings_topics_index.php:665
+msgid "Forum Information"
+msgstr "Thông tin diễn đàn"
+
+#: includes/settings_topics_index.php:689
+msgid "Forum Information Border"
+msgstr "Viền thông tin diễn đàn"
+
+#: includes/settings_topics_index.php:743
+msgid "Topic Index Headings Font"
+msgstr "Phông chữ Tiêu đề Chỉ mục Chủ đề"
+
+#: includes/settings_topics_index.php:819
+msgid "Lock Icon"
+msgstr "Biểu tượng khóa"
+
+#: includes/settings_topics_index.php:839
+msgid "Show a lock icon for closed topics"
+msgstr "Hiển thị biểu tượng khóa cho các chủ đề đã đóng"
+
+#: includes/settings_topics_index.php:852
+#: includes/settings_topics_index.php:905
+msgid "Default 12px"
+msgstr "12px mặc định"
+
+#: includes/settings_topics_index.php:873
+msgid "Sticky Pin"
+msgstr "Ghim dính"
+
+#: includes/settings_topics_index.php:892
+msgid "Show a pin for sticky topics"
+msgstr "Hiển thị ghim cho các chủ đề hấp dẫn"
+
+#: includes/settings_topics_index.php:924
+msgid "Change empty forum message"
+msgstr "Thay đổi thông báo trống trên diễn đàn"
+
+#: includes/settings_topics_index.php:930
+msgid "Default : Oh bother! No topics were found here!"
+msgstr "Mặc định: Ồ phiền! Không có chủ đề được tìm thấy ở đây!"
+
+#: includes/settings_topics_index.php:937
+msgid "Don't show empty forum message"
+msgstr "Không hiển thị thông báo trống trên diễn đàn"
+
+#: includes/settings_topics_index.php:955
+#: includes/settings_topic_reply_display.php:1056
+msgid "Change \"you must be logged in...\" message"
+msgstr "Thay đổi thông báo \"bạn phải đăng nhập ...\""
+
+#: includes/settings_topics_index.php:964
+msgid ""
+"Default \"You must be logged in to create new topics.\" Enter the words you "
+"want"
+msgstr ""
+"Mặc định \"Bạn phải đăng nhập để tạo chủ đề mới.\" Nhập những từ bạn muốn"
+
+#: includes/settings_topics_index.php:972
+#: includes/settings_topic_reply_display.php:1073
+msgid "Add login link"
+msgstr "Thêm liên kết đăng nhập"
+
+#: includes/settings_topics_index.php:976
+#: includes/settings_topic_reply_display.php:1077
+msgid "Login link description"
+msgstr "Mô tả liên kết đăng nhập"
+
+#: includes/settings_topics_index.php:994
+#: includes/settings_topic_reply_display.php:1095
+msgid "Login Description"
+msgstr "Mô tả Đăng nhập"
+
+#: includes/settings_topics_index.php:1011
+#: includes/settings_topic_reply_display.php:1112
+msgid ""
+"Default \"Login\" Enter the words you want eg \"log in\", \"sign in\" etc."
+msgstr ""
+"Mặc định \"Đăng nhập\" Nhập các từ bạn muốn, ví dụ: \"đăng nhập\", \"đăng "
+"nhập\", v.v."
+
+#: includes/settings_topics_index.php:1028
+#: includes/settings_topic_reply_display.php:1129
+msgid "Add register link"
+msgstr "Thêm liên kết đăng ký"
+
+#: includes/settings_topics_index.php:1032
+#: includes/settings_topic_reply_display.php:1133
+msgid "register link description"
+msgstr "đăng ký mô tả liên kết"
+
+#: includes/settings_topics_index.php:1050
+#: includes/settings_topic_reply_display.php:1151
+msgid "Register Description"
+msgstr "Đăng ký Mô tả"
+
+#: includes/settings_topics_index.php:1067
+#: includes/settings_topic_reply_display.php:1168
+msgid ""
+"Default \"register\" Enter the words you want eg \"log in\", \"sign in\" etc."
+msgstr ""
+"Mặc định \"đăng ký\" Nhập các từ bạn muốn, ví dụ: \"đăng nhập\", \"đăng "
+"nhập\", v.v."
+
+#: includes/settings_topics_index.php:1077
+#: includes/settings_topic_reply_display.php:1178
+msgid ""
+"You should create a wordpress page with a register shortcode such as [bbp-"
+"register] and put the full url in here e.g. http://www.mysite."
+"com/registerpage. If left blank the default wordpress login page will be "
+"used."
+msgstr ""
+"Bạn nên tạo một trang wordpress với shortcode đăng ký chẳng hạn như [bbp-"
+"register] và đặt url đầy đủ vào đây, ví dụ: http://www.mysite."
+"com/registerpage. Nếu để trống trang đăng nhập wordpress mặc định sẽ được sử "
+"dụng."
+
+#: includes/settings_topic_order.php:23
+msgid ""
+"By default bbpress will display topics in the latest reply order, with the "
+"latest topic at the top."
+msgstr ""
+"Theo mặc định, bbpress sẽ hiển thị các chủ đề theo thứ tự trả lời gần nhất, "
+"với chủ đề mới nhất ở trên cùng."
+
+#: includes/settings_topic_order.php:25
+msgid ""
+"However some sites need a different order and this section lets you change "
+"both the default order, and the order for specific forums."
+msgstr ""
+"Tuy nhiên, một số trang web cần một thứ tự khác và phần này cho phép bạn "
+"thay đổi cả thứ tự mặc định và thứ tự cho các diễn đàn cụ thể."
+
+#: includes/settings_topic_order.php:36
+msgid "Change Default Order"
+msgstr "Thay đổi Thứ tự Mặc định"
+
+#: includes/settings_topic_order.php:42 includes/settings_topic_order.php:150
+msgid "Display Order"
+msgstr "Hiển thị Thứ tự"
+
+#: includes/settings_topic_order.php:43 includes/settings_topic_order.php:151
+msgid "Ascending/Descending"
+msgstr "Tăng dần / Giảm dần"
+
+#: includes/settings_topic_order.php:44 includes/settings_topic_order.php:152
+msgid "Forums"
+msgstr "Diễn đàn"
+
+#: includes/settings_topic_order.php:77 includes/settings_topic_order.php:193
+msgid "Latest Reply date"
+msgstr "Ngày trả lời mới nhất"
+
+#: includes/settings_topic_order.php:79 includes/settings_topic_order.php:195
+msgid "<i>Display topics in the order of the latest reply</i>"
+msgstr "<i> Hiển thị các chủ đề theo thứ tự của câu trả lời mới nhất </i>"
+
+#: includes/settings_topic_order.php:83 includes/settings_topic_order.php:199
+msgid "Topic date"
+msgstr "Ngày tạo chủ đề"
+
+#: includes/settings_topic_order.php:85 includes/settings_topic_order.php:201
+msgid "<i>Display topics in the order of the original topic date</i>"
+msgstr "<i> Hiển thị các chủ đề theo thứ tự của ngày chủ đề ban đầu </i>"
+
+#: includes/settings_topic_order.php:91 includes/settings_topic_order.php:207
+msgid "<i>Display topics in alphbetical Title order</i>"
+msgstr "<i> Hiển thị các chủ đề theo thứ tự Tiêu đề bảng chữ cái </i>"
+
+#: includes/settings_topic_order.php:95 includes/settings_topic_order.php:211
+msgid "Author"
+msgstr "Tác giả"
+
+#: includes/settings_topic_order.php:97 includes/settings_topic_order.php:213
+msgid "<i>Display topics in alphbetical Author order</i>"
+msgstr "<i> Hiển thị các chủ đề theo thứ tự Tác giả chữ cái </i>"
+
+#: includes/settings_topic_order.php:110 includes/settings_topic_order.php:226
+msgid "Ascending"
+msgstr "Tăng dần"
+
+#: includes/settings_topic_order.php:112 includes/settings_topic_order.php:228
+msgid "<i>Earliest Date at top or Alphabetical order</i>"
+msgstr "<i> Ngày sớm nhất ở trên cùng hoặc theo thứ tự bảng chữ cái </i>"
+
+#: includes/settings_topic_order.php:116 includes/settings_topic_order.php:232
+msgid "Descending"
+msgstr "Giảm dần"
+
+#: includes/settings_topic_order.php:118 includes/settings_topic_order.php:234
+msgid "<i>Latest Date at top or reverse Alphabetical order</i>"
+msgstr ""
+"<i> Ngày mới nhất ở trên cùng hoặc ngược lại theo thứ tự bảng chữ cái </i>"
+
+#: includes/settings_topic_order.php:134
+msgid ""
+"Alternately (or additionally) you may want one or more forums to show in a "
+"different order"
+msgstr ""
+"Ngoài ra (hoặc ngoài ra), bạn có thể muốn một hoặc nhiều diễn đàn hiển thị "
+"theo thứ tự khác"
+
+#: includes/settings_topic_order.php:144
+msgid "Change Order in specific forums"
+msgstr "Thay đổi Thứ tự trong các diễn đàn cụ thể"
+
+#: includes/settings_topic_order.php:182
+msgid ""
+"Enter the forum ID, or forums ID's sperated by comma's,  e.g. <strong>"
+"1615</strong> or <strong>1615, 1723, 1852</strong> "
+msgstr ""
+"Nhập ID diễn đàn hoặc các ID diễn đàn được phân tách bằng dấu phẩy, ví dụ: "
+"<strong> 1615 </strong> hoặc <strong> 1615, 1723, 1852 </strong>"
+
+#: includes/settings_topic_reply_display.php:31
+msgid "This section allows you to amend the topic/reply section."
+msgstr "Phần này cho phép bạn sửa đổi chủ đề / phần trả lời."
+
+#: includes/settings_topic_reply_display.php:55
+msgid "Topic/Reply Content"
+msgstr "Chủ đề / Nội dung Trả lời"
+
+#: includes/settings_topic_reply_display.php:56
+#: includes/settings_topic_reply_display.php:125
+msgid "Background color - odd numbers"
+msgstr "Màu nền - số lẻ"
+
+#: includes/settings_topic_reply_display.php:57
+#: includes/settings_topic_reply_display.php:126
+msgid "Background color - even numbers"
+msgstr "Màu nền - số chẵn"
+
+#: includes/settings_topic_reply_display.php:75
+#: includes/settings_topic_reply_display.php:90
+#: includes/settings_topic_reply_display.php:115
+#: includes/settings_topic_reply_display.php:144
+#: includes/settings_topic_reply_display.php:159
+#: includes/settings_topic_reply_display.php:184
+msgid "Default"
+msgstr "Mặc định"
+
+#: includes/settings_topic_reply_display.php:99
+msgid "Topic/Reply Header"
+msgstr "Tiêu đề Chủ đề / Trả lời"
+
+#: includes/settings_topic_reply_display.php:124
+msgid "Trash/Spam Content"
+msgstr "Thùng rác / Nội dung Spam"
+
+#: includes/settings_topic_reply_display.php:144
+msgid " #fdd"
+msgstr ""
+
+#: includes/settings_topic_reply_display.php:159
+msgid " #fee"
+msgstr ""
+
+#: includes/settings_topic_reply_display.php:168
+msgid "Closed Topic Content"
+msgstr "Nội dung chủ đề đã đóng"
+
+#: includes/settings_topic_reply_display.php:184
+msgid " #ccc"
+msgstr ""
+
+#: includes/settings_topic_reply_display.php:193
+msgid "Topic/Reply Date Font"
+msgstr "Chủ đề / Phông chữ Ngày trả lời"
+
+#: includes/settings_topic_reply_display.php:276
+msgid "Topic/Reply Text Font"
+msgstr "Chủ đề / Phông chữ Văn bản Trả lời"
+
+#: includes/settings_topic_reply_display.php:360
+msgid "Author Name Font"
+msgstr "Phông chữ Tên tác giả"
+
+#: includes/settings_topic_reply_display.php:425
+msgid "Reply Link Font"
+msgstr "Phông chữ liên kết trả lời"
+
+#: includes/settings_topic_reply_display.php:490
+msgid "Author Role"
+msgstr "Vai trò tác giả"
+
+#: includes/settings_topic_reply_display.php:512
+msgid ""
+"NOTE : You can also style Author roles and it's position more fully using "
+"the 'Forum Roles' Tab"
+msgstr ""
+"LƯU Ý: Bạn cũng có thể định kiểu vai trò Tác giả và vị trí của nó đầy đủ hơn "
+"bằng cách sử dụng Tab 'Vai trò diễn đàn'"
+
+#: includes/settings_topic_reply_display.php:581
+msgid "Topic Header"
+msgstr "Tiêu đề chủ đề"
+
+#: includes/settings_topic_reply_display.php:665
+msgid "Topic Admin links"
+msgstr "Liên kết quản trị chủ đề"
+
+#: includes/settings_topic_reply_display.php:747
+msgid "Revisions"
+msgstr "Bản sửa đổi"
+
+#: includes/settings_topic_reply_display.php:758
+msgid ""
+"Type \"all\" to show all revisions, \"none\" to hide all revisions, or a "
+"number to show the last n revisions eg \"1\" to just show the last revision."
+msgstr ""
+"Nhập \"tất cả\" để hiển thị tất cả các bản sửa đổi, \"không\" để ẩn tất cả "
+"các bản sửa đổi hoặc một số để hiển thị n bản sửa đổi cuối cùng, ví dụ: "
+"\"1\" để chỉ hiển thị bản sửa đổi cuối cùng."
+
+#: includes/settings_topic_reply_display.php:768
+msgid "@Mentions"
+msgstr ""
+
+#: includes/settings_topic_reply_display.php:791
+msgid "Activate @mentions Description"
+msgstr "Kích hoạt @mentions Description"
+
+#: includes/settings_topic_reply_display.php:803
+msgid "NOTES "
+msgstr "LƯU Ý"
+
+#: includes/settings_topic_reply_display.php:805
+msgid ""
+"1. This ONLY adds the @mention description shown above for the user.  "
+"@mentions is available with Buddypress or by using the <a href = \"https:"
+"//wordpress.org/plugins/bbp-mentions-email-notifications/\" "
+"target=\"_blank\"> bbp-mentions-email-notifications</a> plugin, and either "
+"will need to be activated for this to be useful !"
+msgstr ""
+"1. Điều này CHỈ thêm mô tả @mention được hiển thị ở trên cho người dùng. "
+"@mentions có sẵn với Buddypress hoặc bằng cách sử dụng <a href = \"https:"
+"//wordpress.org/plugins/bbp-mentions-email-notifications/\" "
+"target=\"_blank\"> bbp-mentions-email-notification </ a > plugin và một "
+"trong hai sẽ cần được kích hoạt để điều này trở nên hữu ích!"
+
+#: includes/settings_topic_reply_display.php:807
+msgid ""
+"2. This will show the user's 'nicename' which may be different from the "
+"display name shown above it. Users can amend their display names in their "
+"profile settings or the admin may decide this. Whilst for most sites this is "
+"not an issue, you will want to consider whether showing their nicename which "
+"is formed from their login name may compromise privacy or reveal information."
+" "
+msgstr ""
+"2. Điều này sẽ hiển thị 'tên đẹp' của người dùng có thể khác với tên hiển "
+"thị được hiển thị ở trên nó. Người dùng có thể sửa đổi tên hiển thị của họ "
+"trong cài đặt hồ sơ của họ hoặc quản trị viên có thể quyết định điều này. "
+"Trong khi đối với hầu hết các trang web, đây không phải là vấn đề, bạn sẽ "
+"muốn xem xét việc hiển thị tên đẹp của họ được tạo từ tên đăng nhập của họ "
+"có thể xâm phạm quyền riêng tư hoặc tiết lộ thông tin hay không."
+
+#: includes/settings_topic_reply_display.php:816
+msgid "Priority"
+msgstr "Sự ưu tiên"
+
+#: includes/settings_topic_reply_display.php:823
+msgid ""
+"Default : 10  Leave blank unless you want to alter. Explanation: If you have "
+"multiple items displaying under the author from say other plugins, then you "
+"can use this to change the display order - lower numbers equal higher "
+"priority"
+msgstr ""
+"Mặc định: 10 Để trống trừ khi bạn muốn thay đổi. Giải thích: Nếu bạn có "
+"nhiều mục hiển thị theo tác giả từ các plugin khác, thì bạn có thể sử dụng "
+"điều này để thay đổi thứ tự hiển thị - các số thấp hơn bằng mức ưu tiên cao "
+"hơn"
+
+#: includes/settings_topic_reply_display.php:895
+msgid "Show emails for anonymous users"
+msgstr "Hiển thị email cho người dùng ẩn danh"
+
+#: includes/settings_topic_reply_display.php:905
+msgid "Show Anonymous Email addresses"
+msgstr "Hiển thị các địa chỉ Email Ẩn danh"
+
+#: includes/settings_topic_reply_display.php:912
+msgid ""
+"If you allow unregistered users to post, this will show the email address "
+"they entered in the topic/reply form to KEYMASTERS only "
+msgstr ""
+"Nếu bạn cho phép người dùng chưa đăng ký đăng bài, điều này sẽ chỉ hiển thị "
+"địa chỉ email mà họ đã nhập trong chủ đề / biểu mẫu trả lời cho KEYMASTERS"
+
+#: includes/settings_topic_reply_display.php:920
+msgid "Hide Author Name"
+msgstr "Ẩn tên tác giả"
+
+#: includes/settings_topic_reply_display.php:927
+msgid "Click to hide name"
+msgstr "Bấm để ẩn tên"
+
+#: includes/settings_topic_reply_display.php:934
+msgid "Hide Author Avatar"
+msgstr "Ẩn hình đại diện của tác giả"
+
+#: includes/settings_topic_reply_display.php:941
+msgid "Click to hide avatar"
+msgstr "Nhấp để ẩn hình đại diện"
+
+#: includes/settings_topic_reply_display.php:948
+msgid "Participant Close Topics"
+msgstr "Người tham gia Đóng chủ đề"
+
+#: includes/settings_topic_reply_display.php:955
+msgid "Allow Participants to close their own topics"
+msgstr "Cho phép người tham gia đóng các chủ đề của riêng họ"
+
+#: includes/settings_topic_reply_display.php:969
+msgid "Participant Trash Topics"
+msgstr "Chủ đề về Thùng rác của Người tham gia"
+
+#: includes/settings_topic_reply_display.php:976
+msgid "Allow Participants to trash their own topics"
+msgstr "Cho phép người tham gia chuyển các chủ đề của họ vào thùng rác"
+
+#: includes/settings_topic_reply_display.php:989
+#: includes/settings_topic_reply_display.php:1032
+msgid "Add an 'are you sure?' confirm message"
+msgstr "Thêm một 'bạn có chắc không?' xác nhận tin nhắn"
+
+#: includes/settings_topic_reply_display.php:1003
+msgid ""
+"Enter the confirm message - Default : Are you sure you want to delete this "
+"topic?"
+msgstr ""
+"Nhập tin nhắn xác nhận - Mặc định: Bạn có chắc chắn muốn xóa chủ đề này "
+"không?"
+
+#: includes/settings_topic_reply_display.php:1012
+msgid "Participant Trash Replies"
+msgstr "Trả lời vào thùng rác của người tham gia"
+
+#: includes/settings_topic_reply_display.php:1019
+msgid "Allow Participants to trash their own replies"
+msgstr "Cho phép người tham gia bỏ rác câu trả lời của chính họ"
+
+#: includes/settings_topic_reply_display.php:1046
+msgid ""
+"Enter the confirm message - Default : Are you sure you want to delete this "
+"reply?"
+msgstr ""
+"Nhập tin nhắn xác nhận - Mặc định: Bạn có chắc chắn muốn xóa thư trả lời này "
+"không?"
+
+#: includes/settings_topic_reply_display.php:1065
+msgid ""
+"Default \"You must be logged in to reply to this topic.\" Enter the words "
+"you want"
+msgstr ""
+"Mặc định \"Bạn phải đăng nhập để trả lời chủ đề này.\" Nhập những từ bạn muốn"
+
+#: includes/settings_topic_reply_form.php:44
+msgid "Labels"
+msgstr "Nhãn"
+
+#: includes/settings_topic_reply_form.php:121
+#: includes/settings_topic_reply_form.php:143
+msgid "Text area"
+msgstr ""
+
+#: includes/settings_topic_reply_form.php:219
+msgid "Text Color"
+msgstr "Văn bản màu"
+
+#: includes/settings_topic_reply_form.php:259
+msgid "Submitting Message"
+msgstr "Gửi tin nhắn"
+
+#: includes/settings_topic_reply_form.php:272
+msgid ""
+"You can set the submit to display a different message once it is pressed eg "
+"\"Submitting\".This will let the user know that they have sucessfully "
+"clicked the submit."
+msgstr ""
+"Bạn có thể đặt gửi để hiển thị một thông báo khác khi nó được nhấn, ví dụ: "
+"\"Đang gửi\". Điều này sẽ cho người dùng biết rằng họ đã nhấp vào gửi thành "
+"công."
+
+#: includes/settings_topic_reply_form.php:293
+msgid "eg Submitting, Processing, Submit in progress etc"
+msgstr "ví dụ: Đang gửi, đang xử lý, đang gửi, v.v."
+
+#: includes/settings_topic_reply_form.php:320
+msgid "Notify Default"
+msgstr "Thông báo mặc định"
+
+#: includes/settings_topic_reply_form.php:330
+msgid ""
+"By default this box is not ticked, so users forgetting to tick it are not "
+"notified of new replies.  Activating this ticks it by default - users can "
+"then unselect if they wish"
+msgstr ""
+"Theo mặc định, ô này không được đánh dấu, vì vậy người dùng quên đánh dấu nó "
+"sẽ không được thông báo về câu trả lời mới. Việc kích hoạt này sẽ đánh dấu "
+"nó theo mặc định - sau đó người dùng có thể bỏ chọn nếu họ muốn"
+
+#: includes/settings_topic_reply_form.php:345
+msgid "Remove Edit Logs"
+msgstr "Xóa Nhật ký Chỉnh sửa"
+
+#: includes/settings_topic_reply_form.php:355
+msgid "Remove 'Keep a log of this edit' box"
+msgstr "Loại bỏ hộp 'Giữ nhật ký của chỉnh sửa này'"
+
+#: includes/settings_topic_reply_form.php:373
+msgid "Remove Edit Reason"
+msgstr "Xóa lý do chỉnh sửa"
+
+#: includes/settings_topic_reply_form.php:383
+msgid "Remove 'Optional reason for editing' box"
+msgstr "Xóa hộp 'Lý do tùy chọn để chỉnh sửa'"
+
+#: includes/settings_topic_reply_form.php:398
+msgid "9. Show editors"
+msgstr "9. Hiển thị các biên tập viên"
+
+#: includes/settings_topic_reply_form.php:418
+msgid "Text Editor Only"
+msgstr "Chỉ trình soạn thảo văn bản"
+
+#: includes/settings_topic_reply_form.php:422
+msgid "Visual Editor Only"
+msgstr "Chỉ trình chỉnh sửa trực quan"
+
+#: includes/settings_topic_reply_form.php:426
+msgid "Show Both Visual and Text Editors"
+msgstr "Hiển thị cả trình chỉnh sửa trực quan và văn bản"
+
+#: includes/settings_topic_reply_form.php:437
+msgid "Topic Posting Rules"
+msgstr "Quy tắc đăng chủ đề"
+
+#: includes/settings_topic_reply_form.php:438
+msgid "Activate For Topics"
+msgstr "Kích hoạt cho các chủ đề"
+
+#: includes/settings_topic_reply_form.php:439
+msgid "Activate For Replies"
+msgstr "Kích hoạt để trả lời"
+
+#: includes/settings_topic_reply_form.php:451
+msgid ""
+"You can add some 'posting rules' before the title on topics and/or replies "
+msgstr ""
+"Bạn có thể thêm một số 'quy tắc đăng bài' trước tiêu đề về các chủ đề và / "
+"hoặc câu trả lời"
+
+#: includes/settings_topic_reply_form.php:460
+msgid "Click to activate for Topics"
+msgstr "Nhấp để kích hoạt Chủ đề"
+
+#: includes/settings_topic_reply_form.php:467
+msgid "Topic Rules text"
+msgstr "Văn bản quy tắc chủ đề"
+
+#: includes/settings_topic_reply_form.php:473
+#: includes/settings_topic_reply_form.php:499
+msgid "Use &lt;p&gt; to create paragraphs"
+msgstr "Sử dụng <p> để tạo đoạn văn"
+
+#: includes/settings_topic_reply_form.php:486
+msgid "Click to activate for Replies"
+msgstr "Nhấp để kích hoạt Trả lời"
+
+#: includes/settings_topic_reply_form.php:493
+msgid "Reply Rules text"
+msgstr "Văn bản quy tắc trả lời"
+
+#: includes/settings_topic_reply_form.php:600
+msgid "Border Color"
+msgstr "Màu viền"
+
+#: includes/settings_topic_reply_form.php:619
+msgid "Remove HTML text"
+msgstr "Xóa văn bản HTML"
+
+#: includes/settings_topic_reply_form.php:632
+msgid ""
+" Remove 'Your account has the ability to post unrestricted HTML content'"
+msgstr ""
+"Xóa 'Tài khoản của bạn có khả năng đăng nội dung HTML không bị hạn chế'"
+
+#: includes/settings_topic_reply_form.php:639
+msgid "Redirect topic to forum list"
+msgstr "Chuyển hướng chủ đề đến danh sách diễn đàn"
+
+#: includes/settings_topic_reply_form.php:652
+#: includes/settings_topic_reply_form.php:672
+msgid " After submission redirect user to the forum list instead of the topic "
+msgstr ""
+"Sau khi gửi, chuyển hướng người dùng đến danh sách diễn đàn thay vì chủ đề"
+
+#: includes/settings_topic_reply_form.php:659
+msgid "Redirect reply to forum list"
+msgstr "Chuyển hướng trả lời đến danh sách diễn đàn"
+
+#: includes/settings_unread.php:19
+msgid "Unread Posts"
+msgstr "bài chưa đọc"
+
+#: includes/settings_unread.php:27
+msgid ""
+"This section allows you to add 'unread' and/or 'read' icons to topics and "
+"forums to allow users to quickly find new content.  It contains much of the "
+"code of the plugin 'bbp unread posts' and 'bbp unread posts V2' which are no "
+"longer being maintained."
+msgstr ""
+"Phần này cho phép bạn thêm các biểu tượng 'chưa đọc' và / hoặc 'đã đọc' vào "
+"các chủ đề và diễn đàn để cho phép người dùng nhanh chóng tìm thấy nội dung "
+"mới. Nó chứa nhiều mã của plugin 'bbp bài viết chưa đọc' và 'bài viết chưa "
+"đọc bbp V2' không còn được duy trì."
+
+#: includes/settings_unread.php:52
+msgid "Activate unread option"
+msgstr "Kích hoạt nút Đăng ký"
+
+#: includes/settings_unread.php:69
+msgid ""
+"<b>INFORMATION :</b> It looks like you are running the Unread Posts V2 "
+"plugin. It will look very confused if you run both, so it is suggested that "
+"you deactivate Unread Posts v2 plugin before activating this section"
+msgstr ""
+"<b> THÔNG TIN: </b> Có vẻ như bạn đang chạy plugin Bài đăng chưa đọc V2. Sẽ "
+"rất bối rối nếu bạn chạy cả hai, vì vậy bạn nên hủy kích hoạt plugin Bài "
+"viết chưa đọc v2 trước khi kích hoạt phần này"
+
+#: includes/settings_unread.php:82
+msgid "Unread Icon"
+msgstr "Biểu tượng chưa đọc"
+
+#: includes/settings_unread.php:87
+msgid "Before a topic has been read, this icon will display"
+msgstr "Trước khi một chủ đề được đọc, biểu tượng này sẽ hiển thị"
+
+#: includes/settings_unread.php:93
+msgid "You can choose the default icon, to use an image, or to have no icon"
+msgstr ""
+"Bạn có thể chọn biểu tượng mặc định để sử dụng hình ảnh hoặc không có biểu "
+"tượng"
+
+#: includes/settings_unread.php:105 includes/settings_unread.php:177
+msgid "Use default Icon"
+msgstr "Sử dụng biểu tượng mặc định"
+
+#: includes/settings_unread.php:109 includes/settings_unread.php:181
+msgid "This Icon will be displayed:"
+msgstr "Biểu tượng này sẽ được hiển thị:"
+
+#: includes/settings_unread.php:117 includes/settings_unread.php:189
+msgid "Use Image"
+msgstr "Sử dụng hình ảnh"
+
+#: includes/settings_unread.php:120 includes/settings_unread.php:192
+msgid "<i>Enter the full url to the image below</i>"
+msgstr "<i> Nhập url đầy đủ vào hình ảnh bên dưới </i>"
+
+#: includes/settings_unread.php:126 includes/settings_unread.php:198
+msgid "Do not display Icon"
+msgstr "Không hiển thị biểu tượng"
+
+#: includes/settings_unread.php:129 includes/settings_unread.php:201
+msgid "<i>No icon will be displayed</i>"
+msgstr "<i> Không có biểu tượng nào được hiển thị </i>"
+
+#: includes/settings_unread.php:136 includes/settings_unread.php:208
+msgid "Image url"
+msgstr "URL hình ảnh"
+
+#: includes/settings_unread.php:144 includes/settings_unread.php:216
+msgid "If you are using an image, then enter its full url above"
+msgstr "Nếu bạn đang sử dụng một hình ảnh, hãy nhập url đầy đủ của nó ở trên"
+
+#: includes/settings_unread.php:153
+msgid "Read Icon"
+msgstr "Đọc biểu tượng"
+
+#: includes/settings_unread.php:159
+msgid "Once a topic has been read, this icon will display"
+msgstr "Khi một chủ đề đã được đọc, biểu tượng này sẽ hiển thị"
+
+#: includes/settings_unread.php:165
+msgid "You can choose the dafault icon, to use an image, or to have no icon"
+msgstr ""
+"Bạn có thể chọn biểu tượng mặc định để sử dụng hình ảnh hoặc không có biểu "
+"tượng"
+
+#: includes/settings_unread.php:226
+msgid "Show unread total on forums?"
+msgstr "Hiển thị tổng số chưa đọc trên diễn đàn?"
+
+#: includes/settings_unread.php:235
+msgid ""
+"On forum lists, this will show the number of unread topics in each forum"
+msgstr ""
+"Trên danh sách diễn đàn, điều này sẽ hiển thị số lượng chủ đề chưa đọc trong "
+"mỗi diễn đàn"
+
+#: includes/settings_unread.php:242
+msgid "Mark as Read Description"
+msgstr "Đánh dấu là đã đọc mô tả"
+
+#: includes/settings_unread.php:250
+msgid "Default : 'Mark all topics as read'. Enter new text if you wish "
+msgstr ""
+"Mặc định: 'Đánh dấu tất cả các chủ đề là đã đọc'. Nhập văn bản mới nếu bạn "
+"muốn"
+
+#: includes/settings_unread.php:254
+msgid "If you want to style this button, then visit the Buttons tab "
+msgstr "Nếu bạn muốn tạo kiểu cho nút này, hãy truy cập tab Nút"
+
+#: includes/settings_unread.php:264
+msgid "Hide the 'Mark as Read' Button <p>on the main index page</p>"
+msgstr "Ẩn nút 'Đánh dấu là đã đọc' <p> trên trang chỉ mục chính </p>"
+
+#: includes/settings_unread.php:273
+msgid ""
+"You can hide the button on the main index - on large sites, marking all "
+"topics as read may take some time, and you may want to restrict this to "
+"individual forums only"
+msgstr ""
+"Bạn có thể ẩn nút trên chỉ mục chính - trên các trang web lớn, việc đánh dấu "
+"tất cả các chủ đề là đã đọc có thể mất một chút thời gian và bạn có thể muốn "
+"giới hạn điều này chỉ trong các diễn đàn riêng lẻ"
+
+#: includes/settings_unread.php:280
+msgid "Opt-in or Opt-out options"
+msgstr "Tùy chọn chọn tham gia hoặc chọn không tham gia"
+
+#: includes/settings_unread.php:286
+msgid ""
+"You can allow users to opt-in or opt-out of seeing the unread icons if you "
+"wish. They do this via their profile, and you may need to expain to them how "
+"to do this!"
+msgstr ""
+"Bạn có thể cho phép người dùng chọn tham gia hoặc chọn không xem các biểu "
+"tượng chưa đọc nếu muốn. Họ làm điều này thông qua hồ sơ của họ và bạn có "
+"thể cần phải giải thích cho họ cách làm điều này!"
+
+#: includes/settings_unread.php:300
+msgid "No opt-in opt-out options"
+msgstr "Không có tùy chọn chọn không tham gia"
+
+#: includes/settings_unread.php:303
+msgid "<i>Users will always see the unread icons and buttons"
+msgstr "<i> Người dùng sẽ luôn thấy các biểu tượng và nút chưa đọc"
+
+#: includes/settings_unread.php:310
+msgid "Allow users to opt-in"
+msgstr "Cho phép người dùng chọn tham gia"
+
+#: includes/settings_unread.php:313
+msgid ""
+"<i>Users will have to opt-in via their profile to see the icons and use the "
+"buttons  </i>"
+msgstr ""
+"<i> Người dùng sẽ phải chọn tham gia qua hồ sơ của họ để xem các biểu tượng "
+"và sử dụng các nút </i>"
+
+#: includes/settings_unread.php:319
+msgid "Allow users to opt-out"
+msgstr "Cho phép người dùng chọn không tham gia"
+
+#: includes/settings_unread.php:322
+msgid ""
+"<i>Users will have to opt-out via their profile to see the icons and use the "
+"buttons </i>"
+msgstr ""
+"<i> Người dùng sẽ phải chọn không tham gia qua hồ sơ của họ để xem các biểu "
+"tượng và sử dụng các nút </i>"
+
+#: includes/settings_unread.php:331
+msgid "Description for opt-in in user profile"
+msgstr "Mô tả để chọn tham gia trong hồ sơ người dùng"
+
+#: includes/settings_unread.php:339
+msgid "Default : \"Display unread icons\""
+msgstr "Mặc định: \"Hiển thị các biểu tượng chưa đọc\""
+
+#: includes/settings_unread.php:346
+msgid "Description for opt-out in user profile"
+msgstr "Mô tả để chọn không tham gia trong hồ sơ người dùng"
+
+#: includes/settings_unread.php:353
+msgid "Default : \"Do not display unread icons\""
+msgstr "Mặc định: \"Không hiển thị các biểu tượng chưa đọc\""
+
+#: includes/settings_widgets.php:18
+msgid "Latest activity"
+msgstr "Hoạt động mới nhất"
+
+#: includes/settings_widgets.php:20
+msgid ""
+"This widget combines Recent Topics and Recent replies to give a single more "
+"clear latest activity widget"
+msgstr ""
+"Tiện ích này kết hợp Chủ đề gần đây và Câu trả lời gần đây để cung cấp một "
+"tiện ích hoạt động mới nhất rõ ràng hơn"
+
+#: includes/settings_widgets.php:22
+msgid ""
+"This widget is automaticlly available, so you will find it in Dashboard>"
+"Appearance>Widgets>(Style Pack) Latest Activity"
+msgstr ""
+"Tiện ích này tự động có sẵn, vì vậy bạn sẽ tìm thấy nó trong Trang tổng quan>"
+" Giao diện> Tiện ích> Hoạt động mới nhất (Gói kiểu)"
+
+#: includes/settings_widgets.php:37
+msgid "Single Forum Information"
+msgstr "Thông tin diễn đàn đơn lẻ"
+
+#: includes/settings_widgets.php:39
+msgid ""
+"This widget is automaticlly available, so you will find it in Dashboard>"
+"Appearance>Widgets>(Style Pack) Single Forum Information"
+msgstr ""
+"Tiện ích này tự động có sẵn, vì vậy bạn sẽ tìm thấy nó trong Trang tổng quan>"
+" Giao diện> Tiện ích> (Gói kiểu) Thông tin diễn đàn đơn"
+
+#: includes/settings_widgets.php:41
+msgid "This widget will only show on single forum pages"
+msgstr "Tiện ích này sẽ chỉ hiển thị trên các trang diễn đàn duy nhất"
+
+#: includes/settings_widgets.php:50
+msgid "Single Topic Information"
+msgstr "Thông tin Chủ đề Đơn"
+
+#: includes/settings_widgets.php:52
+msgid ""
+"This widget is automaticlly available, so you will find it in Dashboard>"
+"Appearance>Widgets>(Style Pack) Single Topic Information"
+msgstr ""
+"Tiện ích này tự động có sẵn, vì vậy bạn sẽ tìm thấy nó trong Trang tổng quan>"
+" Giao diện> Tiện ích> (Gói Kiểu) Thông tin Chủ đề Đơn"
+
+#: includes/settings_widgets.php:54
+msgid "This widget will only show on single topic pages"
+msgstr "Tiện ích này sẽ chỉ hiển thị trên các trang chủ đề duy nhất"
+
+#: includes/shortcodes.php:175
+msgid "Newest users"
+msgstr "Người dùng mới nhất"
+
+#: includes/shortcodes.php:176
+msgid "Date joined"
+msgstr "Ngày tham gia"
+
+#: includes/whats_new.php:17
+msgid "Version 4.2.9/4.3.0"
+msgstr ""
+
+#: includes/whats_new.php:19
+msgid ""
+"Just an update of the translation POT file to allow an update of the french "
+"version."
+msgstr ""
+"Chỉ cần cập nhật tệp POT dịch để cho phép cập nhật phiên bản tiếng Pháp."
+
+#: includes/whats_new.php:21
+msgid "Version 4.2.7 and 4.2.8"
+msgstr ""
+
+#: includes/whats_new.php:23
+msgid ""
+"I've further improved template loading. This should now work in most cases "
+"with both 2.5 and 2.6 versions, but also let admins amend the template "
+"priority to suit cases where themes or other plugins load templates.  See "
+"Forum Templates tab for details."
+msgstr ""
+"Tôi đã sửa trả lời email đăng ký để hiển thị câu trả lời không phải chủ đề."
+
+#: includes/whats_new.php:25
+msgid "Version 4.2.6"
+msgstr ""
+
+#: includes/whats_new.php:27
+msgid ""
+"I've amended some code to prevent topic and reply form templates loading "
+"unless needed"
+msgstr ""
+"Tôi đã sửa đổi một số mã để ngăn việc tải các mẫu biểu mẫu chủ đề và trả lời "
+"trừ khi cần"
+
+#: includes/whats_new.php:29
+msgid "Version 4.2.5"
+msgstr ""
+
+#: includes/whats_new.php:31
+msgid "I've amended some code to allow for templates to work under 2.6rc7"
+msgstr "Tôi đã sửa đổi một số mã để cho phép các mẫu hoạt động dưới 2.6rc7"
+
+#: includes/whats_new.php:33
+msgid "Version 4.2.4"
+msgstr ""
+
+#: includes/whats_new.php:35
+msgid ""
+"I've amended the wording on the alternate template to make it clearer how to "
+"use"
+msgstr "Tôi đã sửa đổi từ ngữ trên mẫu thay thế để làm rõ hơn cách sử dụng"
+
+#: includes/whats_new.php:37
+msgid "Version 4.2.3"
+msgstr ""
+
+#: includes/whats_new.php:39
+msgid "I've corrected a minor error in the import plugin settings"
+msgstr "Tôi đã sửa một lỗi nhỏ trong cài đặt plugin nhập"
+
+#: includes/whats_new.php:41
+msgid "Version 4.2.2"
+msgstr ""
+
+#: includes/whats_new.php:43
+msgid ""
+"I've corrected a minor error in the css generation which ensures the forum "
+"information font works"
+msgstr ""
+"Tôi đã sửa một lỗi nhỏ trong quá trình tạo css để đảm bảo phông chữ thông "
+"tin diễn đàn hoạt động"
+
+#: includes/whats_new.php:45
+msgid "Version 4.2.1"
+msgstr ""
+
+#: includes/whats_new.php:47
+msgid ""
+"I've added the option to recalculate the last active topic for sub forums as "
+"this can be wrong if topics are marked as spam or deleted"
+msgstr ""
+"Tôi đã thêm tùy chọn để tính toán lại chủ đề hoạt động gần đây nhất cho các "
+"diễn đàn phụ vì điều này có thể sai nếu các chủ đề bị đánh dấu là spam hoặc "
+"bị xóa"
+
+#: includes/whats_new.php:49
+msgid "Version 4.2.0"
+msgstr ""
+
+#: includes/whats_new.php:51
+msgid ""
+"I've corrected an issue where the style pack css was generated on each load, "
+"instead of only when it doesn't exist"
+msgstr ""
+"Tôi đã khắc phục sự cố trong đó style pack css được tạo trên mỗi lần tải, "
+"thay vì chỉ khi nó không tồn tại"
+
+#: includes/whats_new.php:53
+msgid "Version 4.1.9/4.1.10"
+msgstr ""
+
+#: includes/whats_new.php:55
+msgid ""
+"I've added the ability to have different topic and reply rules - see "
+"Topic/Reply Form tab"
+msgstr ""
+"Tôi đã thêm khả năng có các quy tắc trả lời và chủ đề khác nhau - xem tab "
+"Chủ đề / Biểu mẫu trả lời"
+
+#: includes/whats_new.php:57
+msgid "Version 4.1.8"
+msgstr ""
+
+#: includes/whats_new.php:59
+msgid ""
+"I've added the ability for a confirmation when particpaints trash their own "
+"topics/replies - see Topic/Reply display tab item 18 & 19"
+msgstr ""
+"Tôi đã thêm khả năng xác nhận khi điền vào thùng rác các chủ đề / câu trả "
+"lời của chính họ - xem mục hiển thị Chủ đề / câu trả lời ở mục 18 & 19"
+
+#: includes/whats_new.php:61
+msgid "Version 4.1.7"
+msgstr ""
+
+#: includes/whats_new.php:63
+msgid ""
+"I've added the ability for particpaints to trash their own replies - see "
+"Topic/Reply display tab item 19"
+msgstr ""
+"Tôi đã thêm khả năng cho người vẽ vào thùng rác các câu trả lời của chính họ "
+"- xem tab hiển thị Chủ đề / Trả lời mục 19"
+
+#: includes/whats_new.php:65
+msgid "Version 4.1.6"
+msgstr ""
+
+#: includes/whats_new.php:67
+msgid ""
+"I've corrected the subscription email reply to show the reply not the topic."
+msgstr ""
+"Tôi đã sửa trả lời email đăng ký để hiển thị câu trả lời không phải chủ đề."
+
+#: includes/whats_new.php:69
+msgid "Version 4.1.5"
+msgstr ""
+
+#: includes/whats_new.php:71
+msgid ""
+"I've added the ability for particpaints to trash their own topics - see "
+"Topic/Reply display tab item 18"
+msgstr ""
+"Tôi đã thêm khả năng cho các mẫu vẽ vào thùng rác các chủ đề của riêng chúng "
+"- xem mục Hiển thị chủ đề / Trả lời mục 18"
+
+#: includes/whats_new.php:73
+msgid "Version 4.1.4"
+msgstr ""
+
+#: includes/whats_new.php:75
+msgid ""
+"I've added \"template ='list'\" to the shortcode [bsp-display-topic-index] "
+"to just display a list of topics with links"
+msgstr ""
+"Tôi đã thêm \"template = 'list'\" vào shortcode [bsp-display-topic-index] để "
+"chỉ hiển thị danh sách các chủ đề có liên kết"
+
+#: includes/whats_new.php:77
+msgid "Version 4.1.1/4.1.2/4.1.3"
+msgstr ""
+
+#: includes/whats_new.php:79
+msgid "Debug releases to fix issues with subscription emails in html"
+msgstr "Bản phát hành gỡ lỗi để khắc phục sự cố với email đăng ký trong html"
+
+#: includes/whats_new.php:82
+msgid "Version 4.0.9/4.1.0"
+msgstr ""
+
+#: includes/whats_new.php:84
+msgid ""
+"I've added an 'activate' box to subscription emails to allow for other "
+"plugins and functions amending emails"
+msgstr ""
+"Tôi đã thêm hộp 'kích hoạt' vào email đăng ký để cho phép các plugin và chức "
+"năng khác sửa đổi email"
+
+#: includes/whats_new.php:87
+msgid "Version 4.0.8"
+msgstr ""
+
+#: includes/whats_new.php:89
+msgid ""
+"For subscriptions, a user receives an email with the link to the topic or "
+"reply. If this is a private forum and they are not logged in they get a 404 "
+"unknown error.  I've added the ability to automatically redirect this to use "
+"either wordpress or bbp login, and after logging on be linked back to the "
+"appropriate topic/reply- see Subscription emails tab for details"
+msgstr ""
+"Đối với đăng ký, người dùng nhận được email có liên kết đến chủ đề hoặc câu "
+"trả lời. Nếu đây là một diễn đàn riêng tư và họ chưa đăng nhập, họ sẽ gặp "
+"lỗi 404 không xác định. Tôi đã thêm khả năng tự động chuyển hướng điều này "
+"để sử dụng đăng nhập bằng wordpress hoặc bbp và sau khi đăng nhập, hãy liên "
+"kết trở lại chủ đề / câu trả lời thích hợp- xem tab Email đăng ký để biết "
+"chi tiết"
+
+#: includes/whats_new.php:92
+msgid "Version 4.0.7"
+msgstr ""
+
+#: includes/whats_new.php:94
+msgid ""
+"I've added the ability to display breadcrumbs at the bottom of forum pages "
+"as well as the top  - see breadcrumb tab for details"
+msgstr ""
+"Tôi đã thêm khả năng hiển thị breadcrumb ở cuối trang diễn đàn cũng như trên "
+"cùng - xem tab breadcrumb để biết chi tiết"
+
+#: includes/whats_new.php:97
+msgid "Version 4.0.6"
+msgstr ""
+
+#: includes/whats_new.php:99
+msgid ""
+"I've added single forum infromation and single topic information widgets - "
+"see widget tab for details"
+msgstr ""
+"Tôi đã thêm thông tin diễn đàn đơn lẻ và tiện ích con thông tin chủ đề đơn "
+"lẻ - xem tab tiện ích con để biết chi tiết"
+
+#: includes/whats_new.php:102
+msgid "Version 4.0.5"
+msgstr ""
+
+#: includes/whats_new.php:104
+msgid ""
+"I've added the ability to customise the subscription emails - see new "
+"'subscription emails' tab"
+msgstr ""
+"Tôi đã thêm khả năng tùy chỉnh email đăng ký - xem tab 'email đăng ký' mới"
+
+#: includes/whats_new.php:107
+msgid "Version 4.0.4"
+msgstr ""
+
+#: includes/whats_new.php:109
+msgid ""
+"I've added the ability to redirect users after topic and/or reply submission "
+"to the forum list instead of the topic -  see Topic/Reply Form tab"
+msgstr ""
+"Tôi đã thêm khả năng chuyển hướng người dùng sau chủ đề và / hoặc trả lời "
+"gửi đến danh sách diễn đàn thay vì chủ đề - xem tab Chủ đề / Biểu mẫu trả lời"
+
+#: includes/whats_new.php:112
+msgid "Version 4.0.3"
+msgstr ""
+
+#: includes/whats_new.php:114
+msgid ""
+"I've added the ability to amend wording on the 'You must be logged in...' "
+"messages, as well as add login and register links - see Topics Index Styling "
+"and Topic Reply Display"
+msgstr ""
+"Tôi đã thêm khả năng sửa đổi từ ngữ trên thông báo 'Bạn phải đăng nhập ...', "
+"cũng như thêm liên kết đăng nhập và đăng ký - xem Chủ đề Tạo kiểu chỉ mục và "
+"Hiển thị câu trả lời theo chủ đề"
+
+#: includes/whats_new.php:117
+msgid "Version 4.0.2"
+msgstr ""
+
+#: includes/whats_new.php:119
+msgid ""
+"I've added the ability to change the 'topic by' and 'reply by' text in the "
+"Latest Activity Widget"
+msgstr ""
+"Tôi đã thêm khả năng thay đổi văn bản 'chủ đề theo' và 'trả lời theo' trong "
+"Tiện ích hoạt động mới nhất"
+
+#: includes/whats_new.php:122
+msgid "Version 4.0.1"
+msgstr ""
+
+#: includes/whats_new.php:124
+msgid ""
+"I've added the ability to change the oh bother message for the forums index -"
+" see forums index styling tab"
+msgstr ""
+"Tôi đã thêm khả năng thay đổi thông báo rất phiền cho chỉ mục diễn đàn - xem "
+"tab tạo kiểu chỉ mục diễn đàn"
+
+#: includes/whats_new.php:127
+msgid "Version 4.0.0"
+msgstr ""
+
+#: includes/whats_new.php:129
+msgid ""
+"I've added a [bsp-profile] shortcode which gives a link to the user profile"
+msgstr ""
+"Tôi đã thêm một shortcode [bsp-profile] cung cấp một liên kết đến hồ sơ "
+"người dùng"
+
+#: includes/widgets.php:30
+msgid ""
+"A list of recent topics, sorted by popularity or freshness with latest "
+"author."
+msgstr ""
+"Danh sách các chủ đề gần đây, được sắp xếp theo mức độ phổ biến hoặc mới mẻ "
+"với tác giả mới nhất."
+
+#: includes/widgets.php:33
+msgid "(Style Pack) Latest Activity"
+msgstr "(Gói phong cách) Hoạt động mới nhất"
+
+#: includes/widgets.php:265
+msgid "in "
+msgstr "trong"
+
+#: includes/widgets.php:347 includes/widgets.php:580 includes/widgets.php:738
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: includes/widgets.php:348
+msgid "Maximum topics to show:"
+msgstr "Các chủ đề tối đa để hiển thị:"
+
+#: includes/widgets.php:353
+msgid "From Forum ID(s):"
+msgstr "Từ ID diễn đàn:"
+
+#: includes/widgets.php:359
+msgid "\"0\" to show only root - \"any\" to show all - "
+msgstr "\"0\" để chỉ hiển thị gốc - \"bất kỳ\" để hiển thị tất cả -"
+
+#: includes/widgets.php:360 includes/widgets.php:374
+msgid ""
+"a single forum eg \"2921\"  - or forums separated by commas eg \"2921,2922\""
+msgstr ""
+"một diễn đàn duy nhất, ví dụ: \"2921\" - hoặc các diễn đàn được phân tách "
+"bằng dấu phẩy, ví dụ: \"2921,2922\""
+
+#: includes/widgets.php:361
+msgid "See dashboard>forums>all forums to find the ID of a forum"
+msgstr ""
+"Xem bảng điều khiển> diễn đàn> tất cả các diễn đàn để tìm ID của một diễn đàn"
+
+#: includes/widgets.php:368
+msgid "Exclude Forum ID(s):"
+msgstr "Loại trừ (các) ID diễn đàn:"
+
+#: includes/widgets.php:378
+msgid "Show Freshness:"
+msgstr ""
+
+#: includes/widgets.php:379
+msgid "Shorten freshness:"
+msgstr ""
+
+#: includes/widgets.php:380
+msgid "Show topic author:"
+msgstr "Hiển thị tác giả chủ đề:"
+
+#: includes/widgets.php:381
+msgid "Topic by Label:"
+msgstr "Chủ đề theo Nhãn:"
+
+#: includes/widgets.php:386
+msgid "eg topic by, Topic Author: - etc"
+msgstr "ví dụ: chủ đề của, Tác giả chủ đề: - vv"
+
+#: includes/widgets.php:388
+msgid "Reply by Label:"
+msgstr "Trả lời theo Nhãn:"
+
+#: includes/widgets.php:393
+msgid "eg reply by, Reply Author: - etc"
+msgstr "ví dụ: trả lời bởi, Tác giả Trả lời: - vv"
+
+#: includes/widgets.php:396
+msgid "Hide Avatar"
+msgstr "Ẩn hình đại diện"
+
+#: includes/widgets.php:397
+msgid "Show Forum:"
+msgstr "Hiển thị Diễn đàn:"
+
+#: includes/widgets.php:398
+msgid "Show reply count:"
+msgstr "Hiển thị số lượng câu trả lời:"
+
+#: includes/widgets.php:399
+msgid "Reply Count Label:"
+msgstr "Nhãn số trả lời:"
+
+#: includes/widgets.php:404
+msgid "eg Replies:, No. Replies - etc"
+msgstr "ví dụ: Trả lời:, Không. Trả lời - v.v."
+
+#: includes/widgets.php:406
+msgid "Order By:"
+msgstr "Đặt bởi:"
+
+#: includes/widgets.php:408
+msgid "Topics With Recent Replies"
+msgstr "Chủ đề có câu trả lời gần đây"
+
+#: includes/widgets.php:409
+msgid "Newest Topics"
+msgstr "Chủ đề mới nhất"
+
+#: includes/widgets.php:410
+msgid "Popular Topics"
+msgstr "Những chủ đề phổ biến"
+
+#: includes/widgets.php:428
+msgid "Latest Activity"
+msgstr "Hoạt động mới nhất"
+
+#: includes/widgets.php:465
+msgid "Display single topic widget"
+msgstr "Hiển thị tiện ích con chủ đề duy nhất"
+
+#: includes/widgets.php:468
+msgid "(Style Pack) Single Topic Information"
+msgstr "(Gói Phong cách) Thông tin Chủ đề Đơn"
+
+#: includes/widgets.php:579
+msgid "Note : This widget will only show on single topic pages"
+msgstr "Lưu ý: Tiện ích này sẽ chỉ hiển thị trên các trang chủ đề duy nhất"
+
+#: includes/widgets.php:581 includes/widgets.php:739
+msgid "Show Icons:"
+msgstr "Hiển thị các biểu tượng:"
+
+#: includes/widgets.php:582 includes/widgets.php:596 includes/widgets.php:740
+#: includes/widgets.php:754
+msgid "In:"
+msgstr "Ở trong:"
+
+#: includes/widgets.php:583 includes/widgets.php:743
+msgid "Reply:"
+msgstr "Trả lời:"
+
+#: includes/widgets.php:584 includes/widgets.php:744
+msgid "Replies:"
+msgstr "Trả lời:"
+
+#: includes/widgets.php:585
+msgid "Participant:"
+msgstr "Người tham gia:"
+
+#: includes/widgets.php:586
+msgid "Participants:"
+msgstr "Những người tham gia:"
+
+#: includes/widgets.php:587 includes/widgets.php:745
+msgid "Last reply:"
+msgstr "Câu trả lời mới nhất:"
+
+#: includes/widgets.php:588 includes/widgets.php:746
+msgid "Last activity:"
+msgstr "Hoạt động mới nhất:"
+
+#: includes/widgets.php:594 includes/widgets.php:752
+msgid "Topic Information"
+msgstr "Thông tin chủ đề"
+
+#: includes/widgets.php:597 includes/widgets.php:755
+msgid "Reply"
+msgstr "Trả lời"
+
+#: includes/widgets.php:599
+msgid "Participant"
+msgstr "Người tham gia"
+
+#: includes/widgets.php:600
+msgid "Participants"
+msgstr "Những người tham gia"
+
+#: includes/widgets.php:601 includes/widgets.php:759
+msgid "Last Reply:"
+msgstr "Câu trả lời mới nhất:"
+
+#: includes/widgets.php:602 includes/widgets.php:760
+msgid "Last Activity:"
+msgstr "Hoạt động mới nhất:"
+
+#: includes/widgets.php:625
+msgid "Display single forum widget"
+msgstr "Hiển thị tiện ích diễn đàn duy nhất"
+
+#: includes/widgets.php:628
+msgid "(Style Pack) Single Forum Information"
+msgstr "(Gói Phong cách) Thông tin Diễn đàn Đơn"
+
+#: includes/widgets.php:673
+#, php-format
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] "chủ đề% s"
+msgstr[1] ""
+
+#: includes/widgets.php:737
+msgid "Note : This widget will only show on single forum pages"
+msgstr "Lưu ý: Tiện ích này sẽ chỉ hiển thị trên các trang diễn đàn duy nhất"
+
+#: includes/widgets.php:741
+msgid "Topic:"
+msgstr "Chủ đề:"
+
+#: includes/widgets.php:742
+msgid "Topics:"
+msgstr "Chủ đề:"
+
+#: includes/widgets.php:757
+msgid "Topic"
+msgstr "Chủ đề"
+
+#: templates/searchform/form-search.php:18
+msgid "Search for:"
+msgstr "Tìm kiếm:"
+
+#: templates/topicandreplyform/form-reply.php:29
+#, php-format
+msgid "Reply To: %s"
+msgstr "Trả lời:% s"
+
+#: templates/topicandreplyform/form-reply.php:36
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+"Chủ đề này được đánh dấu là đã đóng đối với các câu trả lời mới, tuy nhiên "
+"khả năng đăng của bạn vẫn cho phép bạn làm như vậy."
+
+#: templates/topicandreplyform/form-reply.php:45
+#: templates/topicandreplyform/form-topic.php:62
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr "Tài khoản của bạn có thể đăng nội dung HTML không hạn chế."
+
+#: templates/topicandreplyform/form-reply.php:67
+#: templates/topicandreplyform/form-topic.php:92
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+"Bạn có thể sử dụng các thẻ và thuộc tính <abbr title = \"HyperText Markup "
+"Language\"> HTML </abbr> này:"
+
+#: templates/topicandreplyform/form-reply.php:78
+msgid "Tags:"
+msgstr "Thẻ:"
+
+#: templates/topicandreplyform/form-reply.php:96
+#: templates/topicandreplyform/form-topic.php:166
+msgid "Notify the author of follow-up replies via email"
+msgstr "Thông báo cho tác giả của các câu trả lời tiếp theo qua email"
+
+#: templates/topicandreplyform/form-reply.php:100
+#: templates/topicandreplyform/form-topic.php:170
+msgid "Notify me of follow-up replies via email"
+msgstr "Thông báo cho tôi về các câu trả lời tiếp theo qua email"
+
+#: templates/topicandreplyform/form-reply.php:131
+#: templates/topicandreplyform/form-topic.php:197
+msgid "Keep a log of this edit:"
+msgstr "Giữ nhật ký của chỉnh sửa này:"
+
+#: templates/topicandreplyform/form-reply.php:138
+#: templates/topicandreplyform/form-topic.php:204
+msgid "Optional reason for editing:"
+msgstr "Lý do tùy chọn để chỉnh sửa:"
+
+#: templates/topicandreplyform/form-reply.php:185
+#, php-format
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr "Chủ đề ‘% s’ không nhận được các câu trả lời mới."
+
+#: templates/topicandreplyform/form-reply.php:193
+#: templates/topicandreplyform/form-topic.php:250
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr "Diễn đàn ‘% s’ đóng cửa với các chủ đề và câu trả lời mới."
+
+#: templates/topicandreplyform/form-reply.php:201
+msgid "You cannot reply to this topic."
+msgstr "Bạn không thể trả lời chủ đề này."
+
+#: templates/topicandreplyform/form-reply.php:201
+msgid "You must be logged in to reply to this topic."
+msgstr "Bạn phải đăng nhập để trả lời chủ đề này."
+
+#: templates/topicandreplyform/form-topic.php:41
+#, php-format
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr "Hiện đang chỉnh sửa “% s”"
+
+#: templates/topicandreplyform/form-topic.php:43
+#, php-format
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr "Tạo chủ đề mới trong “% s”"
+
+#: templates/topicandreplyform/form-topic.php:53
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+"Diễn đàn này được đánh dấu là đóng cửa với các chủ đề mới, tuy nhiên khả "
+"năng đăng bài của bạn vẫn cho phép bạn làm như vậy."
+
+#: templates/topicandreplyform/form-topic.php:77
+#, php-format
+msgid "Topic Title (Maximum Length: %d):"
+msgstr "Tiêu đề Chủ đề (Độ dài Tối đa:% d):"
+
+#: templates/topicandreplyform/form-topic.php:103
+msgid "Topic Tags:"
+msgstr "Thẻ chủ đề:"
+
+#: templates/topicandreplyform/form-topic.php:116
+msgid "Forum:"
+msgstr "Diễn đàn:"
+
+#: templates/topicandreplyform/form-topic.php:119
+msgid "(No Forum)"
+msgstr "(Không có diễn đàn)"
+
+#: templates/topicandreplyform/form-topic.php:135
+msgid "Topic Type:"
+msgstr "Loại chủ đề:"
+
+#: templates/topicandreplyform/form-topic.php:147
+msgid "Topic Status:"
+msgstr "Tình trạng chủ đề:"
+
+#: templates/topicandreplyform/form-topic.php:258
+msgid "You cannot create new topics."
+msgstr "Bạn không thể tạo chủ đề mới."
+
+#: templates/topicandreplyform/form-topic.php:258
+msgid "You must be logged in to create new topics."
+msgstr "Bạn phải đăng nhập để tạo chủ đề mới."
