@@ -111,7 +111,12 @@ function bbp_voting_buttons() { // $author_link = '', $r = arrray(), $args = arr
             $topic_id = $this_post_type == $topic_post_type ? $post_id : bbp_get_reply_topic_id($post_id);
             $topic_status = get_post_status( $topic_id );
             $view_only = ($topic_status == 'closed' && apply_filters('bbp_voting_disable_voting_on_closed_topic', false)) ? true : false;
+            if(!$view_only) {
+                // View only for author of post
+                $view_only = (apply_filters('bbp_voting_disable_author_vote', false) && $post->post_author == get_current_user_ID()) ? true : false;
+            }
         }
+        
         // Show labels?
         $show_labels = apply_filters('bbp_voting_show_labels', true);
         // Disable down votes?
@@ -175,7 +180,7 @@ add_filter('bbp_has_replies_query', 'sort_bbpress_posts_by_votes', 99);
 
 function sort_bbpress_posts_by_votes( $args = array() ) {
     $forum_id = bbp_get_forum_id();
-    if($forum_id === 0) return $args;
+    // if($forum_id === 0) return $args;
     // $this_post_type = isset($args['post_type']) ? $args['post_type'] : bbp_voting_get_current_post_type();
     // $this_post_type = bbp_voting_get_current_post_type();
     $forum_post_type = bbp_get_forum_post_type();

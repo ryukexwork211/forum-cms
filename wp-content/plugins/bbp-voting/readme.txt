@@ -4,7 +4,7 @@ Donate link: https://paypal.me/natekinkead
 Tags: bbpress, voting, vote, rating, rate, topics, replies, up, down, score, stackoverflow, reddit, forum
 Requires at least: 4.0
 Tested up to: 5.7.2
-Stable tag: 2.1.9.6
+Stable tag: 2.1.9.7
 Requires PHP: 5.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -100,6 +100,9 @@ By default nobody can vote repeatedly on the same topic or reply, but you can en
 5. Override voting and sorting on topics and replies on individual forums.
 
 == Changelog ==
+
+= 2.1.9.7 =
+* Added option to disallow authors from voting on their own topics/replies.
 
 = 2.1.9.6 =
 * Fixed removing down label when downvotes disabled.

@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress Voting\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-15 16:43+0000\n"
+"PO-Revision-Date: 2021-08-15 16:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: bbp-voting"
+
+#. Name of the plugin
+msgid "bbPress Voting"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Let users vote up or down on bbPress topics and replies just like Reddit or "
+"Stack Overflow."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/bbp-voting/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP For The Win"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpforthewin.com"
+msgstr ""

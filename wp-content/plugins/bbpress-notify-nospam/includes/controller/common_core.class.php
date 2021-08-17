@@ -544,7 +544,16 @@ class bbPress_Notify_noSpam_Controller_Common_Core extends bbPress_Notify_noSpam
         
         $topic_reply = apply_filters( 'bbpnns_topic_reply', bbp_get_reply_url( $post_id ), $post_id, $title );
         
-        $author_email = 'topic' === $type ? bbp_get_topic_author_email( $post_id ) : bbp_get_reply_author_email( $post_id );
+        $author_id   = 'topic' === $type ? bbp_get_topic_author_id( $post_id ) : bbp_get_reply_author_id( $post_id );
+        $author_info = get_user_by('id', $author_id);
+        
+        foreach ( array( 'first_name', 'last_name', 'display_name', 'user_nicename' ) as $prop )
+        {
+            $email_subject = str_replace( "[author-{$prop}]", $author_info->{$prop}, $email_subject );
+            $email_body    = str_replace( "[author-{$prop}]", $author_info->{$prop}, $email_body );
+        }
+        
+        $author_email = $author_info->user_email;
         
         $email_subject = str_replace( '[blogname]', $blogname, $email_subject );
         $email_subject = str_replace( "[$type-title]", $title, $email_subject );
@@ -820,7 +829,9 @@ class bbPress_Notify_noSpam_Controller_Common_Core extends bbPress_Notify_noSpam
     {
         $tags = '[blogname], [recipient-first_name], [recipient-last_name], [recipient-display_name], [recipient-user_nicename], ' .
             '[reply-title], [reply-content], [reply-excerpt], [reply-url], [reply-replyurl], [reply-author], [reply-author-email], ' .
-            '[reply-forum], [topic-url], [topic-title], [topic-author], [topic-author-email], [topic-content], [topic-excerpt], [date]';
+            '[reply-forum], [topic-url], [topic-title], [topic-author], [topic-author-email], ' .
+            '[author-first_name], [author-last_name], [author-display_name], [author-user_nicename], ' .
+            '[topic-content], [topic-excerpt], [date]';
         
         $extra_tags = apply_filters( 'bbpnns_extra_reply_tags',  null, $for );
         
@@ -838,6 +849,7 @@ class bbPress_Notify_noSpam_Controller_Common_Core extends bbPress_Notify_noSpam
     {
         $tags = '[blogname], [recipient-first_name], [recipient-last_name], [recipient-display_name], ' .
             '[recipient-user_nicename], [topic-title], [topic-content], [topic-excerpt], [topic-url], ' .
+            '[author-first_name], [author-last_name], [author-display_name], [author-user_nicename], ' .
             '[topic-replyurl], [topic-author], [topic-author-email], [topic-forum], [date], [topmost-forum]';
        
         $extra_tags = apply_filters( 'bbpnns_extra_topic_tags',  null, $for );

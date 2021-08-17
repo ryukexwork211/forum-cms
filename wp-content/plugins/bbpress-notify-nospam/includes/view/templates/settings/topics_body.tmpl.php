@@ -102,7 +102,7 @@ The bbPress Setting "Allow users to subscribe to forums and topics" must also be
 					<?php checked( $stash->settings->forums_auto_subscribe_new_users ); ?> >
 					       <?php _e( 'Automatically subscribe new users to all forums.', 'bbpress-notify-nospam' ) ; ?>
 					       <br><br>
-					       <span class="description" style="margin-left:2em;"><?php _e( 'Enabling this option will make it so that users get subscribed to all forums the moment that they\'re registered  They can unsubscribe from the forums later to stop receiving topic notifications.', 'bbpress-notify-nospam' ) ;?></span>
+					       <span class="description" style="margin-left:2em;"><?php _e( 'Enabling this option will make it so that users get subscribed to all forums the moment that they\'re registered. They can unsubscribe from the forums later to stop receiving topic notifications.', 'bbpress-notify-nospam' ) ;?></span>
 				</label>
 				
 				<hr>

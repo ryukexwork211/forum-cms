@@ -5,11 +5,11 @@ Author URI: https://www.usestrict.net/
 Plugin URI: https://usestrict.net/2013/02/bbpress-notify-nospam/
 Tags: bbpress, email notification, no spam
 Requires at least: 3.1
-Tested up to: 5.7.2
+Tested up to: 5.8
 Text Domain: bbpress-notify-nospam
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Stable tag: 2.16.1
+Stable tag: 2.17
 Requires PHP: 5.6
 
 
@@ -90,6 +90,9 @@ Take your notifications to the next level with one or more of these add-ons.
 
 
 == Changelog ==
+= 2.17 =
+* Added support for author details tags: author-first_name, author-last_name, author-display_name, author-user_nicename.
+
 = 2.16.1 =
 * Added more bridge warnings in the settings.
 

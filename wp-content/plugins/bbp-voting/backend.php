@@ -124,13 +124,13 @@ function bbp_voting_settings_form($tab) {
         'Show the labels that describe what up and down mean?');
         bbp_voting_field('bbp_voting_helpful', 
         'Upvote Label', '', 
-        'Change the upvote label from "Helpful" to something else.', 'text');
+        'Change the upvote label from "Helpful" to something else', 'text');
         bbp_voting_field('bbp_voting_not_helpful', 
         'Downvote Label', '', 
-        'Change the downvote label from "Not Helpful" to something else.', 'text');
+        'Change the downvote label from "Not Helpful" to something else', 'text');
         bbp_voting_field('bbp_voting_display_vote_nums', 
         'Display Vote Numbers', '', 
-        'Choose how to display the number of up votes and down votes.', 
+        'Choose how to display the number of up votes and down votes', 
         array('hover', 'always-show', 'hide'));
         ?></table>
 
@@ -141,14 +141,14 @@ function bbp_voting_settings_form($tab) {
         bbp_voting_field('bbp_voting_only_replies', 
         'Disable Voting on Topics', 
         'Remove scores and voting buttons from topics', 
-        'You can override this at the forum level.');
+        'You can override this at the forum level');
         bbp_voting_field('bbp_voting_only_topics', 
         'Disable Voting on Replies', 
         'Remove scores and voting buttons from replies', 
-        'You can override this at the forum level.');
+        'You can override this at the forum level');
         bbp_voting_field('bbp_voting_disable_down_votes', 
         'Disable Down Votes', 
-        'Only allow up votes.');
+        'Only allow up votes');
         ?></table>
 
         <hr>
@@ -157,12 +157,16 @@ function bbp_voting_settings_form($tab) {
         <table class="form-table"><?php 
         bbp_voting_field('bbp_voting_disable_voting_for_visitors', 
         'View-Only Scores for Visitors', 
-        'Disable voting for visitors who are not logged in.', 
-        'Scores will display (if configured to), but voting will be disabled if not logged in.');
+        'Disable voting for visitors who are not logged in', 
+        'Scores will display (if configured to), but voting will be disabled if not logged in');
         bbp_voting_field('bbp_voting_disable_voting_on_closed_topic', 
         'View-Only Scores on Closed Topics', 
         'Disable adding new votes after a topic is closed', 
-        'Scores will display (if configured to), but new votes for the topic or the topic\'s replies will be disabled.');
+        'Scores will display (if configured to), but new votes for the topic or the topic\'s replies will be disabled');
+        bbp_voting_field('bbp_voting_disable_author_vote', 
+        'View-Only Score for Author', 
+        'Don\'t allow authors to vote on their own topic/reply',
+        'They can still vote on other people\'s topics/replies');
         ?></table>
 
         <hr>
@@ -180,7 +184,7 @@ function bbp_voting_settings_form($tab) {
         bbp_voting_field('sort_bbpress_replies_by_votes', 'Sort Replies by Votes', 'Sort replies on a topic using their voting scores?', '(highest voted replies on top)');
         bbp_voting_field('bbp_voting_order_by_weighted_score', 
         'Sort on Weighted Score', 
-        'Use a Weighted Score for Topic/Reply Sorting', 'Utilize the <a href="https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval" target="_blank" rel="noopener">Wilson binomial proportion confidence interval formula</a> to sort topics and replies by weighted scores instead of the simple score derived from up votes minus down votes.', 'bool', true); // Pro
+        'Use a Weighted Score for Topic/Reply Sorting', 'Utilize the <a href="https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval" target="_blank" rel="noopener">Wilson binomial proportion confidence interval formula</a> to sort topics and replies by weighted scores instead of the simple score derived from up votes minus down votes', 'bool', true); // Pro
         bbp_voting_field('bbp_voting_sort_by_dropdown', '"Sort By" Dropdown', 'Add a "Sort By" dropdown to let the user choose.', '(Choice between default chronological and "Best" based on voting scores)', 'bool', true); // Pro
         bbp_voting_field('bbp_voting_lead_topic', 'Lead Topic', 'Break out the lead topic to separate it from the replies', 'Simply enabled the built-in bbPress hook, bbp_show_lead_topic.  This is useful to resolve a bug in bbPress when sort order is messed up when Threaded Replies are enabled in bbPress.', 'bool');
         // bbp_voting_field('key', 'name', 'label', 'descr', 'text');
@@ -192,11 +196,11 @@ function bbp_voting_settings_form($tab) {
         <table class="form-table"><?php 
         bbp_voting_field('bbp_voting_show_who_voted', 
         'Show Who Voted', 
-        'Show the avatars of who voted below each reply.', 
-        'They have green or red borders depending on which why they voted.', 'bool', true); // Pro
+        'Show the avatars of who voted below each reply', 
+        'They have green or red borders depending on which why they voted', 'bool', true); // Pro
         bbp_voting_field('bbp_voting_max_avatars', 
         'Max "Who Voted" Avatars', '', 
-        'Limit the number of avatars to the most recent x number.', 'number', true); // Pro
+        'Limit the number of avatars to the most recent x number', 'number', true); // Pro
         ?></table>
 
         <hr>
@@ -205,8 +209,8 @@ function bbp_voting_settings_form($tab) {
         <table class="form-table"><?php 
         bbp_voting_field('bbp_voting_accepted_answers', 
         'Enable Accepted Answers', 
-        'If enabled, the author of a topic can choose one of the replies as the accepted answer.', 
-        'That reply will show a green checkmark to everyone showing that it is the accepted answer.', 'bool', true); // Pro
+        'If enabled, the author of a topic can choose one of the replies as the accepted answer', 
+        'That reply will show a green checkmark to everyone showing that it is the accepted answer', 'bool', true); // Pro
         ?></table>
 
         <hr>

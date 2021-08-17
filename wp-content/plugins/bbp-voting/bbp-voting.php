@@ -5,7 +5,7 @@ Plugin URI: https://wordpress.org/plugins/bbp-voting/
 Author: WP For The Win
 Author URI: https://wpforthewin.com
 Description: Let users vote up or down on bbPress topics and replies just like Reddit or Stack Overflow.
-Version: 2.1.9.6
+Version: 2.1.9.7
 Requires at least: 4.0.0
 Tested up to: 5.7.2
 License: GPLv3
@@ -35,6 +35,7 @@ $bbp_voting_hooks = array(
     'bbp_voting_disable_voting_for_visitors' => 'bool',
     'bbp_voting_disable_voting_on_closed_topic' => 'bool',
     'bbp_voting_disable_down_votes' => 'bool',
+    'bbp_voting_disable_author_vote' => 'bool',
     'bbp_voting_admin_bypass' => 'bool',
     'sort_bbpress_topics_by_votes' => 'bool',
     'sort_bbpress_replies_by_votes' => 'bool',

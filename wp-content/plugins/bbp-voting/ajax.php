@@ -11,10 +11,15 @@ add_action('wp_ajax_nopriv_bbpress_post_vote_link_clicked','bbpress_post_add_vot
 function bbpress_post_add_vote(){
     header('Content-type: application/json');
     $post_id = (int) $_POST['post_id'];
+    // View only for visitors
     if(!is_user_logged_in() && apply_filters('bbp_voting_disable_voting_for_visitors', false)) die(json_encode(array('error' => 'Voting is disabled for visitors.')));
+    // View only for closed topics
     $topic_id = bbp_get_reply_topic_id($post_id);
     $topic_status = get_post_status( $topic_id );
 	if($topic_status == 'closed' && apply_filters('bbp_voting_disable_voting_on_closed_topic', false)) die(json_encode(array('error' => 'Voting is disabled on closed topics.')));
+    // View only for author of post
+    if(is_user_logged_in() && apply_filters('bbp_voting_disable_author_vote', false) && get_post_field( 'post_author', $post_id ) == get_current_user_ID()) die(json_encode(array('error' => 'Voting is disabled on for the author.')));
+    // Direction
     $direction = (int) $_POST['direction'];
     $direction = in_array($direction, [1, -1]) ? $direction : 0; // Enforce 1 or -1
     // $voting_cookie = unserialize($_COOKIE['bbp_voting']);
