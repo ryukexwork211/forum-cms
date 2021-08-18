@@ -5,6 +5,7 @@ $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 $query_args = array(
     'post_type' => 'post',
     'posts_per_page' => 5,
+    'post_status' => 'publish',
     'order'      => 'DESC',
     'paged' => $paged
 );
@@ -14,6 +15,7 @@ $the_query = new WP_Query( $query_args );
 $popularpostbyview = array(
     'meta_key'  => 'wpb_post_views_count', // set custom meta key
     'orderby'    => 'meta_value_num',
+    'post_status' => 'publish',
     'order'      => 'DESC',
     'posts_per_page' => 5
 );
@@ -24,7 +26,7 @@ $prime_posts = new WP_Query( $popularpostbyview );
 <?php get_header(); ?>
 <div class="mh-wrapper mh-clearfix">
     <div id="main-content" class="mh-content page-post" role="main" itemprop="mainContentOfPage">
-        <h3>Bài viết mới nhất</h3>
+        <h3 class="page-post-title">Bài viết mới nhất</h3>
         <?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); // run the loop ?>
             <figure class="mh-loop-thumb">
                 <a href="<?php the_permalink(); ?>"><?php
@@ -51,12 +53,13 @@ $prime_posts = new WP_Query( $popularpostbyview );
                 </header>
                 <div class="mh-loop-excerpt">
                     <?php the_excerpt(); ?>
+                    <p class="loop-tag2"><?php the_tags('<b>Tags:</b> ', ', ' ); ?></p>
                 </div>
             </div>
             <br>
         <?php endwhile; ?>
         <?php endif; ?>
-        <h3>Bài viết nhiều tương tác nhất</h3>
+        <h3 class="page-post-title">Bài viết nhiều tương tác nhất</h3>
         <?php if ( $prime_posts->have_posts() ) : while ( $prime_posts->have_posts() ) : $prime_posts->the_post(); // run the loop ?>
             <figure class="mh-loop-thumb">
                 <a href="<?php the_permalink(); ?>"><?php
@@ -83,6 +86,7 @@ $prime_posts = new WP_Query( $popularpostbyview );
                 </header>
                 <div class="mh-loop-excerpt">
                     <?php the_excerpt(); ?>
+                    <p class="loop-tag2"><?php the_tags('<b>Tags:</b> ', ', ' ); ?></p>
                 </div>
             </div>
             <br>

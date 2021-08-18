@@ -27,4 +27,10 @@ if (!function_exists('mh_magazine_lite_child_image_sizes')) {
 add_action('after_setup_theme', 'mh_magazine_lite_child_image_sizes');
 
 
+# Tắt tính năng tự động cập nhật Plugin WordPress
+# add_filter( 'auto_update_plugin', '__return_false' );
+# Tắt tính năng tự động cập nhật Theme WordPress
+add_filter( 'auto_update_theme', '__return_false' );
+
+
 ?>

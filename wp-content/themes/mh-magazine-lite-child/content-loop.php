@@ -25,6 +25,7 @@
 		</header>
 		<div class="mh-loop-excerpt">
 			<?php the_excerpt(); ?>
+            <p class="loop-tag"><?php the_tags('<b>Tags:</b> ', ', ' ); ?></p>
 		</div>
 	</div>
 </article>

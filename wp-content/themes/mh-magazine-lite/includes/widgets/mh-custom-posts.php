@@ -5,7 +5,7 @@
 class mh_custom_posts_widget extends WP_Widget {
     function __construct() {
 		parent::__construct(
-			'mh_custom_posts', esc_html_x('MH Custom Posts [lite]', 'widget name', 'mh-magazine-lite'),
+			'mh_custom_posts', esc_html_x('Bài viết nhiều tuơng tác', 'widget name', 'mh-magazine-lite'),
 			array(
 				'classname' => 'mh_custom_posts',
 				'description' => esc_html__('Custom Posts Widget to display posts based on categories or tags.', 'mh-magazine-lite'),
@@ -14,7 +14,18 @@ class mh_custom_posts_widget extends WP_Widget {
 		);
 	}
     function widget($args, $instance) {
-	    $defaults = array('title' => '', 'category' => 0, 'tags' => '', 'postcount' => 5, 'offset' => 0, 'sticky' => 1);
+	    $defaults = array(
+	        'title' => '',
+            'category' => 0,
+            'meta_key' => 'wpb_post_views_count',
+            'orderby' => 'meta_value_num',
+            'order' => 'DESC',
+            'tags' => '',
+            'post_status' => 'publish',
+            'postcount' => 5,
+            'offset' => 0,
+            'sticky' => 1
+        );
 		$instance = wp_parse_args($instance, $defaults);
 	   	$query_args = array();
 	   	if (0 !== $instance['category']) {

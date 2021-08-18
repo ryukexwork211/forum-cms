@@ -5,7 +5,7 @@
 class mh_magazine_lite_posts_stacked extends WP_Widget {
 	function __construct() {
 		parent::__construct(
-			'mh_magazine_lite_posts_stacked', esc_html_x('MH Posts Stacked [lite]', 'widget name', 'mh-magazine-lite'),
+			'mh_magazine_lite_posts_stacked', esc_html_x('Bài viết nhiều thảo luận', 'widget name', 'mh-magazine-lite'),
 			array(
 				'classname' => 'mh_magazine_lite_posts_stacked',
 				'description' => esc_html__('MH Posts Stacked widget to display 5 stacked posts nicely including thumbnail, title and meta data.', 'mh-magazine-lite'),
@@ -14,7 +14,18 @@ class mh_magazine_lite_posts_stacked extends WP_Widget {
 		);
 	}
 	function widget($args, $instance) {
-		$defaults = array('title' => '', 'category' => 0, 'tags' => '', 'postcount' => 5, 'offset' => 0, 'sticky' => 1);
+		$defaults = array(
+            'title' => '',
+            'category' => 0,
+            'tags' => '',
+            'orderby' => 'comment_count',
+            'order' => 'DESC',
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'postcount' => 5,
+            'offset' => 0,
+            'sticky' => 1
+        );
         $instance = wp_parse_args($instance, $defaults);
 		$query_args = array();
 		$query_args['posts_per_page'] = $instance['postcount'];

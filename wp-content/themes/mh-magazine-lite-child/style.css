@@ -272,3 +272,16 @@ li.categories ul li{
 .page-post figure{
     width: 200px;
 }
+.page-post-title{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.loop-tag{
+    margin-top: 10px;
+}
+.loop-tag2{
+    margin-top: 0;
+}
+.mh-meta-date{
+    text-decoration: none;
+}

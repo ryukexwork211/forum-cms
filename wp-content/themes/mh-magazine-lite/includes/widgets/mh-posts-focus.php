@@ -5,7 +5,7 @@
 class mh_magazine_lite_posts_focus extends WP_Widget {
 	function __construct() {
 		parent::__construct(
-			'mh_magazine_lite_posts_focus', esc_html_x('MH Posts Focus [lite]', 'widget name', 'mh-magazine-lite'),
+			'mh_magazine_lite_posts_focus', esc_html_x('Bài viết mới ', 'widget name', 'mh-magazine-lite'),
 			array(
 				'classname' => 'mh_magazine_lite_posts_focus',
 				'description' => esc_html__('MH Posts Focus widget to display 5 posts with focus on large post in the middle (if placed in full-width widget area).', 'mh-magazine-lite'),
@@ -14,7 +14,16 @@ class mh_magazine_lite_posts_focus extends WP_Widget {
 		);
 	}
 	function widget($args, $instance) {
-		$defaults = array('title' => '', 'category' => 0, 'tags' => '', 'postcount' => 5, 'offset' => 0, 'sticky' => 1);
+		$defaults = array(
+            'title' => '',
+            'category' => 0,
+            'tags' => '',
+            'order' => 'DESC',
+            'post_status' => 'publish',
+            'postcount' => 5,
+            'offset' => 0,
+            'sticky' => 1
+            );
         $instance = wp_parse_args($instance, $defaults);
 		$query_args = array();
 		$query_args['posts_per_page'] = $instance['postcount'];
